@@ -1,0 +1,8 @@
+wallet,exchange,chain,wallet_type,date_observed,description,source
+1KFHE7w8BhaENAswwryaoccDb6qcT6DbYY,Binance,Bitcoin,Exchange Hot Wallet,2026-03-16,Known Binance BTC hot wallet used for exchange transfers,https://blockchain.watch
+3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5,Binance,Bitcoin,Exchange Cold Wallet,2026-03-16,Binance cold storage wallet holding large BTC reserves,https://blockchain.watch
+0x564286362092D8e7936f0549571a803B203aAceD,Coinbase,Ethereum,Exchange Hot Wallet,2026-03-15,Coinbase ETH wallet used for exchange deposits and withdrawals,https://blockchain.watch
+0x503828976D22510aad0201ac7EC88293211D23Da,Coinbase,Ethereum,Exchange Cold Wallet,2026-03-15,Coinbase cold storage wallet for ETH reserves,https://blockchain.watch
+0x28C6c06298d514Db089934071355E5743bf21d60,Binance,Ethereum,Exchange Hot Wallet,2026-03-14,Binance ETH wallet frequently used for user withdrawals,https://blockchain.watch
+bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh,Kraken,Bitcoin,Exchange Hot Wallet,2026-03-13,Kraken BTC wallet used for exchange liquidity,https://blockchain.watch
+0x267be1C1D684F78cb4F6a176C4911b741E4Ffdc0,Bitfinex,Ethereum,Exchange Hot Wallet,2026-03-12,Bitfinex ETH wallet used for trading liquidity,https://blockchain.watch
