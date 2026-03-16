@@ -1,0 +1,11 @@
+protocol,chain,amount_usd,attack_type,date,description,source
+Ronin Bridge,Ethereum,625000000,Bridge Exploit,2022-03-23,Ronin bridge validator compromise resulted in $625M stolen,https://blockchain.watch
+Poly Network,Ethereum,611000000,Smart Contract Exploit,2021-08-10,Attacker exploited cross-chain contract vulnerability,https://blockchain.watch
+BNB Bridge,BNB Chain,570000000,Bridge Exploit,2022-10-06,Attacker forged proof allowing minting of BNB tokens,https://blockchain.watch
+Coincheck,NEM,530000000,Exchange Hack,2018-01-26,Exchange hot wallet compromised resulting in NEM theft,https://blockchain.watch
+Mt Gox,Bitcoin,450000000,Exchange Hack,2014-02-24,Major exchange collapse following years of BTC theft,https://blockchain.watch
+Wormhole,Ethereum,325000000,Bridge Exploit,2022-02-02,Wormhole bridge vulnerability allowed minting of wrapped ETH,https://blockchain.watch
+KuCoin,Ethereum,280000000,Exchange Hack,2020-09-26,Private keys compromised resulting in multiple token thefts,https://blockchain.watch
+Euler Finance,Ethereum,197000000,Flash Loan Attack,2023-03-13,Flash loan exploit drained lending protocol funds,https://blockchain.watch
+Nomad Bridge,Ethereum,190000000,Bridge Exploit,2022-08-01,Contract bug allowed attackers to drain bridge funds,https://blockchain.watch
+Beanstalk,Ethereum,182000000,Governance Attack,2022-04-17,Attacker used flash loan to pass malicious governance proposal,https://blockchain.watch
