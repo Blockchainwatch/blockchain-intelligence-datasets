@@ -1,0 +1,8 @@
+wallet,entity,chain,sanction_authority,date_added,description,source
+1FfmbHfnpaZjKFvyi1okTjJJusN455paPH,Darknet Market,Bitcoin,OFAC,2021-09-21,Wallet linked to darknet marketplace activity,https://blockchain.watch
+0x098B716B8Aaf21512996dC57EB0615e2383E2f96,Tornado Cash,Ethereum,OFAC,2022-08-08,Tornado Cash smart contract sanctioned by OFAC,https://blockchain.watch
+0x7FF9cFad3877F21d41Da833E2F775dB0569eE3D9,Lazarus Group,Ethereum,OFAC,2023-04-24,North Korea linked hacking group wallet address,https://blockchain.watch
+0x8576acc5c05d6ce88f4e49bf65bdf0c62f91353c,Tornado Cash,Ethereum,OFAC,2022-08-08,Address associated with Tornado Cash sanctions list,https://blockchain.watch
+bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh,Hydra Market,Bitcoin,OFAC,2022-04-05,Wallet associated with Hydra darknet market,https://blockchain.watch
+0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7,Lazarus Group,Ethereum,OFAC,2023-04-24,Wallet linked to North Korea cybercrime activity,https://blockchain.watch
+0xDD4c48C0B24039969fC16D1cdF626eaB821d3384,Tornado Cash,Ethereum,OFAC,2022-08-08,Sanctioned Tornado Cash related address,https://blockchain.watch
