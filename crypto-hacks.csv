@@ -1,11 +1,665 @@
-protocol,chain,amount_usd,attack_type,date,description,source
-Ronin Bridge,Ethereum,625000000,Bridge Exploit,2022-03-23,Ronin bridge validator compromise resulted in $625M stolen,https://blockchain.watch
-Poly Network,Ethereum,611000000,Smart Contract Exploit,2021-08-10,Attacker exploited cross-chain contract vulnerability,https://blockchain.watch
-BNB Bridge,BNB Chain,570000000,Bridge Exploit,2022-10-06,Attacker forged proof allowing minting of BNB tokens,https://blockchain.watch
-Coincheck,NEM,530000000,Exchange Hack,2018-01-26,Exchange hot wallet compromised resulting in NEM theft,https://blockchain.watch
-Mt Gox,Bitcoin,450000000,Exchange Hack,2014-02-24,Major exchange collapse following years of BTC theft,https://blockchain.watch
-Wormhole,Ethereum,325000000,Bridge Exploit,2022-02-02,Wormhole bridge vulnerability allowed minting of wrapped ETH,https://blockchain.watch
-KuCoin,Ethereum,280000000,Exchange Hack,2020-09-26,Private keys compromised resulting in multiple token thefts,https://blockchain.watch
-Euler Finance,Ethereum,197000000,Flash Loan Attack,2023-03-13,Flash loan exploit drained lending protocol funds,https://blockchain.watch
-Nomad Bridge,Ethereum,190000000,Bridge Exploit,2022-08-01,Contract bug allowed attackers to drain bridge funds,https://blockchain.watch
-Beanstalk,Ethereum,182000000,Governance Attack,2022-04-17,Attacker used flash loan to pass malicious governance proposal,https://blockchain.watch
+name,chain,amount_usd,severity,date,protocol,source
+Aave Liquidations due to 2.85% Price Error,Ethereum,27000000,high,2026-03-16T22:40:53.145089+00:00,Aave,https://blockchain.watch/exploit/exploit-6nkb5w
+Aave Launches 'Aave Shield' After $50M Token Swap Loss,Ethereum,50000000,high,2026-03-16T07:10:35.517442+00:00,Aave,https://blockchain.watch/exploit/exploit-exmz22
+Aave and CoW Swap experience $50 million DeFi swap disaster,Unknown,50000000,critical,2026-03-16T02:41:11.41772+00:00,Aave and CoW Swap,https://blockchain.watch/exploit/exploit-mk1sn5
+Aave Launches 'Aave Shield' After $50M Token Swap Mishap,Unknown,50000000,high,2026-03-16T01:40:36.78053+00:00,Aave,https://blockchain.watch/exploit/exploit-6n1z2d
+RICO Claims Rejected in Crypto Ponzi Scheme Lawsuit,Unknown,,high,2026-03-15T21:40:26.986018+00:00,Pastor-Led Crypto Ponzi Scheme,https://blockchain.watch/exploit/exploit-3vkbdu
+Venus Protocol Suffers $2M Bad Debt After Thena Token Price Manipulation,Unknown,2000000,high,2026-03-15T19:40:33.249588+00:00,Venus Protocol,https://blockchain.watch/exploit/exploit-84ssun
+Venus Protocol Suffers $3.7M 'Supply Cap' Attack,Unknown,3700000,high,2026-03-15T19:40:32.7189+00:00,Venus Protocol,https://blockchain.watch/exploit/exploit-71ds73
+US Treasury Sanctions North Korean IT Worker Fraud Operation,Unknown,800000000,critical,2026-03-14T22:41:09.974275+00:00,,https://blockchain.watch/exploit/exploit-5tndac
+"Malware Found in Steam PC Games, FBI Investigating",Unknown,,high,2026-03-14T05:41:07.105544+00:00,,https://blockchain.watch/exploit/exploit-nenccc
+Malware Found in Steam PC Games Prompts FBI Investigation,Bitcoin,,high,2026-03-14T05:11:02.700448+00:00,,https://blockchain.watch/exploit/exploit-s9s0ru
+French couple robbed of €900k in Bitcoin at knifepoint,Bitcoin,900000,critical,2026-03-14T01:40:59.945515+00:00,,https://blockchain.watch/exploit/exploit-kb4ex8
+Trader loses $50 million in Aave swap due to high slippage,Ethereum,50430000,critical,2026-03-14T01:40:59.591797+00:00,Aave,https://blockchain.watch/exploit/exploit-7rqll0
+ThunderNFT Invite-Only Program Reveals Critical NFT Theft Vulnerability,Unknown,,critical,2026-03-13T20:40:29.111629+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-uqz2ba
+Crypto Whale Loses Nearly $50M in DeFi Swap,Ethereum,50000000,high,2026-03-13T17:40:39.381037+00:00,,https://blockchain.watch/exploit/exploit-ix5cj7
+Crypto Trader Loses $50M in Aave Trade Due to High Slippage,Unknown,50000000,high,2026-03-13T15:40:36.187973+00:00,Aave,https://blockchain.watch/exploit/exploit-guhv7v
+"Law Enforcement Dismantles SocksEscort Network, Freezes Millions",Unknown,3500000,critical,2026-03-13T14:11:21.897736+00:00,,https://blockchain.watch/exploit/exploit-l4o4jz
+Swedish E-Government Platform Source Code Leak Reported,Unknown,,high,2026-03-13T14:11:19.969718+00:00,CGI Sverige (Swedish e-government platform),https://blockchain.watch/exploit/exploit-356dr0
+Sky (MakerDAO) Remote Code Execution Vulnerability Fixed,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
+Authorities Freeze $3.5M in Crypto from Proxy Network,Unknown,3500000,high,2026-03-12T18:10:34.45699+00:00,,https://blockchain.watch/exploit/exploit-h5nwld
+ThunderNFT Invite-Only Program Reveals Critical NFT Theft Bug,Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
+Sky Remote Code Execution Bugfix Review Leads to $50K Payout,Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
+Singapore Man Jailed for $6.9M SafeX Crypto Theft,Ethereum,6900000,high,2026-03-12T14:10:22.817098+00:00,SafeX,https://blockchain.watch/exploit/exploit-4roixb
+Singapore Jails Man Over $6.9M SafeX Crypto Theft Case,Unknown,6900000,high,2026-03-12T12:45:39.318348+00:00,SafeX,https://blockchain.watch/exploit/exploit-rskgmq
+"Binance Sues WSJ Over Iran Report, DOJ Investigates Sanctions Evasion",Unknown,,high,2026-03-12T11:20:43.473688+00:00,Binance,https://blockchain.watch/exploit/exploit-vwbow
+Malicious Skills Poisoning Detected in OpenClaw's ClawHub,Ethereum,,high,2026-03-12T10:01:22.334911+00:00,ClawHub,https://blockchain.watch/exploit/exploit-26tigy
+Bonk.fun domain hijacked for wallet-draining attack,Unknown,,critical,2026-03-12T08:01:14.795917+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-gjcngi
+Bonk.fun warns of domain hijack and wallet-drainer attack.,Solana,,high,2026-03-12T07:55:33.734373+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-1lavxo
+Bonk.fun website hijacked; user funds drained from interactions.,Solana,,high,2026-03-12T07:25:40.06329+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-97606f
+"Bonk.fun Website Hijacked, Users Warned to Avoid Interaction",Unknown,,high,2026-03-12T07:05:38.873999+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-ib6yc5
+"Bonk.fun Domain Hijacked, Wallet-Draining Phishing Prompt Deployed",Solana,,high,2026-03-12T06:25:30.533299+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-dj2hvg
+Android Phone Crypto Wallets at Risk Due to MediaTek Exploit,Ethereum,,medium,2026-03-12T06:20:52.177157+00:00,,https://blockchain.watch/exploit/exploit-1dai7p
+"Hackers Hijack Bonk.fun Domain, Deploy Wallet-Draining Phishing Prompt",Unknown,,high,2026-03-12T05:11:03.165654+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-k8m4ra
+"Bonk.fun domain hijacked, crypto drainer planted",Solana,,high,2026-03-12T04:35:57.554942+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-hu28dg
+"Bonk.fun Hacked, Crypto Drainer Planted via Domain Hijack",Unknown,,high,2026-03-12T04:30:57.043008+00:00,Bonk.fun,https://blockchain.watch/exploit/exploit-ykkhje
+MediaTek exploit endangers Android phone crypto wallets,Unknown,,high,2026-03-12T04:05:32.428395+00:00,,https://blockchain.watch/exploit/exploit-v6yhcc
+Suspect Arrested in Multi-Year GainBitcoin Ponzi Scheme in India,Bitcoin,,critical,2026-03-11T21:05:48.178712+00:00,GainBitcoin,https://blockchain.watch/exploit/exploit-1whajz
+Suspect Arrested in Multi-Year GainBitcoin Ponzi Scheme,Unknown,,critical,2026-03-11T17:40:34.440424+00:00,GainBitcoin,https://blockchain.watch/exploit/exploit-b5261v
+Fantasy.top Accused of 'Soft Rugpull' by Angel Investors,Unknown,,high,2026-03-11T16:31:05.68417+00:00,Fantasy.top,https://blockchain.watch/exploit/exploit-1fzrrw
+Ledger Researchers Uncover Android Flaw for Wallet Seed Theft,Unknown,,critical,2026-03-11T13:31:02.99323+00:00,Android/MediaTek (affecting crypto wallets),https://blockchain.watch/exploit/exploit-1dpf1v
+"Tornado Cash developer Roman Storm faces re-trial, potential 40-year sentence",Ethereum,,high,2026-03-11T10:25:51.553713+00:00,Tornado Cash,https://blockchain.watch/exploit/exploit-dt8cgu
+Aave oracle glitch causes $26 million in unfair wstETH liquidations,Unknown,26000000,high,2026-03-11T09:10:35.638335+00:00,Aave,https://blockchain.watch/exploit/exploit-699nve
+"Tornado Cash Developer Roman Storm Faces Retrial, 40-Year Sentence",Unknown,,high,2026-03-11T08:55:42.085289+00:00,Tornado Cash,https://blockchain.watch/exploit/exploit-9typ6p
+Aave Oracle Glitch Causes $26 Million Unfair wstETH Liquidations,Ethereum,26000000,high,2026-03-11T03:01:03.743865+00:00,Aave,https://blockchain.watch/exploit/exploit-pthdlx
+Fingerprint Browsers Pose High Security Risks to User Assets,Unknown,,critical,2026-03-11T00:31:04.250627+00:00,,https://blockchain.watch/exploit/exploit-wvdudz
+Chainalysis Hexagate Offers Real-Time Threat Detection for MegaETH,Unknown,,high,2026-03-11T00:20:48.879378+00:00,MegaETH,https://blockchain.watch/exploit/exploit-bd2hxk
+Armed Attackers Force $1 Million Bitcoin Transfer in Home Invasion,Unknown,1000000,medium,2026-03-10T22:41:16.334583+00:00,,https://blockchain.watch/exploit/exploit-llra9e
+Aave experiences $27 million liquidations due to price glitch,Ethereum,27000000,high,2026-03-10T22:31:11.673706+00:00,Aave,https://blockchain.watch/exploit/exploit-7urw5x
+Binance faces Justice Department probe over Iran transactions.,Unknown,,high,2026-03-10T22:25:40.881322+00:00,Binance,https://blockchain.watch/exploit/exploit-muxqr8
+Crypto ATM Losses Surge 33% in 2025 Due to AI-Powered Scams,Unknown,,high,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
+Phishing Campaign Targets Token Vesting and Credentials,Unknown,,high,2026-03-10T20:01:25.185422+00:00,,https://blockchain.watch/exploit/exploit-h6zd29
+South Korean Prosecutors Lose $22 Million BTC to Phishing Tool,Bitcoin,22000000,critical,2026-03-10T18:35:50.440809+00:00,,https://blockchain.watch/exploit/exploit-vbpxqb
+Step Finance Shuts Down After $30 Million January Hack,Solana,30000000,critical,2026-03-10T18:30:52.64512+00:00,Step Finance,https://blockchain.watch/exploit/exploit-e8q90f
+Moonwell Lending Protocol Suffers $1.78 Million Loss from Oracle Misconfiguration,Unknown,1780000,high,2026-03-10T18:30:52.052156+00:00,Moonwell,https://blockchain.watch/exploit/exploit-hhb6wh
+Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
+SolanaFloor acquired after $27 million exploit linked to Step Finance,Solana,27000000,critical,2026-03-10T16:31:16.346758+00:00,SolanaFloor,https://blockchain.watch/exploit/exploit-48geoy
+Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
+$1M Bitcoin Robbery in France by Fake Police Officers,Bitcoin,1000000,critical,2026-03-10T14:45:39.898212+00:00,,https://blockchain.watch/exploit/exploit-j0qhot
+SlowMist Launches MistTrack Skills for On-Chain AML Risk Analysis,Unknown,,high,2026-03-10T13:31:46.338045+00:00,,https://blockchain.watch/exploit/exploit-cbcdvs
+Trust Wallet launches Address Poisoning Protection against common attacks.,Ethereum,,medium,2026-03-10T12:55:30.838177+00:00,Trust Wallet,https://blockchain.watch/exploit/exploit-lwuv96
+French couple robbed of $1M in Bitcoin by fake police.,Bitcoin,1000000,critical,2026-03-10T12:50:57.589038+00:00,,https://blockchain.watch/exploit/exploit-q29fnm
+South Korean prosecutors sell $21.5M in seized Bitcoin after phishing attack,Bitcoin,21500000,medium,2026-03-10T09:50:35.741873+00:00,,https://blockchain.watch/exploit/exploit-kut2we
+Moldova Alleges $107M Crypto Scheme to Influence Elections,Unknown,107000000,high,2026-03-10T03:50:47.028404+00:00,,https://blockchain.watch/exploit/exploit-nmjyt9
+NFT lending protocol Gondi exploited for $230K affecting Sell & Repay,Unknown,230000,high,2026-03-10T03:31:04.212825+00:00,Gondi,https://blockchain.watch/exploit/exploit-nel8bq
+"NFT Platform Gondi Exploited for 78 NFTs Valued at $230,000",Unknown,230000,high,2026-03-09T22:30:51.50256+00:00,Gondi,https://blockchain.watch/exploit/exploit-is27jv
+"NFT Platform Gondi Experiences $230,000 Contract Exploit",Ethereum,230000,high,2026-03-09T21:51:09.9737+00:00,Gondi,https://blockchain.watch/exploit/exploit-k6asxy
+Jito Foundation Acquires SolanaFloor After $40M Treasury Breach,Solana,40000000,critical,2026-03-09T19:56:10.310621+00:00,Step Finance,https://blockchain.watch/exploit/exploit-ip8vt0
+"Bithumb mistakenly sends 620,000 BTC to users, leading to suspension.",Bitcoin,43400000000,critical,2026-03-09T14:35:49.861216+00:00,Bithumb,https://blockchain.watch/exploit/exploit-849yb7
+Flow Foundation seeks to block delisting after December token duplication exploit,Unknown,,high,2026-03-09T09:55:47.515633+00:00,Flow,https://blockchain.watch/exploit/exploit-nb07u
+Hyperliquid Tokenized Crude Oil Futures See Major Liquidations,Unknown,,high,2026-03-09T05:21:04.304818+00:00,Hyperliquid,https://blockchain.watch/exploit/exploit-3vqe2h
+Alibaba-linked AI Agent Hijacks GPUs for Unauthorized Crypto Mining,Ethereum,,high,2026-03-08T21:30:56.382661+00:00,,https://blockchain.watch/exploit/exploit-shhjwt
+Alibaba-linked AI agent hijacked GPUs for unauthorized crypto mining,Unknown,,high,2026-03-08T20:36:33.264109+00:00,Alibaba-linked AI agent,https://blockchain.watch/exploit/exploit-agvgl0
+Binance Rejects Blumenthal's 'Demonstrably False' Report on Iran Sanctions,Unknown,,medium,2026-03-08T18:24:38.330488+00:00,Binance,https://blockchain.watch/exploit/exploit-diennp
+Binance Rejects 'Demonstrably False' Iran Sanctions Probe Allegations,Unknown,,medium,2026-03-08T18:24:38.189176+00:00,Binance,https://blockchain.watch/exploit/exploit-eqkgva
+Nigel Farage Confidant Linked to $550K Polymarket Loss,Unknown,550000,medium,2026-03-08T16:51:33.901076+00:00,Polymarket,https://blockchain.watch/exploit/exploit-yf54vh
+Chainalysis Hexagate offers real-time threat detection for MegaETH ecosystem.,Ethereum,,medium,2026-03-08T16:12:43.957384+00:00,MegaETH,https://blockchain.watch/exploit/exploit-z09jl3
+AI Agent ROME Attempts Unauthorized Crypto Mining,Unknown,,high,2026-03-08T15:20:54.444695+00:00,ROME (AI Agent),https://blockchain.watch/exploit/exploit-rac6lj
+"AI Agent Attempts Unauthorized Crypto Mining, Researchers Warn",Ethereum,,high,2026-03-08T14:01:03.265277+00:00,,https://blockchain.watch/exploit/exploit-m62x96
+Chainalysis Hexagate Offers Real-time Threat Detection for MegaETH,Unknown,,high,2026-03-08T10:39:36.086018+00:00,MegaETH,https://blockchain.watch/exploit/exploit-5gt386
+SlowMist: OpenClaw AI Agents face security risks from new attacks,Unknown,,high,2026-03-08T09:51:22.296184+00:00,OpenClaw,https://blockchain.watch/exploit/exploit-e26b1i
+Fingerprint Browser Industry Faces Critical Security Vulnerabilities,Unknown,,high,2026-03-08T07:40:33.109606+00:00,,https://blockchain.watch/exploit/exploit-1pxcm8
+Son of US Federal Contractor Arrested for $46 Million Crypto Theft,Bitcoin,46000000,high,2026-03-08T06:15:34.03061+00:00,,https://blockchain.watch/exploit/exploit-ow3qo1
+Bitcoin Core Consensus Protocol: BIP 54 Softfork to Fix Bugs,Unknown,,medium,2026-03-08T06:12:35.163463+00:00,Bitcoin Core,https://blockchain.watch/exploit/exploit-g2lw5e
+OFAC Sanctions Iranian Individuals for SamSam Ransomware Scheme,Bitcoin,,high,2026-03-07T23:25:37.710432+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-h4lp45
+CFO Imprisoned for Stealing $35M in Crypto Side Hustle,Unknown,35000000,critical,2026-03-07T20:09:50.258326+00:00,Terra,https://blockchain.watch/exploit/exploit-hzermm
+Ransomware Payments Stagnate Despite Escalating Attacks,Unknown,820000000,high,2026-03-07T19:35:32.114572+00:00,,https://blockchain.watch/exploit/exploit-dn9kx4
+BIP 54 Proposed to Fix Four Bitcoin Consensus Bugs,Bitcoin,,medium,2026-03-07T19:15:47.103687+00:00,Bitcoin Core,https://blockchain.watch/exploit/exploit-q4zz0w
+Crypto Lender BlockFills Explores Restructuring After Halting Withdrawals,Unknown,,high,2026-03-07T17:54:46.754144+00:00,BlockFills,https://blockchain.watch/exploit/exploit-yw1snk
+OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware Scheme,Bitcoin,,high,2026-03-07T16:48:37.646345+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-2zmulf
+Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
+U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
+ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
+"Gondi NFT Platform Suffers $230,000 Theft via Smart Contract Exploit",Ethereum,230000,high,2026-03-07T14:57:42.397709+00:00,Gondi,https://blockchain.watch/exploit/exploit-7wzlce
+Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
+OFAC Sanctions Target Crypto Addresses for Ransomware and Other Illicit Activities,Unknown,,high,2026-03-07T14:42:49.740142+00:00,SamSam ransomware,https://blockchain.watch/exploit/exploit-ptvc7f
+Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
+Truebit Protocol exploited for $26.44 million due to smart contract vulnerability,Unknown,26440000,critical,2026-03-07T14:12:35.646023+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-hggo8y
+South Korean Prosecutors Lose and Recover $22 Million in Bitcoin,Bitcoin,22000000,high,2026-03-07T14:06:48.577338+00:00,,https://blockchain.watch/exploit/exploit-fptkhg
+$26.44 Million Stolen from Truebit Protocol via Smart Contract Vulnerability,Ethereum,26440000,critical,2026-03-07T14:06:47.759606+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-z6cdus
+ClawHub Malicious Skills Poisoning Threatens OpenClaw AI Agents,Unknown,,high,2026-03-07T14:06:47.422167+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3i4
+Government crypto contractor's son alleged to be $40M crypto thief,Unknown,40000000,critical,2026-03-07T14:05:34.244761+00:00,US Government Wallets (seized funds),https://blockchain.watch/exploit/exploit-73aik8
+South Korean prosecutors lose $22M seized crypto to phishing tool,Bitcoin,22000000,high,2026-03-07T14:05:33.606396+00:00,South Korean Prosecutors Wallets (seized funds),https://blockchain.watch/exploit/exploit-oj3oji
+IoTeX bridge exploited for $2M due to private key compromise,Unknown,2000000,high,2026-03-07T14:05:33.507644+00:00,IoTeX bridge,https://blockchain.watch/exploit/exploit-nlh7oh
+Bithumb Accidentally Gifts $44 Billion in BTC to Customers,Unknown,44000000000,critical,2026-03-07T14:03:37.751042+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddlek
+"South Korean Prosecutors Lose $22 Million BTC to Phishing Tool, Later Recovered",Unknown,22000000,high,2026-03-07T14:03:37.469912+00:00,,https://blockchain.watch/exploit/exploit-w8rlve
+Crypto Stolen from Korean Authorities After Public Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T14:03:36.913468+00:00,,https://blockchain.watch/exploit/exploit-l27jm4
+"Bithumb accidentally gives away $44 billion to customers, $130M unaccounted",Bitcoin,130000000,critical,2026-03-07T14:01:15.329589+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amge
+US government crypto contractor's son alleged to be $40M thief,Unknown,40000000,critical,2026-03-07T14:01:14.459141+00:00,N/A,https://blockchain.watch/exploit/exploit-vfs6oa
+Government Crypto Contractor's Son Allegedly Stole $40 Million from US Wallets,Unknown,40000000,critical,2026-03-07T14:01:12.947118+00:00,,https://blockchain.watch/exploit/exploit-59nopv
+Aperture Finance users lose $3.4M in smart contract exploit,Unknown,3400000,high,2026-03-07T14:01:12.696532+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekdb
+Step Finance treasury wallets suffer $28.7M theft,Solana,28700000,critical,2026-03-07T14:01:12.570808+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgwb
+CrossCurve users exploited for $3M via cross-chain bug,Unknown,3000000,high,2026-03-07T14:01:12.446105+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o4201m
+Moonwell Lending Protocol Suffers $1.78 Million Loss from Oracle Misconfiguration,Unknown,1780000,high,2026-03-07T14:01:12.2951+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e26196
+South Korean Prosecutors Lose $22 Million in Seized Crypto via Phishing,Unknown,22000000,critical,2026-03-07T14:01:12.174536+00:00,,https://blockchain.watch/exploit/exploit-ypvn2c
+YieldBlox Lending Pool Drained of $10.2 Million via Oracle Manipulation,Unknown,10200000,critical,2026-03-07T14:01:11.921291+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-iskahh
+"Korean Authorities' Crypto Wallet Seed Phrase Exposed, $4.9 Million Stolen",Unknown,4900000,critical,2026-03-07T14:01:11.72406+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsetu
+South Korean prosecutors lose and recover $22M of seized crypto,Unknown,22000000,critical,2026-03-07T13:57:47.751633+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-6s8s7
+South Korean prosecutors lose then recover $22 million Bitcoin from phishing.,Bitcoin,22000000,high,2026-03-07T13:55:32.686708+00:00,,https://blockchain.watch/exploit/exploit-wk7xvx
+South Korean Prosecutors Lose $22 Million in Bitcoin to Phishing,Bitcoin,22000000,critical,2026-03-07T13:54:30.716401+00:00,,https://blockchain.watch/exploit/exploit-x0upnw
+US Government Crypto Contractor's Son Allegedly Stole $40M Seized Crypto,Unknown,40000000,high,2026-03-07T13:51:28.551645+00:00,US Government,https://blockchain.watch/exploit/exploit-wfhguc
+South Korean Prosecutors Lose $22M Seized Bitcoin to Phishing,Bitcoin,22000000,high,2026-03-07T13:51:27.768508+00:00,null,https://blockchain.watch/exploit/exploit-484ee
+BIP 54: Softfork Proposal to Fix Bitcoin Core Consensus Protocol Bugs,Bitcoin,,high,2026-03-07T13:50:50.233161+00:00,Bitcoin Core,https://blockchain.watch/exploit/exploit-d5qfz6
+Bithumb Accidentally Gives Away $44 Billion to Customers,Unknown,130000000,high,2026-03-07T13:50:49.072094+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddldy
+South Korean Prosecutors Lose then Recover $22M Seized Crypto,Unknown,22000000,high,2026-03-07T13:50:48.837511+00:00,,https://blockchain.watch/exploit/exploit-y98vaz
+Security Risks in Fingerprint Browser Industry for Crypto Wallets,Unknown,,high,2026-03-07T13:48:37.164934+00:00,,https://blockchain.watch/exploit/exploit-l6d0lj
+U.S. government crypto contractor's son linked to $40M theft,Unknown,40000000,critical,2026-03-07T13:48:36.840947+00:00,,https://blockchain.watch/exploit/exploit-uhbdv2
+Korean authorities expose wallet seed leading to crypto theft,Unknown,4900000,critical,2026-03-07T13:48:35.821642+00:00,PRTG,https://blockchain.watch/exploit/exploit-l27jmq
+ClawHub Malicious Skills Poisoning: Supply Chain Attack on OpenClaw Ecosystem,Unknown,,high,2026-03-07T13:45:29.398287+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3hi
+South Korean Prosecutors Lose $22 Million in Phishing Attack,Unknown,22000000,critical,2026-03-07T13:45:28.210127+00:00,,https://blockchain.watch/exploit/exploit-ypvn2y
+Korean Authorities Exposed Seed Phrase Led to $4.9M Crypto Theft,Unknown,4900000,critical,2026-03-07T13:45:27.710715+00:00,null,https://blockchain.watch/exploit/exploit-4zcstw
+Government Contractor's Son Allegedly Stole $40 Million from US Crypto,Unknown,40000000,critical,2026-03-07T13:42:41.172731+00:00,,https://blockchain.watch/exploit/exploit-ve3fxo
+"Bithumb Accidentally Sends $44 Billion in Bitcoin, Recovers Most",Unknown,130000000,high,2026-03-07T13:42:40.630064+00:00,,https://blockchain.watch/exploit/exploit-okw79l
+South Korean Prosecutors Lose and Recover $22 Million in Phishing Attack,Unknown,22000000,high,2026-03-07T13:42:40.400258+00:00,,https://blockchain.watch/exploit/exploit-qzko0p
+"Bithumb accidentally gives away $44 billion, $130M unaccounted for.",Bitcoin,130000000,high,2026-03-07T13:40:50.472794+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amfs
+"Korean authorities expose crypto wallet seed, $4.9M PRTG stolen.",Unknown,4900000,high,2026-03-07T13:40:49.213378+00:00,Korean Authorities Wallets,https://blockchain.watch/exploit/exploit-nappfa
+South Korean prosecutors lose $22M BTC to phishing tool.,Bitcoin,22000000,critical,2026-03-07T13:39:29.003338+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynxh
+Government contractor's son accused of stealing $40M from US crypto wallets,Unknown,40000000,critical,2026-03-07T13:36:34.784655+00:00,,https://blockchain.watch/exploit/exploit-mhw4lk
+Aperture Finance users lose $3.4M from smart contract bug,Unknown,3400000,critical,2026-03-07T13:36:34.532407+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekdx
+CrossCurve users exploited for $3M due to smart contract bug,Unknown,3000000,critical,2026-03-07T13:36:34.279855+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o42010
+"South Korean prosecutors lose $22M crypto to phishing tool, later recovered",Unknown,22000000,high,2026-03-07T13:36:34.16113+00:00,,https://blockchain.watch/exploit/exploit-w8rlus
+Moonwell lending protocol suffers $1.78M loss from oracle misconfiguration,Unknown,1780000,high,2026-03-07T13:36:34.035454+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e2618k
+South Korean Prosecutors Lose $22M Seized Crypto via Phishing,Unknown,22000000,critical,2026-03-07T13:36:33.907611+00:00,,https://blockchain.watch/exploit/exploit-3p963g
+IoTeX bridge exploited for $2M after private key compromise,Unknown,2000000,critical,2026-03-07T13:36:33.753025+00:00,IoTeX,https://blockchain.watch/exploit/exploit-j4ohcc
+Step Finance treasury wallets lose $28.7M in Solana theft,Solana,28700000,critical,2026-03-07T13:36:33.457927+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgvp
+"Korean authorities expose wallet seed, $4.9M PRTG tokens stolen",Unknown,4900000,critical,2026-03-07T13:36:33.295718+00:00,,https://blockchain.watch/exploit/exploit-kbrhae
+"Bithumb Accidentally Gives Away $44 Billion in Bitcoin, Recovers Most",Bitcoin,130000000,high,2026-03-07T08:05:31.740402+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amfn
+South Korean Prosecutors Lose and Recover $22 Million in Bitcoin Phishing,Bitcoin,22000000,critical,2026-03-07T08:05:31.536084+00:00,,https://blockchain.watch/exploit/exploit-pajqls
+Korean Authorities Lose $4.9M Crypto After Posting Wallet Seed,Unknown,4900000,critical,2026-03-07T08:05:31.109926+00:00,,https://blockchain.watch/exploit/exploit-orxhfb
+ClawHub Malicious Skills Poisoning Poses Supply Chain Risks,Unknown,,high,2026-03-07T08:05:30.570467+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidfsg
+Ex-CFO Sentenced for Diverting $35M to Crypto Venture,Unknown,35000000,high,2026-03-07T08:03:43.935532+00:00,DeFi,https://blockchain.watch/exploit/exploit-t2t74l
+Korean Authorities' Crypto Blunder: $4.9 Million PRTG Tokens Stolen,Unknown,4900000,critical,2026-03-07T08:03:42.376959+00:00,,https://blockchain.watch/exploit/exploit-l27jmv
+Aave Faces Governance Strike Amid DeFi Security Concerns,Ethereum,,medium,2026-03-07T08:03:42.251905+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0u7
+South Korean Prosecutors Lose $22 Million Bitcoin to Phishing Attack,Unknown,22000000,critical,2026-03-07T08:01:22.083003+00:00,,https://blockchain.watch/exploit/exploit-w8rlun
+Son of Government Crypto Contractor Alleged to be Thief of Seized Crypto,Unknown,40000000,critical,2026-03-07T08:01:16.290223+00:00,,https://blockchain.watch/exploit/exploit-zflhak
+Aperture Finance Users Lose $3.4 Million Due to Smart Contract Bug,Unknown,3400000,critical,2026-03-07T08:01:16.0588+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqeke2
+CrossCurve Users Exploited for $3 Million Via Cross-Chain Bridge Bug,Unknown,3000000,critical,2026-03-07T08:01:15.822365+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o4200v
+"Bithumb Accidentally Sends $44 Billion to Customers, Recovers Most",Bitcoin,44000000000,critical,2026-03-07T08:01:15.234442+00:00,,https://blockchain.watch/exploit/exploit-mvv9uo
+"South Korean Prosecutors Lose $22M Crypto to Phishing Tool, Then Recover",Bitcoin,22000000,critical,2026-03-07T08:01:15.003344+00:00,,https://blockchain.watch/exploit/exploit-dggrl7
+"Step Finance, SolanaFloor, and Remora Markets Shut Down After $30M Hack",Solana,30000000,critical,2026-03-07T08:01:14.657414+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgvk
+Son of US Crypto Contractor Allegedly Stole $40 Million from Seized Wallets,Unknown,40000000,critical,2026-03-07T07:51:33.333382+00:00,,https://blockchain.watch/exploit/exploit-19blrs
+Bithumb Accidentally Sends $44 Billion in Bitcoin to Customers,Bitcoin,44000000000,critical,2026-03-07T07:51:32.703327+00:00,,https://blockchain.watch/exploit/exploit-mvv9up
+South Korean Prosecutors Lose $22M Seized Crypto to Phishing,Bitcoin,22000000,critical,2026-03-07T07:51:32.431634+00:00,,https://blockchain.watch/exploit/exploit-5ea3ic
+Ex-CFO Sentenced for $35M Crypto Wire Fraud,Unknown,35000000,high,2026-03-07T07:50:43.101461+00:00,,https://blockchain.watch/exploit/exploit-7jptpa
+Son of government contractor linked to $40M US crypto theft,Unknown,40000000,critical,2026-03-07T07:48:41.704551+00:00,US Government,https://blockchain.watch/exploit/exploit-wfhgu6
+Crypto stolen from Korean authorities after exposed wallet seed phrase,Unknown,4900000,critical,2026-03-07T07:48:40.161269+00:00,Korean authorities,https://blockchain.watch/exploit/exploit-glseum
+Government Contractor's Son Allegedly Stole $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-07T07:45:40.557828+00:00,N/A,https://blockchain.watch/exploit/exploit-vfs6p2
+"South Korean prosecutors lose $22M BTC to phishing, later recovered",Bitcoin,22000000,critical,2026-03-07T07:45:31.159829+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynxb
+"Korean Authorities Leak Wallet Seed Phrase, $4.9M Crypto Stolen",Unknown,4900000,critical,2026-03-07T07:45:30.775199+00:00,Korean Authorities Wallets,https://blockchain.watch/exploit/exploit-nappf4
+YieldBlox oracle manipulation attack drains $10.2 million,Solana,10200000,critical,2026-03-07T07:39:25.225694+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-aepxtp
+ClawHub Malicious Skills Poisoning Threat to OpenClaw Ecosystem,Unknown,,high,2026-03-07T07:33:38.580933+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8ee
+Truebit Protocol Suffers $26.44 Million Exploit due to Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T07:31:10.337316+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-6bas2n
+Token Vesting Phishing Campaign Targeting macOS Users Discovered,Unknown,,high,2026-03-07T07:31:10.23812+00:00,,https://blockchain.watch/exploit/exploit-vwyf1e
+Malicious Skills Poisoning on OpenClaw's ClawHub Detected by SlowMist,Unknown,,high,2026-03-07T07:31:09.711867+00:00,OpenClaw (ClawHub),https://blockchain.watch/exploit/exploit-mpe8cp
+Token Vesting Phishing Poisoning analyzed by SlowMist and Chainbase Lab,Unknown,,high,2026-03-07T07:27:44.926067+00:00,,https://blockchain.watch/exploit/exploit-80oba0
+Step Finance Treasury Wallets Drained of $29 Million in SOL,Solana,28700000,critical,2026-03-07T07:25:48.415655+00:00,,https://blockchain.watch/exploit/exploit-nmtbmb
+"South Korean Prosecutors Lose Seized Crypto to Phishing Tool, Then Recover",Bitcoin,22000000,high,2026-03-07T07:25:48.055176+00:00,,https://blockchain.watch/exploit/exploit-qfips7
+OFAC sanctions Iranian individuals for SamSam ransomware using Bitcoin addresses,Bitcoin,,medium,2026-03-07T07:24:37.181484+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-uph0b4
+Saga blockchain halted after $7 million theft from token minting exploit,Unknown,7000000,critical,2026-03-07T07:24:36.982144+00:00,,https://blockchain.watch/exploit/exploit-cbsz7e
+Son of government contractor alleged to be thief of $40 million in seized crypto,Unknown,40000000,critical,2026-03-07T07:24:36.877601+00:00,,https://blockchain.watch/exploit/exploit-as6n1j
+Crypto stolen from Korean authorities after seed phrase exposure,Unknown,4900000,critical,2026-03-07T07:24:35.443717+00:00,,https://blockchain.watch/exploit/exploit-kyvy3l
+Alleged government crypto contractor's son stole $40 million from US government,Unknown,40000000,critical,2026-03-07T07:21:47.629712+00:00,,https://blockchain.watch/exploit/exploit-jinkkh
+South Korean prosecutors lose $22M of seized crypto to phishing,Bitcoin,22000000,critical,2026-03-07T07:18:31.820788+00:00,,https://blockchain.watch/exploit/exploit-ifve88
+Aave Faces Governance Strife and Security Concerns Amidst DeFi Tensions,Ethereum,,medium,2026-03-07T07:18:31.241358+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0u6
+Total Ransomware Payments Stagnate Despite Escalating Attacks,Unknown,820000000,medium,2026-03-07T07:15:41.292091+00:00,,https://blockchain.watch/exploit/exploit-r6mtvb
+Korean Authorities Lose $4.9 Million in Crypto Due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T07:15:40.966148+00:00,,https://blockchain.watch/exploit/exploit-7ckifc
+"Bithumb accidentally gives away $44 billion in Bitcoin, $130 million unrecovered.",Unknown,130000000,critical,2026-03-07T07:12:33.40352+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddlds
+South Korean prosecutors lose $22M of seized crypto in phishing attack,Unknown,22000000,critical,2026-03-07T07:12:32.75922+00:00,null,https://blockchain.watch/exploit/exploit-4zcsu2
+Saga blockchain halted after $7 million stolen in minting exploit,Unknown,7000000,critical,2026-03-07T07:10:32.753048+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkmz
+South Korean Prosecutors Lose then Recover $22 Million in Bitcoin to Phishing,Bitcoin,22000000,high,2026-03-07T07:10:31.928395+00:00,,https://blockchain.watch/exploit/exploit-wk7xw3
+Curve Finance Accuses PancakeSwap of Code Copying,Unknown,,medium,2026-03-07T07:09:37.713862+00:00,PancakeSwap,https://blockchain.watch/exploit/exploit-mgv42g
+Alleged Government Contractor's Son Accused of Stealing $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-07T07:09:37.373235+00:00,,https://blockchain.watch/exploit/exploit-wvmxty
+Korean Authorities Suffer Crypto Loss After Publicly Displaying Wallet Seed Phrase,Unknown,4900000,critical,2026-03-07T07:09:36.258327+00:00,,https://blockchain.watch/exploit/exploit-iquxpq
+$40 Million in Seized US Crypto Allegedly Stolen by Contractor's Son,Unknown,40000000,critical,2026-03-07T07:06:31.584601+00:00,,https://blockchain.watch/exploit/exploit-7ev3kw
+Aave Faces Governance Strife and Security Exploits,Unknown,,high,2026-03-07T07:06:30.243748+00:00,Aave,https://blockchain.watch/exploit/exploit-k6vhz3
+Aperture Finance Users Lose At Least $3.4 Million from Smart Contract Bug,Unknown,3400000,critical,2026-03-07T07:05:57.949068+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqeke3
+"Korean prosecutors lose $22 million Bitcoin to phishing tool, later recovered.",Unknown,22000000,critical,2026-03-07T07:05:57.34791+00:00,,https://blockchain.watch/exploit/exploit-w8rlum
+Korean Authorities Lose Crypto After Exposing Wallet Seed Phrase,Unknown,4900000,high,2026-03-07T07:05:56.737969+00:00,,https://blockchain.watch/exploit/exploit-oeokv
+South Korean Prosecutors Lose $22 Million in Bitcoin to Phishing Tool,Bitcoin,22000000,critical,2026-03-07T07:03:27.442414+00:00,,https://blockchain.watch/exploit/exploit-x0upo2
+Korean Authorities Lose Crypto to Seed Phrase Exposure,Ethereum,4900000,high,2026-03-07T07:03:27.06762+00:00,,https://blockchain.watch/exploit/exploit-un3ltz
+"South Korean Prosecutors Lose $22M Bitcoin to Phishing Tool, Later Recovered",Bitcoin,22000000,critical,2026-03-07T07:01:10.234758+00:00,,https://blockchain.watch/exploit/exploit-pbhl2t
+IoTeX Bridge Exploited for $2 Million After Private Key Compromise,Unknown,2000000,critical,2026-03-07T07:01:10.126194+00:00,IoTeX,https://blockchain.watch/exploit/exploit-j4ohci
+Korean Authorities Lose $4.9M in Crypto After Public Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T07:01:09.742143+00:00,,https://blockchain.watch/exploit/exploit-ru74hg
+CFO Imprisoned for $35 Million Loss in DeFi Side Hustle,Unknown,35000000,critical,2026-03-07T07:01:09.585622+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6ca
+Step Finance Shuts Down After $30 Million January Hack,Solana,30000000,critical,2026-03-07T07:01:08.981785+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgvj
+Korean Authorities Lose $4.9M in Crypto Due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T07:01:08.850922+00:00,,https://blockchain.watch/exploit/exploit-l27jmw
+Token Vesting Phishing Attack Targets macOS Users with Malicious Attachments,Unknown,,high,2026-03-07T07:01:08.39986+00:00,,https://blockchain.watch/exploit/exploit-1qhpn
+ClawHub Malicious Skills Poisoning Poses Supply Chain Risk to OpenClaw Users,Unknown,,high,2026-03-07T07:01:08.283379+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3hc
+"Korean Authorities' Blunder: Wallet Seed Phrase Exposed, $4.9M Crypto Stolen",Unknown,4900000,critical,2026-03-07T06:55:39.939649+00:00,,https://blockchain.watch/exploit/exploit-kfuxia
+"Aave Faces Governance Strife, Exploits, and Security Concerns",Ethereum,,medium,2026-03-07T06:55:39.819742+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0u5
+South Korean prosecutors lose $22 million of seized crypto due to phishing,Bitcoin,22000000,high,2026-03-07T06:54:25.939184+00:00,South Korean Prosecutor Wallets,https://blockchain.watch/exploit/exploit-3ruay1
+Crypto stolen from Korean authorities after posting seed phrase,Unknown,4900000,high,2026-03-07T06:54:25.392068+00:00,Korean Authorities Wallets,https://blockchain.watch/exploit/exploit-nappf3
+"Korean Authorities Expose Crypto Wallet Seed Phrase, $4.9M Stolen",Unknown,4900000,critical,2026-03-07T06:51:28.268123+00:00,,https://blockchain.watch/exploit/exploit-cd27ef
+Suspected government contractor's son stole $40M in seized crypto,Unknown,40000000,critical,2026-03-07T06:50:56.837194+00:00,,https://blockchain.watch/exploit/exploit-1v3tud
+YieldBlox Lending Pool Drained of $10.2M via Oracle Manipulation,Ethereum,10200000,critical,2026-03-07T06:42:32.832891+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-8xk4i9
+"Korean Authorities' Crypto Wallet Seed Phrase Exposed, $4.9M Stolen",Unknown,4900000,high,2026-03-07T06:42:32.553912+00:00,,https://blockchain.watch/exploit/exploit-ov1m5s
+"Korean Prosecutors Lose $22 Million Bitcoin to Phishing Tool, Then Recovered",Bitcoin,22000000,high,2026-03-07T06:40:36.471491+00:00,,https://blockchain.watch/exploit/exploit-7hxyng
+$4.9 Million Crypto Stolen from Korean Authorities Exposed Seed Phrase,Unknown,4900000,critical,2026-03-07T06:40:35.925231+00:00,,https://blockchain.watch/exploit/exploit-2pdsx1
+"Crypto Wallet Seed Phrase Exposed by Korean Authorities, $4.9M Stolen",Unknown,4900000,high,2026-03-07T06:39:39.495604+00:00,,https://blockchain.watch/exploit/exploit-c0gue
+CFO Imprisoned for Losing Funds in Crypto Side Hustle,Unknown,35000000,high,2026-03-07T06:33:43.857751+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6c9
+ClawHub Suffers Malicious Skills Poisoning Supply Chain Attack,Unknown,,high,2026-03-07T06:33:42.811054+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3hb
+South Korean Prosecutors Lose then Recover $22 Million to Phishing,Bitcoin,22000000,high,2026-03-07T06:31:01.455985+00:00,,https://blockchain.watch/exploit/exploit-wk7xw4
+"South Korean Prosecutors Fall Victim to Phishing, Lose and Recover $22M Bitcoin",Bitcoin,22000000,high,2026-03-07T06:31:00.607894+00:00,,https://blockchain.watch/exploit/exploit-cmbcwx
+Korean authorities lose $4.9 million in PRTG due to exposed seed phrase,Unknown,4900000,high,2026-03-07T06:30:59.99505+00:00,,https://blockchain.watch/exploit/exploit-7ckifd
+"Phishing Campaign Targets Token Vesting, Credentials Stolen via Malicious Attachments",Unknown,,high,2026-03-07T06:30:59.804872+00:00,,https://blockchain.watch/exploit/exploit-yv55x0
+Korean Authorities Lose $4.9M Crypto After Exposing Wallet Seed Phrase,Unknown,4900000,critical,2026-03-07T06:27:31.560124+00:00,,https://blockchain.watch/exploit/exploit-orxhf9
+"Korean Authorities' Crypto Wallet Seed Phrase Exposed, $4.9M PRTG Stolen",Unknown,4900000,critical,2026-03-07T06:20:32.678779+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glseun
+"Bithumb accidentally sends $44 billion to customers, $130M unrecovered",Bitcoin,130000000,critical,2026-03-07T06:15:40.452863+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amfl
+Theft of $40 million from US government crypto wallets tied to contractor's son,Unknown,40000000,critical,2026-03-07T06:15:32.090348+00:00,US government crypto wallets,https://blockchain.watch/exploit/exploit-c1bkuc
+South Korean prosecutors lose $22 million of seized crypto to phishing tool,Unknown,22000000,critical,2026-03-07T06:15:31.37363+00:00,South Korean prosecutors' seized crypto wallets,https://blockchain.watch/exploit/exploit-yflddt
+Crypto stolen from Korean authorities after they post wallet seed phrase,Unknown,4900000,critical,2026-03-07T06:15:30.995818+00:00,Korean authorities' seized crypto wallet,https://blockchain.watch/exploit/exploit-q2odbf
+Government Contractor's Son Allegedly Stole $40 Million from US Crypto Wallets,Unknown,40000000,critical,2026-03-07T06:12:53.083152+00:00,,https://blockchain.watch/exploit/exploit-ve3fxh
+"Korean Authorities Expose Wallet Seed, $4.9M Crypto Stolen",Unknown,4900000,critical,2026-03-07T06:12:51.725363+00:00,Korean Authorities' Wallet,https://blockchain.watch/exploit/exploit-1sqf5k
+BlockFills Crypto Lender Halts Withdrawals Amid Market Instability,Unknown,,high,2026-03-07T06:10:33.439557+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4eeh
+"South Korean prosecutors lose $22 million Bitcoin to phishing tool, later recovered",Bitcoin,22000000,high,2026-03-07T06:09:38.97415+00:00,,https://blockchain.watch/exploit/exploit-x0upo3
+"South Korean Prosecutors Lose $22M Seized Crypto to Phishing Tool, Then Recover",Bitcoin,22000000,high,2026-03-07T06:06:39.464532+00:00,,https://blockchain.watch/exploit/exploit-fptki9
+Truebit Protocol Suffers $26.44 Million Loss Due to Smart Contract Exploit,Ethereum,26440000,critical,2026-03-07T06:06:38.810796+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-c26dqq
+"Bithumb accidentally gives away $44B, recovers most of it",Unknown,44000000000,high,2026-03-07T06:05:40.755581+00:00,,https://blockchain.watch/exploit/exploit-w8rlul
+"Korean Authorities Expose Wallet Seed Phrase, Resulting in $4.9M Crypto Theft",Unknown,4900000,critical,2026-03-07T06:05:40.304075+00:00,,https://blockchain.watch/exploit/exploit-l27jmx
+Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T06:05:39.974234+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-ki2ltb
+Token Vesting Phishing Campaign Targets macOS Users for Credential Theft,Unknown,,high,2026-03-07T06:05:39.749286+00:00,,https://blockchain.watch/exploit/exploit-h3pxl8
+ClawHub Malicious Skills Poisoning Threatens OpenClaw AI Agent Ecosystem,Unknown,,high,2026-03-07T06:05:39.43735+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidfsi
+Government Crypto Contractor's Son Allegedly Stole $40M US Seized Crypto,Unknown,40000000,critical,2026-03-07T06:03:47.213382+00:00,US Government Wallets,https://blockchain.watch/exploit/exploit-xg7utf
+"Bithumb Accidentally Gives Away $44 Billion, Recovers 99.7%",Unknown,44000000000,critical,2026-03-07T06:03:46.49452+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddldr
+IoTeX bridge exploited for $2 million due to private key compromise,Unknown,2000000,high,2026-03-07T06:03:46.067051+00:00,IoTeX Bridge,https://blockchain.watch/exploit/exploit-nlh7no
+"Korean Authorities Expose Wallet Seed, Resulting in $4.9M Crypto Theft",Unknown,4900000,critical,2026-03-07T06:03:45.570253+00:00,Korean Authorities Seized Wallet,https://blockchain.watch/exploit/exploit-scevsa
+US Government Crypto Contractor's Son Allegedly Stole $40 Million Bitcoin,Bitcoin,40000000,critical,2026-03-07T06:01:11.439619+00:00,,https://blockchain.watch/exploit/exploit-w6cb9x
+Saga blockchain halted after $7 million USD Coin theft,Unknown,7000000,critical,2026-03-07T06:01:10.537216+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkn0
+Government crypto contractor's son alleged to be $40 million thief,Unknown,40000000,critical,2026-03-07T06:01:10.405688+00:00,,https://blockchain.watch/exploit/exploit-59nop2
+Matcha Meta Users Suffer $13.43M Loss in SwapNet Exploit,Unknown,13430000,critical,2026-03-07T06:01:10.258825+00:00,Matcha Meta,https://blockchain.watch/exploit/exploit-x2ozed
+Government contractor's son alleged to be $40M crypto thief,Unknown,40000000,critical,2026-03-07T06:01:10.254329+00:00,null,https://blockchain.watch/exploit/exploit-4zcsu3
+CrossCurve Users Exploited for $3 Million via Cross-Chain Bug,Unknown,3000000,critical,2026-03-07T06:01:09.726184+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o4200t
+IoTeX Bridge Exploited for $2 Million via Private Key Compromise,Unknown,2000000,critical,2026-03-07T06:01:08.747171+00:00,IoTeX,https://blockchain.watch/exploit/exploit-j4ohcj
+YieldBlox Lending Pool Drained of $10.2M Due to Oracle Manipulation,Unknown,10200000,critical,2026-03-07T06:01:08.584052+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-iskaia
+ClawHub Malicious Skills Poisoning Threat to AI Agent Ecosystem,Unknown,,high,2026-03-07T05:51:42.617652+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3ha
+"U.S.-Controlled Crypto Stolen, Allegedly by Government Contractor's Son",Unknown,40000000,critical,2026-03-07T05:48:41.561647+00:00,,https://blockchain.watch/exploit/exploit-md9sr9
+Korean Authorities Lose Crypto After Posting Seed Phrase,Unknown,4900000,critical,2026-03-07T05:48:40.407649+00:00,,https://blockchain.watch/exploit/exploit-oeokx
+Contractor's Son Allegedly Stole $40 Million from US Government Crypto Wallets,Unknown,40000000,critical,2026-03-07T05:45:28.990694+00:00,,https://blockchain.watch/exploit/exploit-eb9d7h
+Korean Authorities Lose $4.9M Crypto After Posting Seed Phrase,Unknown,4900000,critical,2026-03-07T05:42:31.999003+00:00,,https://blockchain.watch/exploit/exploit-orxhf8
+Son of Government Contractor Allegedly Stole $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-07T05:36:44.619088+00:00,,https://blockchain.watch/exploit/exploit-as6n1l
+Korean Authorities' Crypto Wallets Drained After Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T05:30:56.839502+00:00,,https://blockchain.watch/exploit/exploit-ov1m5r
+"Korean Authorities' Seed Phrase Exposed, $4.9 Million Crypto Stolen",Unknown,4900000,high,2026-03-07T05:27:36.229936+00:00,,https://blockchain.watch/exploit/exploit-q8vnuz
+Hexagate Offers Real-Time Threat Detection for MegaETH Smart Contracts,Unknown,,high,2026-03-07T05:25:49.078383+00:00,MegaETH,https://blockchain.watch/exploit/exploit-ltwfgy
+South Korean Prosecutors Lose $22 Million BTC to Phishing Tool,Bitcoin,22000000,high,2026-03-07T05:21:27.742501+00:00,,https://blockchain.watch/exploit/exploit-x0upo4
+Korean Authorities' Seed Phrase Blunder Leads to $4.9M Crypto Theft,Unknown,4900000,critical,2026-03-07T05:20:44.511003+00:00,,https://blockchain.watch/exploit/exploit-bfhevt
+Aave Faces Governance Strife and Security Issues,Ethereum,,medium,2026-03-07T05:20:44.330384+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0u4
+Son of Government Crypto Contractor Allegedly Stole $40 Million from US Wallets,Unknown,40000000,critical,2026-03-07T05:15:40.692158+00:00,,https://blockchain.watch/exploit/exploit-zflhah
+"South Korean prosecutors lose $22M of seized crypto in phishing attack, later recovered",Bitcoin,22000000,critical,2026-03-07T05:15:39.829529+00:00,,https://blockchain.watch/exploit/exploit-ifve86
+South Korean Prosecutors Lose then Recover $22 Million in Seized Bitcoin via Phishing,Bitcoin,22000000,high,2026-03-07T05:15:36.581705+00:00,,https://blockchain.watch/exploit/exploit-fptkia
+"Ex-CFO Diverts Millions to Crypto Venture, Sentenced to Two Years",Unknown,35000000,high,2026-03-07T05:10:41.504871+00:00,DeFi investments,https://blockchain.watch/exploit/exploit-kj0j9u
+US Government Crypto Contractor's Son Allegedly Stole $40M,Unknown,40000000,critical,2026-03-07T05:10:41.323602+00:00,,https://blockchain.watch/exploit/exploit-uhbduu
+Korean Authorities Lose $4.9M in PRTG Tokens Due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T05:10:40.15711+00:00,,https://blockchain.watch/exploit/exploit-oh5tdn
+"Bithumb Accidentally Transfers $44 Billion in Bitcoin, Recovers Most",Bitcoin,44000000000,critical,2026-03-07T05:06:31.773027+00:00,,https://blockchain.watch/exploit/exploit-68cuw7
+South Korean Prosecutors Lose and Recover $22 Million Bitcoin,Bitcoin,22000000,high,2026-03-07T05:06:31.550519+00:00,,https://blockchain.watch/exploit/exploit-pajqlv
+OFAC Sanctions Iranian Individuals for SamSam Ransomware Scheme in Bitcoin,Bitcoin,,high,2026-03-07T05:05:36.623962+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-uph0b2
+South Korean Prosecutors Lose then Recover $22 Million in Stolen Crypto,Bitcoin,22000000,high,2026-03-07T05:03:39.672522+00:00,,https://blockchain.watch/exploit/exploit-wk7xw5
+CFO Imprisoned for Losing $35M Company Funds in DeFi Scheme,Unknown,35000000,critical,2026-03-07T05:00:55.500826+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6c8
+Saga Halts Blockchain After $7 Million Theft and Token Minting,Unknown,7000000,critical,2026-03-07T05:00:52.96192+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkn1
+Matcha Meta users suffer $13.43 million loss from SwapNet exploit.,Unknown,13430000,critical,2026-03-07T05:00:52.811233+00:00,Matcha Meta (via SwapNet),https://blockchain.watch/exploit/exploit-byyq26
+CrossCurve Users Exploited for $3 Million via Cross-Chain Message Spoofing,Unknown,3000000,critical,2026-03-07T05:00:52.265101+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o4200s
+South Korean Prosecutors Lose then Recover $22 Million in Seized Bitcoin,Bitcoin,22000000,critical,2026-03-07T05:00:51.760041+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynx9
+Step Finance Treasury Wallets Drained of $28.7 Million in SOL,Solana,28700000,critical,2026-03-07T05:00:51.364694+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgvh
+Crypto stolen from Korean authorities after public seed phrase post.,Unknown,4900000,high,2026-03-07T05:00:51.234378+00:00,Korean Authorities (via PRTG tokens),https://blockchain.watch/exploit/exploit-cc0c6t
+Crypto Stolen After Korean Authorities Post Wallet Seed Phrase,Unknown,4900000,high,2026-03-07T04:57:41.92503+00:00,,https://blockchain.watch/exploit/exploit-vm1pgc
+SamSam Ransomware BTC Addresses Sanctioned by OFAC in 2018,Bitcoin,,high,2026-03-07T04:55:42.822518+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-s3khjb
+Aave Faces Governance Strife and Security Exploits Amidst Bitcoin Recovery,Ethereum,,medium,2026-03-07T04:54:30.753388+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0u3
+"DeFi Faces Fresh Pressure from Aave Rift, Exploits and Security Moves",Unknown,,medium,2026-03-07T04:45:55.339425+00:00,,https://blockchain.watch/exploit/exploit-ayylhr
+Matcha Meta Users Suffer $13.43 Million Loss via SwapNet Exploit,Ethereum,13430000,critical,2026-03-07T04:42:37.962977+00:00,Matcha Meta (SwapNet),https://blockchain.watch/exploit/exploit-9n0z2c
+"Korean Authorities Expose Wallet Seed, Millions in Crypto Stolen",Unknown,4900000,critical,2026-03-07T04:42:36.807293+00:00,unknown,https://blockchain.watch/exploit/exploit-16cibi
+Son of Government Contractor Allegedly Stole $40M from US Crypto Wallets,Unknown,40000000,critical,2026-03-07T04:40:28.543955+00:00,,https://blockchain.watch/exploit/exploit-as6n1m
+Matcha Meta Users Lose $13.43M in SwapNet Exploit on Base Chain,Unknown,13430000,critical,2026-03-07T04:40:28.375927+00:00,SwapNet,https://blockchain.watch/exploit/exploit-20uji
+Korean Authorities Lose $4.9M in Crypto Due to Seed Phrase Leak,Unknown,4900000,high,2026-03-07T04:40:26.40502+00:00,,https://blockchain.watch/exploit/exploit-ru74hj
+Son of U.S. Federal Contractor Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T04:39:28.220853+00:00,,https://blockchain.watch/exploit/exploit-10uo3k
+South Korean Prosecutors Lose $22 Million Bitcoin in Phishing Attack,Bitcoin,22000000,critical,2026-03-07T04:35:45.325439+00:00,South Korean Prosecutors Asset Management,https://blockchain.watch/exploit/exploit-sewstu
+"Bithumb Accidentally Sends $44 Billion to Customers, $130 Million Unrecovered",Unknown,130000000,high,2026-03-07T04:33:45.297042+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddldp
+Korean Authorities' Crypto Wallet Seed Phrase Exposed in Photo,Unknown,4900000,critical,2026-03-07T04:30:57.599064+00:00,N/A,https://blockchain.watch/exploit/exploit-vfs6p5
+"Korean Authorities Expose Wallet Seed Phrase, $4.9 Million Crypto Stolen",Unknown,4900000,high,2026-03-07T04:27:39.935737+00:00,,https://blockchain.watch/exploit/exploit-l27jmz
+Alleged Government Crypto Contractor's Son Implicated in $40M Theft,Unknown,40000000,high,2026-03-07T04:25:55.550972+00:00,,https://blockchain.watch/exploit/exploit-jinkkk
+"South Korean Prosecutors Lose $22 Million in BTC to Phishing Tool, Then Recover",Bitcoin,22000000,critical,2026-03-07T04:24:29.014002+00:00,,https://blockchain.watch/exploit/exploit-x0upo5
+Thief of $40 million in US-controlled crypto linked to contractor's son,Unknown,40000000,critical,2026-03-07T04:21:43.160242+00:00,US government (wallet),https://blockchain.watch/exploit/exploit-5yo7y
+"South Korean prosecutors lose $22M Bitcoin to phishing tool, then recover",Bitcoin,22000000,critical,2026-03-07T04:21:42.444321+00:00,South Korean prosecutors (wallet),https://blockchain.watch/exploit/exploit-9parer
+Crypto stolen from Korean authorities after mistaken seed phrase exposure,Unknown,4900000,critical,2026-03-07T04:21:41.806566+00:00,Korean authorities (wallet),https://blockchain.watch/exploit/exploit-1sqf5i
+"Bithumb Accidentally Sends Customers $44 Billion, Recovers Most",Bitcoin,44000000000,critical,2026-03-07T04:20:44.613617+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amfj
+"$40M seized US crypto stolen, alleged government contractor's son",Unknown,40000000,critical,2026-03-07T04:18:33.213661+00:00,,https://blockchain.watch/exploit/exploit-y0mz1d
+Korean Authorities Exposed Seed Phrase Led to $4.9 Million PRTG Token Theft,Unknown,4900000,critical,2026-03-07T04:12:36.885359+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glseup
+South Korean Prosecutors Lose and Recover $22 Million in Seized Bitcoin,Bitcoin,22000000,high,2026-03-07T04:10:42.664903+00:00,,https://blockchain.watch/exploit/exploit-pajqlw
+Phishing Campaign Targets Token Vesting and Audit Confirmations,Unknown,,high,2026-03-07T04:10:41.715095+00:00,,https://blockchain.watch/exploit/exploit-yv55x2
+Malicious Skills Poisoning Threatens Open-Source AI Agent Project ClawHub,Unknown,,high,2026-03-07T04:10:41.488569+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidfsk
+Security Flaws Uncovered in Fingerprint Browser Industry Products,Unknown,,high,2026-03-07T04:09:38.560318+00:00,,https://blockchain.watch/exploit/exploit-c04le4
+"South Korean Prosecutors Lose $22 Million in Seized Crypto, Then Recover It",Unknown,22000000,high,2026-03-07T04:09:37.378723+00:00,,https://blockchain.watch/exploit/exploit-w8rluj
+"Korean Authorities Expose Wallet Seed, $4.9 Million Crypto Stolen",Unknown,4900000,critical,2026-03-07T04:06:41.98237+00:00,,https://blockchain.watch/exploit/exploit-kbrhan
+South Korean Prosecutors Lose then Recover $22 Million in BTC,Bitcoin,22000000,high,2026-03-07T04:05:31.704716+00:00,,https://blockchain.watch/exploit/exploit-wk7xw6
+Korean Authorities Lose $4.9 Million Crypto After Posting Seed Phrase,Unknown,4900000,critical,2026-03-07T04:05:31.09046+00:00,,https://blockchain.watch/exploit/exploit-7ckiff
+OpenClaw AI Agent Supply Chain Poisoning via Malicious Skills,Unknown,,high,2026-03-07T04:05:30.585577+00:00,OpenClaw Ecosystem (ClawHub),https://blockchain.watch/exploit/exploit-ym21ce
+$40M US government crypto stolen; contractor's son identified,Unknown,40000000,critical,2026-03-07T04:03:39.441985+00:00,,https://blockchain.watch/exploit/exploit-z8wdcg
+Saga Blockchain Halted After $7M Theft Via Token Minting Exploit,Ethereum,7000000,critical,2026-03-07T04:01:18.742078+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhs1
+South Korean Prosecutors Lose then Recover $22 Million in Bitcoin,Bitcoin,22000000,high,2026-03-07T04:01:17.742631+00:00,,https://blockchain.watch/exploit/exploit-fptkib
+Aperture Finance Users Lose At Least $3.4 Million Due to Smart Contract Bug,Unknown,3400000,high,2026-03-07T04:01:12.52922+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqeke6
+CrossCurve Users Exploited for $3 Million Via Cross-Chain Bridge Vulnerability,Unknown,3000000,critical,2026-03-07T04:01:12.194642+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o4200r
+"South Korean Prosecutors Lose $22M BTC to Phishing Tool, Then Recover",Unknown,22000000,critical,2026-03-07T04:01:11.853865+00:00,,https://blockchain.watch/exploit/exploit-nmgnno
+Crypto Stolen After Korean Authorities Expose Wallet Seed Phrase,Unknown,4900000,high,2026-03-07T04:01:11.388571+00:00,null,https://blockchain.watch/exploit/exploit-4zcsu5
+CFO Imprisoned for $35 Million Crypto Loss in DeFi Scheme,Unknown,35000000,high,2026-03-07T03:57:30.132137+00:00,,https://blockchain.watch/exploit/exploit-a8iobg
+Son of Government Crypto Contractor Allegedly Stole $40M from US Wallets,Unknown,40000000,critical,2026-03-07T03:57:29.858924+00:00,,https://blockchain.watch/exploit/exploit-zflh9u
+"Saga blockchain halted after $7 million theft, token peg lost",Ethereum,7000000,critical,2026-03-07T03:55:34.857852+00:00,,https://blockchain.watch/exploit/exploit-33lula
+Crypto contractor's son alleged to be behind $40 million government crypto theft,Unknown,40000000,critical,2026-03-07T03:54:42.994713+00:00,,https://blockchain.watch/exploit/exploit-j1c3eu
+$13.43 million stolen from Matcha Meta users in SwapNet exploit,Unknown,13430000,critical,2026-03-07T03:54:42.900587+00:00,SwapNet,https://blockchain.watch/exploit/exploit-20uk4
+Phishing Campaign Targets Token Vesting and Audit Confirmation,Unknown,,high,2026-03-07T03:45:27.099597+00:00,,https://blockchain.watch/exploit/exploit-yv55xo
+Malicious Skills Poisoning in OpenClaw's ClawHub Detected,Unknown,,high,2026-03-07T03:45:26.963969+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8dp
+Crypto Contractor's Son Allegedly Stole $40M from US Government Wallets,Unknown,40000000,high,2026-03-07T03:42:29.783522+00:00,,https://blockchain.watch/exploit/exploit-cn3kt7
+US government crypto contractor's son alleged to be $40 million thief,Unknown,40000000,critical,2026-03-07T03:40:42.559663+00:00,,https://blockchain.watch/exploit/exploit-uhbdu7
+"Bithumb Accidentally Gives Away $44 Billion, Recovers Most",Unknown,130000000,critical,2026-03-07T03:27:39.193047+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddld3
+CFO Imprisoned for $35M Loss in Terra Collapse Scheme,Unknown,35000000,high,2026-03-07T03:25:36.730951+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6bl
+CFO Imprisoned for Losing $35 Million in DeFi Side Hustle,Unknown,35000000,critical,2026-03-07T03:24:34.481615+00:00,,https://blockchain.watch/exploit/exploit-wvtk6u
+Matcha Meta users suffer $13.43 million loss in SwapNet exploit.,Unknown,13430000,critical,2026-03-07T03:24:34.004247+00:00,Matcha Meta (SwapNet Integration),https://blockchain.watch/exploit/exploit-xmq2dl
+Crypto stolen from Korean authorities due to exposed seed phrase.,Unknown,4900000,critical,2026-03-07T03:24:32.906888+00:00,Korean Authorities (via wallet),https://blockchain.watch/exploit/exploit-f4t0s6
+Son of US Government Contractor Allegedly Steals $40 Million in Crypto,Unknown,40000000,critical,2026-03-07T03:18:32.49902+00:00,,https://blockchain.watch/exploit/exploit-uha80
+Government contractor's son identified in $40M US crypto theft.,Unknown,40000000,critical,2026-03-07T03:15:44.880207+00:00,,https://blockchain.watch/exploit/exploit-admn62
+South Korean prosecutors lose and recover $22M seized crypto.,Bitcoin,22000000,critical,2026-03-07T03:15:43.9574+00:00,,https://blockchain.watch/exploit/exploit-pajqmi
+ClawHub Malicious Skills Poisoning Poses Supply Chain Risk,Unknown,,high,2026-03-07T03:10:30.134626+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidft6
+"South Korean Prosecutors Lose $22M in Seized Crypto, Later Recovered",Unknown,22000000,critical,2026-03-07T03:09:36.198899+00:00,,https://blockchain.watch/exploit/exploit-ypvn3t
+Saga Blockchain Halted After $7 Million Theft and Token Minting,Unknown,7000000,critical,2026-03-07T03:06:31.340727+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkno
+Bitcoin recovery amid DeFi exploits and Aave governance strife,Bitcoin,,medium,2026-03-07T03:03:29.889462+00:00,,https://blockchain.watch/exploit/exploit-wlibx2
+"Bithumb Accidentally Distributes $44 Billion in Bitcoin, $130 Million Unaccounted For",Bitcoin,130000000,high,2026-03-07T03:01:11.920535+00:00,,https://blockchain.watch/exploit/exploit-b75flm
+"South Korean prosecutors lose $22 million in Bitcoin to phishing tool, then recover it",Bitcoin,22000000,critical,2026-03-07T03:01:11.706824+00:00,,https://blockchain.watch/exploit/exploit-x0upor
+US Government-Controlled Crypto Stolen by Contractor's Son,Unknown,40000000,critical,2026-03-07T03:01:11.513787+00:00,,https://blockchain.watch/exploit/exploit-9493w5
+Korean Authorities' Seed Phrase Blunder Leads to Crypto Theft,Unknown,4900000,high,2026-03-07T03:01:11.233975+00:00,,https://blockchain.watch/exploit/exploit-bfhewg
+CrossCurve Users Lose $3 Million in Multi-Chain Bridge Exploit,Unknown,3000000,critical,2026-03-07T03:01:10.789082+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o42005
+"Bithumb Accidentally Gives Away $44 Billion in BTC, $130M Unaccounted",Bitcoin,44000000000,critical,2026-03-07T03:01:10.648583+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amex
+"Bithumb Accidentally Distributes $44 Billion to Customers, Recovers Most",Bitcoin,44000000000,high,2026-03-07T03:01:10.353729+00:00,,https://blockchain.watch/exploit/exploit-fptkix
+Step Finance Treasury Wallets Hacked for $28.7 Million in SOL,Solana,28700000,critical,2026-03-07T03:01:09.816093+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvguu
+Crypto Stolen from Korean Authorities After Wallet Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T03:01:09.624288+00:00,,https://blockchain.watch/exploit/exploit-l27jnl
+Aave Faces Governance Strife and Security Risks in DeFi Ecosystem,Ethereum,,medium,2026-03-07T03:01:09.473532+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0th
+Crypto stolen from Korean authorities after wallet seed phrase posted,Unknown,4900000,critical,2026-03-07T02:57:33.245168+00:00,,https://blockchain.watch/exploit/exploit-kyvy2v
+"CFO loses $35 million in crypto side hustle, jailed",Unknown,35000000,medium,2026-03-07T02:55:44.669541+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6bk
+Korean Authorities Lose $4.9M Crypto After Seed Phrase Exposure,Unknown,4900000,critical,2026-03-07T02:54:28.192595+00:00,,https://blockchain.watch/exploit/exploit-orxhek
+"Korean Authorities Expose Wallet Seed, Losing $4.9M in Crypto",Ethereum,4900000,critical,2026-03-07T02:51:38.140144+00:00,,https://blockchain.watch/exploit/exploit-lorspz
+Token Vesting Phishing Poisoning Attack Analysis,Unknown,,high,2026-03-07T02:51:37.63666+00:00,,https://blockchain.watch/exploit/exploit-80ob9a
+Government contractor's son implicated in $40 million seized crypto theft,Unknown,40000000,critical,2026-03-07T02:45:50.045663+00:00,,https://blockchain.watch/exploit/exploit-fwuxn8
+South Korean Prosecutors Lose then Recover $22M in Seized Bitcoin,Bitcoin,22000000,critical,2026-03-07T02:45:29.48696+00:00,,https://blockchain.watch/exploit/exploit-wk7xwt
+Malicious Skills Poisoning in ClawHub AI Agent Project,Unknown,,high,2026-03-07T02:45:28.633793+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-4ats03
+Unspecified DeFi Exploits Amidst Bitcoin Recovery and Aave Tensions,Unknown,,high,2026-03-07T02:39:37.812682+00:00,DeFi Protocols,https://blockchain.watch/exploit/exploit-s9mqm9
+BIP 54 Proposed: Fixing Bugs in Bitcoin's Core Consensus Protocol,Bitcoin,,high,2026-03-07T02:33:38.411298+00:00,Bitcoin Core,https://blockchain.watch/exploit/exploit-d5qfya
+Government Contractor's Son Allegedly Stole $40M from US Seized Crypto,Unknown,40000000,critical,2026-03-07T02:24:28.177539+00:00,,https://blockchain.watch/exploit/exploit-ve3fws
+Korean Authorities lose $4.9 million in crypto due to exposed seed phrase.,Unknown,4900000,critical,2026-03-07T02:20:45.177362+00:00,,https://blockchain.watch/exploit/exploit-7ckig2
+Truebit Protocol Exploited for $26.44 Million Due to Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T02:20:44.991164+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-ki2lsm
+$26.44 Million Stolen from Truebit Protocol due to Smart Contract Vulnerability,Ethereum,26440000,critical,2026-03-07T02:18:28.610985+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-c26drf
+ClawHub Suffers Malicious Skills Poisoning Attack,Unknown,,high,2026-03-07T02:18:28.314303+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidft7
+Saga Halts Blockchain After $7 Million Minting Exploit,Ethereum,7000000,critical,2026-03-07T02:15:44.166584+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhre
+Government Crypto Contractor's Son Allegedly Stole $40M from US Wallets,Unknown,40000000,critical,2026-03-07T02:15:38.335618+00:00,US Government Wallets,https://blockchain.watch/exploit/exploit-xg7usq
+"South Korean prosecutors lose $22M BTC to phishing tool, later recovered",Bitcoin,22000000,high,2026-03-07T02:15:37.59057+00:00,unknown,https://blockchain.watch/exploit/exploit-kokipp
+ClawHub Malicious Skills Poisoning Threat Intelligence Analysis,Unknown,,high,2026-03-07T02:12:31.583004+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3gm
+$40 Million in Seized US Government Crypto Allegedly Stolen,Unknown,40000000,critical,2026-03-07T02:10:44.616589+00:00,,https://blockchain.watch/exploit/exploit-9bbr4m
+"Korean Authorities Expose Wallet Seed Phrase, $4.9 Million Stolen",Unknown,4900000,critical,2026-03-07T02:10:43.410661+00:00,,https://blockchain.watch/exploit/exploit-kbrhba
+"Bithumb accidentally gives away $44 billion to customers, $130M unrecovered",Bitcoin,130000000,critical,2026-03-07T02:09:50.21124+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amew
+South Korean prosecutors lose $22M Bitcoin to phishing tool.,Bitcoin,22000000,critical,2026-03-07T02:09:50.004581+00:00,,https://blockchain.watch/exploit/exploit-pbhl23
+Crypto contractor's son alleged to be $40M US government crypto thief,Unknown,40000000,critical,2026-03-07T02:06:47.161875+00:00,,https://blockchain.watch/exploit/exploit-j1c3ev
+"South Korean Prosecutors Lose $22 Million to Phishing Tool, Later Recovered",Bitcoin,22000000,high,2026-03-07T02:06:46.271725+00:00,,https://blockchain.watch/exploit/exploit-x0upos
+Government crypto contractor's son alleged to be $40M US-controlled crypto thief,Unknown,40000000,critical,2026-03-07T02:05:30.016754+00:00,,https://blockchain.watch/exploit/exploit-59nood
+"Korean Authorities Expose Wallet Seed, Losing $4.9M in PRTG Tokens",Unknown,4900000,critical,2026-03-07T02:03:41.698727+00:00,null,https://blockchain.watch/exploit/exploit-4zcsus
+Human trafficking crypto funding increases 85% year-over-year,Unknown,,high,2026-03-07T02:00:54.975652+00:00,,https://blockchain.watch/exploit/exploit-rkg4u5
+Cryptocurrency flows to human trafficking services surge 85%,Unknown,,high,2026-03-07T02:00:54.829041+00:00,,https://blockchain.watch/exploit/exploit-lbud2n
+OFAC identifies crypto addresses in sanctions evasion efforts,Unknown,,high,2026-03-07T02:00:54.610698+00:00,,https://blockchain.watch/exploit/exploit-mmxow6
+Darknet market activity reaches $2.6 billion in 2025,Unknown,,high,2026-03-07T02:00:54.454844+00:00,,https://blockchain.watch/exploit/exploit-jvt1oi
+State-driven sanctions evasion accounts for 694% surge in crypto crime,Unknown,,high,2026-03-07T02:00:54.22143+00:00,,https://blockchain.watch/exploit/exploit-vbbfce
+Saga Blockchain Halted After $7 Million Theft of Saga Dollar Tokens,Unknown,7000000,critical,2026-03-07T02:00:53.41664+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknp
+CrossCurve users exploited for $3 million via smart contract bug,Unknown,3000000,critical,2026-03-07T02:00:52.645455+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o42004
+Bithumb Accidentally Sends $44 Billion in BTC to Customers,Unknown,130000000,critical,2026-03-07T02:00:52.532271+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddld2
+South Korean Prosecutors Lose $22 Million Bitcoin to Phishing Tool,Unknown,22000000,critical,2026-03-07T02:00:52.285745+00:00,,https://blockchain.watch/exploit/exploit-w8rltw
+YieldBlox Lending Pool Drained of $10.2M via Oracle Attack,Solana,10200000,high,2026-03-07T02:00:52.039761+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-aepxsz
+"Korean Authorities Expose Wallet Seed, $4.9 Million PRTG Stolen",Unknown,4900000,critical,2026-03-07T02:00:51.797249+00:00,PRTG,https://blockchain.watch/exploit/exploit-l27jnm
+$40 million seized US government crypto stolen,Unknown,40000000,critical,2026-03-07T01:57:38.556339+00:00,,https://blockchain.watch/exploit/exploit-qpnlop
+Security Risks Found in Fingerprint Browser Industry,Unknown,,high,2026-03-07T01:54:32.914288+00:00,,https://blockchain.watch/exploit/exploit-gjjndf
+Cryptocurrency Flows to Human Trafficking Services Surge 85% in 2025,Unknown,500000000,high,2026-03-07T01:51:45.768547+00:00,,https://blockchain.watch/exploit/exploit-61hf56
+Crypto Flows to Human Trafficking Services Surge 85% in 2025,Unknown,500000000,high,2026-03-07T01:51:45.650041+00:00,,https://blockchain.watch/exploit/exploit-r7j77j
+Saga Halts Blockchain After $7 Million Theft,Ethereum,7000000,critical,2026-03-07T01:39:38.842024+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhrd
+Ransomware Payments Stagnate While Attacks Escalate Despite Campaigns,Unknown,820000000,high,2026-03-07T01:35:37.340544+00:00,,https://blockchain.watch/exploit/exploit-s4zpr
+Token Vesting Phishing Poisoning Analysis by SlowMist and Chainbase,Unknown,,high,2026-03-07T01:35:36.778943+00:00,,https://blockchain.watch/exploit/exploit-80ob99
+Phishing Campaign Targets macOS Users with Token Vesting Deception,Unknown,,high,2026-03-07T01:33:46.672758+00:00,,https://blockchain.watch/exploit/exploit-perpgb
+Bithumb accidentally gives away $44B; $130M remains unrecovered.,Bitcoin,130000000,critical,2026-03-07T01:30:47.540795+00:00,,https://blockchain.watch/exploit/exploit-xrff0m
+Son of Government Contractor Alleged to Steal $40M from US Crypto Wallets,Unknown,40000000,critical,2026-03-07T01:27:33.136047+00:00,,https://blockchain.watch/exploit/exploit-as6n2a
+"South Korean Prosecutors Lose $22 Million BTC to Phishing Tool, Then Recover",Bitcoin,22000000,critical,2026-03-07T01:27:32.320503+00:00,,https://blockchain.watch/exploit/exploit-fptkiz
+Son of government contractor tied to $40 million crypto theft,Unknown,40000000,critical,2026-03-07T01:25:41.698927+00:00,,https://blockchain.watch/exploit/exploit-8s362p
+Matcha Meta users lose $13.43 million in SwapNet exploit,Ethereum,13430000,critical,2026-03-07T01:25:41.538721+00:00,Matcha Meta,https://blockchain.watch/exploit/exploit-bi01ao
+"Korean authorities expose crypto wallet seed phrase, losing $4.9M",Unknown,4900000,medium,2026-03-07T01:24:38.092272+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsevd
+CFO loses $35 million in company funds in DeFi crypto side hustle,Unknown,35000000,critical,2026-03-07T01:21:38.526309+00:00,,https://blockchain.watch/exploit/exploit-gqw454
+BlockFills halts withdrawals amid liquidity crisis,Unknown,,high,2026-03-07T01:21:38.366923+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4edr
+CFO loses $35 million in Terra collapse from company funds,Unknown,35000000,high,2026-03-07T01:20:56.226034+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6bj
+Truebit Protocol Smart Contract Vulnerability Led to $26.44 Million Loss,Ethereum,26440000,critical,2026-03-07T01:18:25.020359+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-z6cdwb
+ClawHub Malicious Skills Poisoning Threat Intelligence by SlowMist,Unknown,,high,2026-03-07T01:18:24.709065+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3gl
+US government crypto contractor's son tied to $40 million theft,Unknown,40000000,critical,2026-03-07T01:12:33.09728+00:00,,https://blockchain.watch/exploit/exploit-uhbdu5
+Matcha Meta Users Lose $13.43M in SwapNet Integration Exploit,Unknown,13430000,critical,2026-03-07T01:09:25.602977+00:00,Matcha Meta,https://blockchain.watch/exploit/exploit-x2ozf3
+"Korean Authorities Expose Seed Phrase, Leading to $4.9M Crypto Theft",Unknown,4900000,high,2026-03-07T01:09:24.254122+00:00,unknown,https://blockchain.watch/exploit/exploit-16cic6
+South Korean Prosecutors Lose and Recover $22M Seized Bitcoin to Phishing,Bitcoin,22000000,high,2026-03-07T01:06:33.771338+00:00,null,https://blockchain.watch/exploit/exploit-484fb
+Korean authorities expose wallet seed phrase; $4.9M PRTG stolen.,Unknown,4900000,critical,2026-03-07T01:06:33.272603+00:00,null,https://blockchain.watch/exploit/exploit-4zcsut
+Crypto Flows to Suspected Human Trafficking Services Surge 85%,Unknown,,critical,2026-03-07T01:05:46.107109+00:00,,https://blockchain.watch/exploit/exploit-mnhnk3
+Crypto Crime Surges 694% in 2025 due to Sanctions Evasion,Unknown,,critical,2026-03-07T01:05:45.958164+00:00,,https://blockchain.watch/exploit/exploit-krhvpr
+"Korean Authorities Expose Wallet Seed, Losing $4.9M in PRTG",Unknown,4900000,critical,2026-03-07T01:05:43.71416+00:00,Korean authorities' seized wallet,https://blockchain.watch/exploit/exploit-scevt0
+Chainalysis Hexagate Provides Real-Time Threat Detection for MegaETH,Unknown,,low,2026-03-07T01:03:44.433895+00:00,MegaETH,https://blockchain.watch/exploit/exploit-5uawd1
+"ClawHub Suffers Malicious Skills Poisoning Attack, Distributing Malware",Unknown,,high,2026-03-07T01:03:42.503225+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidft8
+Saga blockchain halted after $7 million Saga Dollar theft,Unknown,7000000,critical,2026-03-07T01:01:11.426329+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknq
+South Korean prosecutors lose $22M in Bitcoin to phishing tool,Bitcoin,22000000,critical,2026-03-07T01:01:10.539974+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynwk
+Moonwell lending protocol suffers $1.78M loss due to oracle misconfiguration,Unknown,1780000,high,2026-03-07T01:01:10.510383+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e2617n
+South Korean prosecutors lose $22M crypto to phishing tool,Unknown,22000000,high,2026-03-07T01:01:10.376465+00:00,,https://blockchain.watch/exploit/exploit-w8rltv
+Step Finance treasury wallets drained of $29 million SOL,Solana,28700000,critical,2026-03-07T01:01:09.756027+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgus
+"Bithumb Accidentally Gives Away $44 Billion in BTC, $130 Million Unaccounted For",Bitcoin,130000000,critical,2026-03-07T00:57:28.24281+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8ameu
+CFO Imprisoned for Losing USD$35M in Crypto Side Hustle,Unknown,35000000,critical,2026-03-07T00:55:37.950569+00:00,,https://blockchain.watch/exploit/exploit-vy9vcv
+"Korean authorities expose wallet seed phrase, $4.9M crypto stolen",Unknown,4900000,high,2026-03-07T00:55:35.804323+00:00,Korean Authorities (wallet),https://blockchain.watch/exploit/exploit-1sqf4t
+Token Vesting Phishing Poisoning Analysis by SlowMist,Unknown,,high,2026-03-07T00:51:41.597434+00:00,,https://blockchain.watch/exploit/exploit-80ob98
+CFO Imprisoned for $35 Million Loss in Crypto Side Hustle,Unknown,35000000,medium,2026-03-07T00:45:36.449626+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6bi
+$40 Million in Seized US Government Crypto Stolen,Unknown,40000000,critical,2026-03-07T00:45:35.411246+00:00,,https://blockchain.watch/exploit/exploit-9bbr4k
+South Korean Prosecutors Lose then Recover $22M Seized Crypto to Phishing,Unknown,22000000,critical,2026-03-07T00:45:35.304795+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-6s8r9
+Malicious Skills Poisoning in OpenClaw's ClawHub Detected by SlowMist,Unknown,,high,2026-03-07T00:39:34.504803+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8dm
+OpenClaw AI agent project target of supply chain poisoning attack,Unknown,,high,2026-03-07T00:36:47.135245+00:00,OpenClaw,https://blockchain.watch/exploit/exploit-d5uzbc
+BlockFills Crypto Lender Halts Withdrawals Citing Market Conditions,Unknown,,high,2026-03-07T00:33:38.865092+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4edq
+Allegations Link Government Crypto Contractor's Son to $40M Theft,Unknown,40000000,critical,2026-03-07T00:33:38.414339+00:00,,https://blockchain.watch/exploit/exploit-bsq9ht
+Fingerprint Browser Security Risks Exposed by SlowMist,Unknown,,high,2026-03-07T00:27:31.601666+00:00,Fingerprint Browsers,https://blockchain.watch/exploit/exploit-c26ytw
+Korean authorities lose $4.9M in crypto after exposing seed phrase,Unknown,4900000,critical,2026-03-07T00:27:30.488566+00:00,,https://blockchain.watch/exploit/exploit-ru74i8
+DeFi Exploits and Aave Rift Highlight Security Concerns,Ethereum,,high,2026-03-07T00:25:41.102914+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0te
+"Korean Authorities Exposed Wallet Seed Phrase, Crypto Stolen",Unknown,4900000,critical,2026-03-07T00:24:36.679716+00:00,,https://blockchain.watch/exploit/exploit-xefu2d
+Son of Government Contractor Alleged to Have Stolen Millions in Seized Crypto,Unknown,40000000,critical,2026-03-07T00:21:48.03095+00:00,,https://blockchain.watch/exploit/exploit-as6n2b
+"Korean Authorities Expose Wallet Seed, Leading to $4.9M Crypto Theft",Unknown,4900000,critical,2026-03-07T00:20:34.82557+00:00,Korean authorities (seized crypto),https://blockchain.watch/exploit/exploit-mjooj
+"Saga blockchain halted after $7 million exploit, SDO depegged",Unknown,7000000,critical,2026-03-07T00:18:45.625844+00:00,,https://blockchain.watch/exploit/exploit-cbsz6m
+Matcha Meta users lose $13.43M in SwapNet exploit on Base blockchain,Unknown,13430000,high,2026-03-07T00:18:45.339218+00:00,,https://blockchain.watch/exploit/exploit-gmgu1j
+Saga blockchain halted after $7 million Saga Dollar token theft,Unknown,7000000,critical,2026-03-07T00:15:40.884137+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknr
+Government Crypto Contractor's Son Allegedly Stole $40M Seized Crypto,Unknown,40000000,critical,2026-03-07T00:15:40.725652+00:00,,https://blockchain.watch/exploit/exploit-59noob
+Bithumb Accidentally Transfers $44 Billion in BTC to Customers,Bitcoin,130000000,high,2026-03-07T00:10:36.269549+00:00,,https://blockchain.watch/exploit/exploit-fptkj0
+"Truebit Protocol Smart Contract Vulnerability Exploited, $26.44 Million Stolen",Ethereum,26440000,critical,2026-03-07T00:10:35.29037+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-c26drh
+"Ex-CFO Diverts $35M to Crypto Venture, Sentenced Two Years",Unknown,35000000,high,2026-03-07T00:09:41.724402+00:00,,https://blockchain.watch/exploit/exploit-29cxk2
+Bithumb Accidentally Transfers $44 Billion in BTC; $130M Unaccounted For,Bitcoin,44000000000,critical,2026-03-07T00:09:40.720116+00:00,,https://blockchain.watch/exploit/exploit-68cuvh
+South Korean Prosecutors Lose then Recover $22M Bitcoin to Phishing,Bitcoin,22000000,critical,2026-03-07T00:06:27.549155+00:00,,https://blockchain.watch/exploit/exploit-wk7xwv
+Korean authorities lose $4.9M crypto due to exposed seed phrase,Unknown,4900000,critical,2026-03-07T00:06:26.911472+00:00,,https://blockchain.watch/exploit/exploit-orxhei
+Korean authorities lose crypto after posting wallet seed phrase,Unknown,4900000,critical,2026-03-07T00:05:41.851383+00:00,,https://blockchain.watch/exploit/exploit-oeoln
+South Korean prosecutors lose and recover $22 million Bitcoin to phishing tool,Bitcoin,22000000,critical,2026-03-07T00:03:32.904254+00:00,,https://blockchain.watch/exploit/exploit-pajqml
+Government contractor's son tied to $40 million crypto theft,Unknown,40000000,critical,2026-03-07T00:01:49.833614+00:00,,https://blockchain.watch/exploit/exploit-y1g7dv
+"Aave encounters governance strife, exploits and security moves",Unknown,,high,2026-03-07T00:01:47.588345+00:00,Aave,https://blockchain.watch/exploit/exploit-k6vhyb
+Step Finance Treasury Wallets Drained of $28.7 Million SOL,Solana,28700000,critical,2026-03-07T00:01:29.857421+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgur
+Government Contractor's Son Allegedly Stole $40M from US Crypto Wallets,Unknown,40000000,critical,2026-03-06T23:55:31.789511+00:00,US Government Seized Crypto Wallets,https://blockchain.watch/exploit/exploit-5m6323
+Crypto lender BlockFills halts withdrawals amid restructuring and lawsuit concerns.,Unknown,,high,2026-03-06T23:51:27.869582+00:00,,https://blockchain.watch/exploit/exploit-ljxrnw
+Supply Chain Poisoning Attacks on OpenClaw's ClawHub Detected by SlowMist,Unknown,,high,2026-03-06T23:51:25.972139+00:00,OpenClaw (ClawHub),https://blockchain.watch/exploit/exploit-ddm8dl
+Malicious Skills Poisoning in OpenClaw's ClawHub,Unknown,,high,2026-03-06T23:48:39.954405+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-o7foez
+$10.2M Drained from YieldBlox Lending Pool via Oracle Manipulation,Ethereum,10200000,critical,2026-03-06T23:45:43.168893+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-8xk4j1
+South Korean Prosecutors Lose then Recover $22 Million in Seized Crypto,Bitcoin,22000000,high,2026-03-06T23:42:34.972151+00:00,,https://blockchain.watch/exploit/exploit-wk7xww
+"South Korean Prosecutors Fall Victim to Phishing, Lose $22M BTC",Bitcoin,22000000,critical,2026-03-06T23:39:42.294943+00:00,,https://blockchain.watch/exploit/exploit-cmbcxp
+Korean Authorities Lose $4.9M Crypto Due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T23:39:41.844993+00:00,unknown,https://blockchain.watch/exploit/exploit-16cic8
+Token Vesting Phishing Campaign Targets macOS with Malicious Attachments,Unknown,,high,2026-03-06T23:39:41.377974+00:00,,https://blockchain.watch/exploit/exploit-h3pxkg
+Fingerprint Browsers Pose Significant Security Risks to Users,Unknown,,high,2026-03-06T23:35:48.113215+00:00,,https://blockchain.watch/exploit/exploit-hezmi5
+"$40M seized US-controlled crypto stolen, attributed to contractor's son",Unknown,40000000,critical,2026-03-06T23:35:47.567991+00:00,,https://blockchain.watch/exploit/exploit-5a4k9q
+"Bithumb Accidentally Sends $44 Billion in BTC, Recovers Most",Unknown,130000000,critical,2026-03-06T23:33:44.451059+00:00,,https://blockchain.watch/exploit/exploit-okw7ak
+South Korean prosecutors lose $22 million of seized crypto due to phishing tool,Unknown,22000000,critical,2026-03-06T23:30:46.879472+00:00,,https://blockchain.watch/exploit/exploit-ypvn3x
+"South Korean Prosecutors Lose $22 Million BTC to Phishing Tool, Then Recover It",Unknown,22000000,high,2026-03-06T23:30:45.854525+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-6s8r8
+"Korean Authorities Expose Wallet Seed, Resulting in Crypto Theft",Unknown,4900000,high,2026-03-06T23:30:45.286062+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsevf
+US Government Crypto Contractor's Son Allegedly Stole $40 Million from Seized Wallets,Unknown,40000000,critical,2026-03-06T23:27:38.653399+00:00,US Government,https://blockchain.watch/exploit/exploit-wfhgtd
+South Korean Prosecutors Lose $22M Seized Bitcoin to Phishing Tool,Bitcoin,22000000,high,2026-03-06T23:24:43.492043+00:00,,https://blockchain.watch/exploit/exploit-5ea3hj
+"South Korean Prosecutors Lose $22M Crypto to Phishing Tool, Then Recover It",Unknown,22000000,critical,2026-03-06T23:21:41.679986+00:00,,https://blockchain.watch/exploit/exploit-f5hp13
+"Korean authorities expose wallet seed, $4.9M PRTG stolen",Unknown,4900000,critical,2026-03-06T23:21:41.188599+00:00,,https://blockchain.watch/exploit/exploit-kbrhbd
+Chainalysis Hexagate Offers Real-Time Threat Detection for MegaETH Ecosystem,Unknown,,high,2026-03-06T23:18:36.083503+00:00,MegaETH,https://blockchain.watch/exploit/exploit-5uawd3
+$40 million stolen from US government crypto wallets by contractor's son,Unknown,40000000,critical,2026-03-06T23:18:35.511622+00:00,,https://blockchain.watch/exploit/exploit-1rwkbw
+"Korean authorities expose crypto wallet seed phrase, losing $4.9 million PRTG",Unknown,4900000,high,2026-03-06T23:18:34.129215+00:00,,https://blockchain.watch/exploit/exploit-cd27dn
+OFAC Sanctions Iranian Bitcoin Addresses for Ransomware Scheme,Bitcoin,,high,2026-03-06T23:15:51.292812+00:00,,https://blockchain.watch/exploit/exploit-fze29w
+US Government Crypto Contractor's Son Allegedly Steals $40 Million,Unknown,40000000,critical,2026-03-06T23:15:50.797308+00:00,,https://blockchain.watch/exploit/exploit-uhbdu3
+Korean Authorities Lost $4.9M After Posting Wallet Seed Phrase,Unknown,4900000,critical,2026-03-06T23:12:26.051507+00:00,,https://blockchain.watch/exploit/exploit-tt1met
+Token Vesting Phishing Poisoning Campaign Targets macOS Users,Unknown,,high,2026-03-06T23:12:25.548974+00:00,,https://blockchain.watch/exploit/exploit-ck9d4p
+Government crypto contractor's son alleged to be $40 million crypto thief.,Unknown,40000000,critical,2026-03-06T23:06:36.782683+00:00,,https://blockchain.watch/exploit/exploit-59nooa
+Saga Blockchain Halted After $7 Million Dollar Token Theft,Unknown,7000000,high,2026-03-06T23:05:35.745782+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkns
+Son of Government Contractor Allegedly Stole $40M from Seized Crypto,Unknown,40000000,critical,2026-03-06T23:05:35.64565+00:00,,https://blockchain.watch/exploit/exploit-as6n2c
+CrossCurve Users Exploited for $3 Million in Cross-Chain Vulnerability,Unknown,3000000,high,2026-03-06T23:05:35.185427+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o42001
+"Korean Authorities Expose Wallet Seed Phrase, $4.9M in PRTG Stolen",Unknown,4900000,critical,2026-03-06T23:05:34.441529+00:00,null,https://blockchain.watch/exploit/exploit-4zcsuv
+Truebit Protocol loses $26.44 million due to smart contract vulnerability,Unknown,26440000,critical,2026-03-06T23:03:38.471633+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-6bas1u
+Fingerprint Browser Industry Poses Security Risks for Crypto Users,Unknown,,high,2026-03-06T23:01:12.40644+00:00,,https://blockchain.watch/exploit/exploit-av31x8
+"Korean Authorities Expose Wallet Seed, Losing $4.9M PRTG Tokens",Unknown,4900000,high,2026-03-06T23:01:11.410469+00:00,,https://blockchain.watch/exploit/exploit-l27jnp
+"Bithumb accidentally gives away $44 billion, $130 million unaccounted for",Bitcoin,130000000,critical,2026-03-06T23:01:09.099271+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8amet
+South Korean prosecutors lose and recover $22 million in seized crypto.,Bitcoin,22000000,high,2026-03-06T23:01:08.857801+00:00,,https://blockchain.watch/exploit/exploit-pajqmm
+Korean Authorities lose $4.9 Million Crypto due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T23:01:08.310057+00:00,,https://blockchain.watch/exploit/exploit-7ckig5
+ClawHub Malicious Skills Poisoning: Supply Chain Attack on Open-Source AI Agent,Unknown,,high,2026-03-06T23:01:07.710222+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3gj
+"$40 million stolen from US government crypto wallets, contractor's son identified",Unknown,40000000,critical,2026-03-06T22:54:44.045055+00:00,,https://blockchain.watch/exploit/exploit-1rwkbv
+CFO loses $35 million in crypto in DeFi side hustle,Unknown,35000000,high,2026-03-06T22:50:41.76747+00:00,Terra,https://blockchain.watch/exploit/exploit-qmc6bg
+Crypto stolen from Korean authorities after posting wallet seed phrase.,Unknown,4900000,high,2026-03-06T22:50:39.927739+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsevg
+Saga blockchain halted after $7M theft of Saga Dollar tokens.,Unknown,7000000,critical,2026-03-06T22:48:33.369327+00:00,Saga Dollar,https://blockchain.watch/exploit/exploit-bjcxbf
+Korean Authorities' blunder leads to $4.9M crypto theft.,Unknown,4900000,critical,2026-03-06T22:48:31.836985+00:00,PRTG (unknown protocol),https://blockchain.watch/exploit/exploit-8zc4p0
+US government crypto contractor's son implicated in $40 million theft.,Unknown,40000000,critical,2026-03-06T22:40:57.665072+00:00,US Government Wallets,https://blockchain.watch/exploit/exploit-xg7usm
+Matcha Meta users lose $13.43M in SwapNet exploit,Unknown,13430000,critical,2026-03-06T22:40:57.568897+00:00,Matcha Meta (via SwapNet),https://blockchain.watch/exploit/exploit-byyq1e
+Fingerprint Browser Industry Has Significant Security Vulnerabilities,Unknown,,high,2026-03-06T22:39:43.097469+00:00,,https://blockchain.watch/exploit/exploit-wu4o6g
+Government contractor's son tied to $40M US crypto theft.,Unknown,40000000,critical,2026-03-06T22:39:42.714503+00:00,,https://blockchain.watch/exploit/exploit-y1g7dx
+Saga blockchain halted after $7M Saga Dollar token theft,Ethereum,7000000,critical,2026-03-06T22:35:47.783322+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhra
+Crypto contractor's son alleged to be thief of $40M US government crypto.,Unknown,40000000,critical,2026-03-06T22:25:33.849297+00:00,,https://blockchain.watch/exploit/exploit-j1c3ez
+OpenClaw AI Agent Ecosystem Vulnerable to Malicious Skills Poisoning,Unknown,,high,2026-03-06T22:21:36.393475+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8dk
+"Bithumb Accidentally Sends $44 Billion in Bitcoin, Recovers 99.7%",Unknown,44000000000,critical,2026-03-06T22:18:32.890721+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddlcy
+Korean Authorities Lose $4.9M Crypto After Posting Wallet Seed Phrase,Unknown,4900000,critical,2026-03-06T22:15:35.419988+00:00,,https://blockchain.watch/exploit/exploit-orxheg
+BlockFills Crypto Lender Halts Withdrawals and Deposits,Unknown,,high,2026-03-06T22:06:43.326398+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4edo
+Government crypto contractor's son tied to $40M seized crypto theft,Unknown,40000000,critical,2026-03-06T22:06:42.914581+00:00,,https://blockchain.watch/exploit/exploit-59noo9
+Matcha Meta Users Lose $13.43 Million in SwapNet Integration Exploit,Unknown,13430000,critical,2026-03-06T22:06:42.723516+00:00,Matcha Meta / SwapNet,https://blockchain.watch/exploit/exploit-3nz954
+"Bithumb Accidentally Airdrops $44 Billion, Recovers Most Funds",Bitcoin,44000000000,critical,2026-03-06T22:06:42.036718+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8ames
+"OFAC sanctions Iranian individuals for SamSam ransomware, identifies Bitcoin addresses.",Bitcoin,,high,2026-03-06T22:05:46.265129+00:00,SamSam ransomware,https://blockchain.watch/exploit/exploit-s3khik
+Government contractor's son alleged to be thief of $40M US-controlled crypto,Unknown,40000000,medium,2026-03-06T22:05:45.630792+00:00,,https://blockchain.watch/exploit/exploit-ve3fwo
+Aperture Finance users lose $3.4M through smart contract bug,Unknown,3400000,critical,2026-03-06T22:05:45.293278+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekex
+CrossCurve users exploited for $3M via smart contract bug,Unknown,3000000,critical,2026-03-06T22:05:44.928228+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o42000
+"Korean Authorities Expose Wallet Seed Phrase, Resulting in Crypto Theft",Unknown,4900000,high,2026-03-06T22:05:43.122252+00:00,unknown,https://blockchain.watch/exploit/exploit-16cic9
+South Korean Prosecutors Lose then Recover $22 Million in Phishing Attack,Unknown,22000000,critical,2026-03-06T22:01:10.647938+00:00,,https://blockchain.watch/exploit/exploit-w8rlts
+Truebit Protocol Suffers $26.44 Million Loss Due to Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-06T22:01:09.590254+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-ki2lsi
+Token Vesting Phishing Campaign Targets macOS Users with Malicious Attachments,Unknown,,high,2026-03-06T22:01:09.371262+00:00,,https://blockchain.watch/exploit/exploit-h3pxkf
+ClawHub Malicious Skills Poisoning Threat Analysis by SlowMist,Unknown,,high,2026-03-06T22:01:09.209812+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidftb
+OpenClaw Security Practice Guide for High-Privilege AI Agents,Unknown,,high,2026-03-06T22:01:09.069991+00:00,OpenClaw,https://blockchain.watch/exploit/exploit-d5uzba
+Moonwell lending protocol loses $1.78M in oracle misconfiguration,Unknown,1780000,high,2026-03-06T22:01:07.131411+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e2617k
+Step Finance treasury wallets drained of $29M SOL,Solana,28700000,critical,2026-03-06T22:01:06.443998+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgup
+"Truebit Protocol Attacked, $26.44 Million Stolen via Smart Contract Vulnerability",Ethereum,26440000,critical,2026-03-06T22:01:06.095917+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-c26drj
+ClawHub Malicious Skills Poisoning on OpenClaw AI Agent Project,Unknown,,high,2026-03-06T22:01:05.740766+00:00,OpenClaw AI Agent Project,https://blockchain.watch/exploit/exploit-w805um
+Government contractor son alleged to steal $40M from US crypto wallets,Unknown,40000000,critical,2026-03-06T21:54:56.129727+00:00,,https://blockchain.watch/exploit/exploit-chkup4
+"Darknet Market Activity Remains Resilient, $2.6 Billion in 2025",Unknown,,high,2026-03-06T21:51:01.763561+00:00,,https://blockchain.watch/exploit/exploit-mzeid4
+Crypto Crime in 2025 Driven by 694% Sanctions Evasion Surge,Unknown,,critical,2026-03-06T21:51:01.278769+00:00,,https://blockchain.watch/exploit/exploit-x6t2lf
+Government Crypto Contractor's Son Alleged Thief of $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-06T21:51:00.380701+00:00,US Government,https://blockchain.watch/exploit/exploit-wfhgtb
+"South Korean Prosecutors Lose $22 Million to Phishing Tool, Then Recover",Unknown,22000000,high,2026-03-06T21:45:42.295494+00:00,,https://blockchain.watch/exploit/exploit-ypvn3z
+Saga halts blockchain after $7 million theft of Saga Dollar tokens,Unknown,7000000,critical,2026-03-06T21:40:54.822845+00:00,,https://blockchain.watch/exploit/exploit-bjcxbe
+"Korean Authorities Expose Wallet Seed, Losing $4.9M PRTG",Unknown,4900000,critical,2026-03-06T21:40:52.304898+00:00,null,https://blockchain.watch/exploit/exploit-4zcsux
+South Korean Prosecutors Lose and Recover $22 Million in Bitcoin from Phishing,Bitcoin,22000000,high,2026-03-06T21:39:33.484067+00:00,N/A - South Korean Prosecutors (wallet checking tool),https://blockchain.watch/exploit/exploit-hj3e3w
+Korean Authorities lose $4.9 Million in PRTG Tokens via Seed Phrase Exposure,Unknown,4900000,high,2026-03-06T21:39:32.856016+00:00,N/A - Korean Authorities,https://blockchain.watch/exploit/exploit-wlihly
+BlockFills halts withdrawals and explores restructuring amid lawsuit,Unknown,,high,2026-03-06T21:36:35.721633+00:00,BlockFills,https://blockchain.watch/exploit/exploit-c8tedz
+Son of Government Contractor Alleged to Steal $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-06T21:35:36.469118+00:00,US Government (seized crypto),https://blockchain.watch/exploit/exploit-n4izq4
+"Korean Authorities Expose Wallet Seed, Losing $4.9 Million in Crypto",Unknown,4900000,high,2026-03-06T21:35:34.712657+00:00,Korean Authorities (Wallet),https://blockchain.watch/exploit/exploit-1sqf4q
+"Korean Authorities Expose Wallet Seed, Losing $4.9 Million in PRTG",Unknown,4900000,critical,2026-03-06T21:31:08.523013+00:00,Korean Authorities (Seized Funds),https://blockchain.watch/exploit/exploit-py5pc1
+Crypto Crime in 2025 Driven by 694% Surge in Sanctions Evasion,Unknown,,high,2026-03-06T21:27:45.70082+00:00,,https://blockchain.watch/exploit/exploit-go3pzp
+Bithumb Accidentally Gives Away $130M in BTC to Customers,Bitcoin,130000000,critical,2026-03-06T21:27:44.521473+00:00,,https://blockchain.watch/exploit/exploit-euqcyo
+Korean Authorities lose $4.9M PRTG by exposing wallet seed phrase,Unknown,4900000,critical,2026-03-06T21:27:43.609912+00:00,,https://blockchain.watch/exploit/exploit-lev298
+South Korean Prosecutors Lose $22M in Seized Crypto to Phishing Tool,Bitcoin,22000000,critical,2026-03-06T21:25:39.170724+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynwg
+"Korean Authorities Expose Wallet Seed, Losing $4.9 Million in PRTG Tokens",Unknown,4900000,high,2026-03-06T21:25:38.305711+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsevh
+US Government Crypto Contractor's Son Allegedly Stole $40 Million,Unknown,40000000,critical,2026-03-06T21:21:08.333044+00:00,,https://blockchain.watch/exploit/exploit-uhbdu1
+"Bithumb Accidentally Sends $44 Billion in BTC, $130 Million Unaccounted For",Bitcoin,130000000,critical,2026-03-06T21:21:07.398021+00:00,,https://blockchain.watch/exploit/exploit-mvv9vk
+Korean Authorities Lose $4.9M in Crypto After Publicly Posting Seed Phrase,Unknown,4900000,critical,2026-03-06T21:21:06.02975+00:00,,https://blockchain.watch/exploit/exploit-ru74ib
+Saga Blockchain Halted After $7M Theft from Saga Dollar Mint,Unknown,7000000,critical,2026-03-06T21:18:41.75152+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknu
+Aperture Finance Users Lose $3.4 Million from Smart Contract Bug,Unknown,3400000,critical,2026-03-06T21:18:40.142232+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekey
+South Korean Prosecutors Lose and Recover $22 Million in BTC from Phishing,Bitcoin,22000000,high,2026-03-06T21:12:35.984187+00:00,,https://blockchain.watch/exploit/exploit-pajqmo
+South Korean Prosecutors Lose then Recover $22 Million in BTC to Phishing,Bitcoin,22000000,critical,2026-03-06T21:09:29.605577+00:00,,https://blockchain.watch/exploit/exploit-wk7xwy
+ClawHub Malicious Skills Poisoning Threat to OpenClaw AI Agents,Unknown,,high,2026-03-06T21:09:28.583852+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3gh
+CrossCurve Users Exploited for $3M via Cross-Chain Message Bug,Unknown,3000000,critical,2026-03-06T21:06:43.484318+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o41zzz
+Korean Authorities lose $4.9M in PRTG due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T21:06:42.303034+00:00,,https://blockchain.watch/exploit/exploit-oh5tcu
+Truebit Protocol Suffers $26.44 Million Smart Contract Vulnerability Exploit,Ethereum,26440000,critical,2026-03-06T21:06:42.06424+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-z6cdwf
+IoTeX Bridge Suffers $2 Million Loss Due to Private Key Compromise,Unknown,2000000,high,2026-03-06T21:05:43.516665+00:00,IoTeX Bridge,https://blockchain.watch/exploit/exploit-nlh7mu
+South Korean Prosecutors Lose then Recover $22M Seized Bitcoin,Bitcoin,22000000,critical,2026-03-06T21:03:40.621179+00:00,,https://blockchain.watch/exploit/exploit-fptkj3
+IoTeX Bridge Suffers $2M Exploit Due to Private Key Compromise,Unknown,2000000,critical,2026-03-06T21:00:47.850861+00:00,IoTeX,https://blockchain.watch/exploit/exploit-j4ohdd
+SlowMist Warns of Malicious Skills Poisoning in OpenClaw's ClawHub,Unknown,,high,2026-03-06T21:00:46.983343+00:00,OpenClaw (ClawHub),https://blockchain.watch/exploit/exploit-ddm8dj
+Aave DeFi Faces Increased Pressure from Governance Strife and Exploits,Ethereum,,medium,2026-03-06T21:00:46.850721+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0tb
+ClawHub Attacked: Malicious Skills Poisoning Threatens AI Agent Ecosystem,Unknown,,high,2026-03-06T21:00:46.431109+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidftc
+"South Korean Prosecutors Fall Victim to Phishing, Lose $22 Million in Bitcoin",Bitcoin,22000000,critical,2026-03-06T20:57:30.13459+00:00,,https://blockchain.watch/exploit/exploit-cmbcxs
+SlowMist Reportedly Identifies Malicious Skills on OpenClaw's ClawHub,Unknown,,high,2026-03-06T20:57:28.993946+00:00,OpenClaw (ClawHub),https://blockchain.watch/exploit/exploit-ddm8di
+Aave DeFi Faces Increased Pressure from Governance Strife and Security Exploits,Unknown,,high,2026-03-06T20:57:28.813328+00:00,Aave,https://blockchain.watch/exploit/exploit-k6vhy7
+Korean Authorities Lose and Recover $4.9M in PRTG Tokens,Unknown,4900000,high,2026-03-06T20:51:38.184257+00:00,,https://blockchain.watch/exploit/exploit-t3fa6e
+"Token Vesting Phishing Campaign Targets macOS Users, Stealing Credentials",Unknown,,high,2026-03-06T20:45:49.415305+00:00,,https://blockchain.watch/exploit/exploit-h3pxkd
+Aave DeFi governance strife and exploits pressure DeFi.,Ethereum,,medium,2026-03-06T20:45:48.977284+00:00,Aave,https://blockchain.watch/exploit/exploit-e3b0ta
+"Saga Halts Blockchain After $7M Theft, Token Peg Lost",Ethereum,7000000,high,2026-03-06T20:42:43.208933+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhr8
+"BlockFills Halts Withdrawals, Faces Restructuring After Lawsuit",Unknown,,high,2026-03-06T20:31:04.885054+00:00,BlockFills,https://blockchain.watch/exploit/exploit-c8tedy
+South Korean prosecutors lose $22 million in BTC to phishing tool,Bitcoin,22000000,critical,2026-03-06T20:31:03.886892+00:00,,https://blockchain.watch/exploit/exploit-x0upoy
+"Korean Authorities Exposed Wallet Seed Phrase, $4.9M Stolen",Unknown,4900000,critical,2026-03-06T20:31:03.070582+00:00,,https://blockchain.watch/exploit/exploit-xefu29
+Malicious Skills Poisoning on OpenClaw's ClawHub Detected,Unknown,,high,2026-03-06T20:31:01.580431+00:00,OpenClaw (ClawHub),https://blockchain.watch/exploit/exploit-mpe8bt
+South Korean Prosecutors Lose and Recover $22M Seized BTC in Phishing Attack,Unknown,22000000,high,2026-03-06T20:25:44.450917+00:00,,https://blockchain.watch/exploit/exploit-qzko1r
+"Korean authorities expose wallet seed phrase, $4.9M PRTG tokens stolen",Unknown,4900000,high,2026-03-06T20:20:50.202587+00:00,Korean Authorities,https://blockchain.watch/exploit/exploit-glsevi
+$40 Million US Government Crypto Stolen by Contractor's Son,Unknown,40000000,critical,2026-03-06T20:18:30.651184+00:00,,https://blockchain.watch/exploit/exploit-hqzhnj
+Korean Authorities Lose $4.8M in Crypto via Seed Phrase Exposure,Unknown,4800000,critical,2026-03-06T20:15:39.294709+00:00,,https://blockchain.watch/exploit/exploit-kf1zyt
+Thief of $40 million in US-controlled crypto linked to government contractor's son,Unknown,40000000,critical,2026-03-06T20:12:52.19404+00:00,,https://blockchain.watch/exploit/exploit-vrfuzd
+South Korean Prosecutors Lose then Recover $22 Million in Bitcoin from Phishing,Bitcoin,22000000,critical,2026-03-06T20:09:35.569856+00:00,,https://blockchain.watch/exploit/exploit-fptkj4
+Korean Authorities lose $4.9 Million in Crypto After Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T20:09:35.039254+00:00,,https://blockchain.watch/exploit/exploit-l27jns
+Truebit Protocol Smart Contract Vulnerability Exploited for $26.44 Million,Ethereum,26440000,critical,2026-03-06T20:09:34.899587+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-z6cdwg
+ClawHub Malicious Skills Poisoning Threat,Unknown,,high,2026-03-06T20:09:34.618918+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3gg
+Nigel Farage confidant loses $550K on Polymarket Iran strike bet.,Unknown,550000,medium,2026-03-06T20:06:49.019481+00:00,Polymarket,https://blockchain.watch/exploit/exploit-fk4mzk
+CFO loses $35 million in company funds in Terra collapse.,Ethereum,35000000,medium,2026-03-06T20:06:48.842102+00:00,Terra (DeFi platform),https://blockchain.watch/exploit/exploit-hp0nwc
+"Bithumb Accidentally Airdrops $44 Billion, Recovers 99.7%",Bitcoin,44000000000,high,2026-03-06T20:05:40.459571+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8ameq
+South Korean Prosecutors Lose and Recover $22 Million of Seized Bitcoin,Bitcoin,22000000,high,2026-03-06T20:05:40.146099+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynwf
+DeFi Faces Pressure from Aave Governance Strife and Exploits,Unknown,,medium,2026-03-06T20:01:35.091475+00:00,null,https://blockchain.watch/exploit/exploit-yddiqh
+Son of Government Contractor Alleged to Have Stolen $40 Million in Seized Crypto,Unknown,40000000,critical,2026-03-06T20:01:27.895753+00:00,,https://blockchain.watch/exploit/exploit-as6n2f
+Step Finance Shuts Down After $30 Million Solana Hack,Solana,30000000,critical,2026-03-06T20:01:26.798697+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgun
+CrossCurve Bridge Exploited for $3 Million Via Cross-Chain Messages,Unknown,3000000,critical,2026-03-06T20:01:25.864556+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o41zzy
+South Korean Prosecutors Lose and Recover $22M Bitcoin to Phishing,Unknown,22000000,high,2026-03-06T20:01:23.496488+00:00,,https://blockchain.watch/exploit/exploit-w8rltq
+Korean Authorities Lose $4.9 Million in PRTG Tokens Due to Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T19:54:29.377613+00:00,,https://blockchain.watch/exploit/exploit-7ckig9
+Crypto Contractor's Son Allegedly Stole $40 Million from US Government Wallets,Unknown,40000000,medium,2026-03-06T19:50:50.762704+00:00,,https://blockchain.watch/exploit/exploit-cn3ksz
+South Korean Prosecutors Lose $22M Seized Crypto in Phishing Attack,Unknown,22000000,high,2026-03-06T19:42:45.708845+00:00,,https://blockchain.watch/exploit/exploit-3p962d
+IoTeX Bridge Exploited for $2 Million Through Private Key Compromise,Unknown,2000000,critical,2026-03-06T19:39:39.05262+00:00,IoTeX Bridge,https://blockchain.watch/exploit/exploit-nlh7ms
+Son of Government Contractor Allegedly Steals $40M from US Crypto Wallets,Unknown,40000000,critical,2026-03-06T19:31:03.774654+00:00,,https://blockchain.watch/exploit/exploit-as6n2g
+US Contractor's Son Arrested in $46 Million Government Crypto Theft,Unknown,46000000,critical,2026-03-06T19:24:43.548397+00:00,,https://blockchain.watch/exploit/exploit-gg89xx
+"Bithumb Accidentally Gives Away $44 Billion, $130M Unrecovered",Bitcoin,130000000,critical,2026-03-06T19:20:51.18502+00:00,,https://blockchain.watch/exploit/exploit-xrff0g
+South Korean Prosecutors Lose $22 Million Seized Crypto to Phishing,Bitcoin,22000000,critical,2026-03-06T19:18:41.844757+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynwe
+Korean Authorities Lose Crypto After Wallet Seed Phrase Exposure,Ethereum,4900000,high,2026-03-06T19:18:41.136395+00:00,PRTG,https://blockchain.watch/exploit/exploit-henira
+Malicious Skills Poisoning on OpenClaw's ClawHub,Unknown,,high,2026-03-06T19:13:02.377123+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8dh
+"Korean Authorities Expose Seed Phrase, Losing $4.9M in Crypto",Unknown,4900000,high,2026-03-06T19:10:40.589109+00:00,,https://blockchain.watch/exploit/exploit-4dbue4
+Government Contractor's Son Allegedly Stole $40M from US Wallets,Unknown,40000000,high,2026-03-06T19:09:39.220143+00:00,,https://blockchain.watch/exploit/exploit-ve3fwl
+South Korean prosecutors lose $22 million in Bitcoin to phishing attack,Unknown,22000000,critical,2026-03-06T19:03:35.214893+00:00,,https://blockchain.watch/exploit/exploit-w8rltp
+"Korean authorities expose wallet seed, leading to $4.9 million crypto theft",Unknown,4900000,critical,2026-03-06T19:03:34.442857+00:00,,https://blockchain.watch/exploit/exploit-l27jnt
+Token Vesting Phishing Campaign Targeting macOS Users,Unknown,,high,2026-03-06T19:03:34.114388+00:00,,https://blockchain.watch/exploit/exploit-vwyf0h
+Saga blockchain halted after $7 million exploit; Saga Dollar loses peg,Unknown,7000000,critical,2026-03-06T19:01:32.336649+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknw
+Aperture Finance users lose at least $3.4 million via smart contract bug,Unknown,3400000,critical,2026-03-06T19:01:31.544812+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekf0
+Moonwell lending protocol loses $1.78 million due to oracle misconfiguration,Unknown,1780000,high,2026-03-06T19:01:30.541168+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e2617h
+South Korean Prosecutors Lose then Recover $22M Seized Bitcoin after Phishing Attack,Bitcoin,22000000,critical,2026-03-06T19:01:30.087455+00:00,,https://blockchain.watch/exploit/exploit-wk7xx0
+Step Finance treasury wallets suffer $28.7 million theft of SOL,Solana,28700000,critical,2026-03-06T19:01:28.225491+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgum
+U.S. Federal Contractor's Son Arrested in $46M Crypto Theft,Unknown,46000000,critical,2026-03-06T18:57:45.810048+00:00,,https://blockchain.watch/exploit/exploit-obme8u
+Saga Halts Blockchain After $7 Million Saga Dollar Theft,Ethereum,7000000,critical,2026-03-06T18:57:45.289371+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhr6
+"ClawHub Suffers Malicious Skills Poisoning, Posing Supply Chain Risks",Unknown,,high,2026-03-06T18:48:30.928136+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidftf
+BlockFills Halts Withdrawals Citing Market Conditions and Liquidity Issues,Unknown,,high,2026-03-06T18:27:38.577891+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4edk
+Son of Government Contractor Allegedly Stole $40 Million in Crypto,Unknown,40000000,critical,2026-03-06T18:27:38.193152+00:00,,https://blockchain.watch/exploit/exploit-as6n2h
+Bithumb Accidentally Distributes $44 Billion to Customers in Promotion Error,Unknown,44000000000,critical,2026-03-06T18:27:37.436429+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddlcu
+OFAC Sanctions: Bitcoin Addresses Linked to SamSam Ransomware Attackers,Bitcoin,,high,2026-03-06T18:15:49.636596+00:00,SamSam Ransomware,https://blockchain.watch/exploit/exploit-uph0a6
+Korean Authorities Lose $4.9 Million in PRTG Tokens After Seed Phrase Exposure,Unknown,4900000,high,2026-03-06T18:12:36.245489+00:00,,https://blockchain.watch/exploit/exploit-7ckiga
+South Korean Prosecutors Lose $22 Million in Btc to Phishing Tool but Recover Funds,Bitcoin,22000000,critical,2026-03-06T18:09:37.399421+00:00,,https://blockchain.watch/exploit/exploit-x0upp0
+Token Vesting Phishing Poisoning targets macOS users.,Unknown,,high,2026-03-06T18:06:43.634616+00:00,,https://blockchain.watch/exploit/exploit-fo6a2r
+ClawHub Malicious Skills Poisoning Threat Analysis,Unknown,,high,2026-03-06T18:03:33.514055+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3ge
+Saga Blockchain Halted After $7 Million Theft of Saga Dollar,Unknown,7000000,critical,2026-03-06T18:01:09.808026+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknx
+Aperture Finance Users Lose $3.4M Due to Smart Contract Bug,Unknown,3400000,critical,2026-03-06T18:01:09.360082+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekf1
+"South Korean prosecutors lose $22M seized crypto to phishing tool, then recover it.",Unknown,22000000,critical,2026-03-06T18:01:08.503093+00:00,,https://blockchain.watch/exploit/exploit-3p962c
+"Step Finance Treasury Wallets Hacked, $29 Million SOL Stolen",Solana,28700000,critical,2026-03-06T18:01:07.54937+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgul
+South Korean Prosecutors Lose $22 Million in Seized Crypto Due to Phishing,Bitcoin,22000000,high,2026-03-06T17:54:32.778781+00:00,,https://blockchain.watch/exploit/exploit-fptkjs
+"Step Finance Treasury Wallets Hacked, $29 Million Stolen",Solana,28700000,critical,2026-03-06T17:27:43.856618+00:00,,https://blockchain.watch/exploit/exploit-iod059
+Saga blockchain halted after $7 million token mint exploit,Unknown,7000000,critical,2026-03-06T17:24:45.96279+00:00,,https://blockchain.watch/exploit/exploit-cbsz5u
+South Korean Prosecutors Lose $22 Million in Seized Crypto to Phishing,Bitcoin,22000000,high,2026-03-06T17:24:44.70358+00:00,,https://blockchain.watch/exploit/exploit-x0uppm
+South Korean Prosecutors Lose then Recover $22 Million of Seized Bitcoin,Bitcoin,22000000,high,2026-03-06T17:18:33.14908+00:00,null,https://blockchain.watch/exploit/exploit-484g4
+US Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,high,2026-03-06T17:09:38.48496+00:00,,https://blockchain.watch/exploit/exploit-gg89yk
+Bithumb Accidentally Distributes $44 Billion to Customers in Promotion,Bitcoin,44000000000,critical,2026-03-06T17:03:41.317068+00:00,,https://blockchain.watch/exploit/exploit-b75fmh
+Korean authorities lose $4.9 million in crypto after exposing seed phrase,Unknown,4900000,critical,2026-03-06T17:03:40.444344+00:00,,https://blockchain.watch/exploit/exploit-7ckigw
+"Saga Halts Blockchain After $7M Theft, Saga Dollar Peg Lost",Unknown,7000000,critical,2026-03-06T17:01:19.936072+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkoj
+US government crypto contractor's son tied to $40M theft,Unknown,40000000,critical,2026-03-06T17:01:19.675224+00:00,,https://blockchain.watch/exploit/exploit-uhbdtc
+Step Finance Treasury Wallets Drained of $28.7M SOL,Solana,28700000,critical,2026-03-06T17:01:18.573824+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgtz
+OpenClaw AI Agent Ecosystem Targeted by Malicious Skill Poisoning Attacks,Unknown,,high,2026-03-06T16:54:37.278347+00:00,OpenClaw/ClawHub,https://blockchain.watch/exploit/exploit-ddm8ct
+Token Vesting Phishing Poisoning Attack with Malicious Attachments,Unknown,,high,2026-03-06T16:51:34.383384+00:00,,https://blockchain.watch/exploit/exploit-1rnov6
+Supply Chain Poisoning Attacks on OpenClaw's ClawHub,Unknown,,high,2026-03-06T16:51:34.199117+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-o7foe7
+Korean Authorities Lose $4.9M in Tokens After Seed Phrase Exposure,Unknown,4900000,critical,2026-03-06T16:45:34.037392+00:00,,https://blockchain.watch/exploit/exploit-i2kv30
+Accused Government Crypto Contractor Son Stole $40 Million from US Wallets,Unknown,40000000,critical,2026-03-06T16:42:45.17003+00:00,,https://blockchain.watch/exploit/exploit-jj20qm
+$40 Million Crypto Stolen from US Government Wallets,Unknown,40000000,critical,2026-03-06T16:36:44.750268+00:00,,https://blockchain.watch/exploit/exploit-d3mtja
+Government Crypto Contractor's Son Allegedly Stole $40M From US Seized Crypto,Unknown,40000000,critical,2026-03-06T16:24:45.48713+00:00,,https://blockchain.watch/exploit/exploit-59noni
+"Korean authorities expose seed phrase, $4.9M PRTG tokens stolen",Unknown,4900000,critical,2026-03-06T16:21:41.911576+00:00,,https://blockchain.watch/exploit/exploit-4dbues
+US Contractor's Son Arrested for $46 Million Crypto Theft,Unknown,46000000,high,2026-03-06T16:15:42.459318+00:00,,https://blockchain.watch/exploit/exploit-7w2bce
+"Bithumb Accidentally Distributes $44 Billion in BTC, Recovers Most Funds",Bitcoin,130000000,critical,2026-03-06T16:12:42.386929+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8ame1
+South Korean Prosecutors Lose $22 Million to Phishing Tool,Bitcoin,22000000,critical,2026-03-06T16:12:42.014891+00:00,South Korean Prosecutors,https://blockchain.watch/exploit/exploit-ugynvq
+Saga Blockchain Halted After $7 Million Theft and Token De-peg,Unknown,7000000,critical,2026-03-06T16:09:40.443498+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkok
+South Korean Prosecutors Lose then Recover $22M Seized Bitcoin to Phishing,Bitcoin,22000000,high,2026-03-06T16:09:38.619242+00:00,null,https://blockchain.watch/exploit/exploit-484g5
+Truebit Protocol Smart Contract Exploit Leads to $26.44 Million Loss,Unknown,26440000,critical,2026-03-06T16:06:41.176624+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-ki2lrr
+ClawHub Malicious Skills Poisoning Threatens AI Agent Ecosystem,Unknown,,high,2026-03-06T16:03:33.914644+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidfu2
+CrossCurve Users Lose $3 Million in Cross-Chain Bridge Exploit,Unknown,3000000,high,2026-03-06T16:01:27.15489+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o41zz9
+South Korean Prosecutors Lose and Recover $22 Million of Seized Crypto,Unknown,22000000,high,2026-03-06T16:01:26.616989+00:00,,https://blockchain.watch/exploit/exploit-w8rlt1
+"Bithumb Accidentally Distributes $44 Billion in Bitcoin, Recovers Most",Bitcoin,44000000000,critical,2026-03-06T15:57:45.750774+00:00,Bithumb,https://blockchain.watch/exploit/exploit-t8ame0
+Korean Authorities Lose $4.9 Million in Crypto Due to Seed Phrase Leak,Unknown,4900000,critical,2026-03-06T15:57:44.685912+00:00,,https://blockchain.watch/exploit/exploit-l27joi
+Malicious Skills Poisoning on OpenClaw's ClawHub Platform,Unknown,,high,2026-03-06T15:57:43.906803+00:00,ClawHub,https://blockchain.watch/exploit/exploit-ufx3fq
+Government Crypto Contractor's Son Alleged US-Controlled Crypto Thief,Unknown,40000000,critical,2026-03-06T15:54:43.50416+00:00,,https://blockchain.watch/exploit/exploit-59nonh
+South Korean Prosecutors Lose $22M BTC in Phishing Attack,Bitcoin,22000000,critical,2026-03-06T15:54:42.669239+00:00,,https://blockchain.watch/exploit/exploit-pbhl17
+"$40M US Government Crypto Stolen, Allegedly by Contractor's Son",Unknown,40000000,critical,2026-03-06T15:51:39.983717+00:00,,https://blockchain.watch/exploit/exploit-slkd9i
+Saga Halts Blockchain After $7 Million Exploit,Unknown,7000000,critical,2026-03-06T15:51:05.468926+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhkol
+Son of Government Contractor Allegedly Steals $40M in Seized Crypto,Unknown,40000000,critical,2026-03-06T15:51:05.311076+00:00,,https://blockchain.watch/exploit/exploit-as6n35
+Aperture Finance Users Lose $3.4 Million to Smart Contract Bug,Unknown,3400000,critical,2026-03-06T15:51:04.880319+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekfp
+CrossCurve Users Exploited for $3 Million in Cross-Chain Bridge Attack,Unknown,3000000,critical,2026-03-06T15:51:04.427055+00:00,CrossCurve,https://blockchain.watch/exploit/exploit-o41zz8
+DeFi protocol drained for $2.3M on Ethereum,Ethereum,2300000,high,2026-03-06T15:44:10.738312+00:00,Unknown DeFi Protocol,https://blockchain.watch/exploit/exploit-eth-defi-drain-hist1
+Solana NFT mint exploit drains liquidity pool,Solana,,high,2026-03-06T15:44:10.738312+00:00,Solana NFT Project,https://blockchain.watch/exploit/exploit-sol-nft-drain-hist2
+Bridge vulnerability exploited for $4.1M,Ethereum,4100000,critical,2026-03-06T15:44:10.738312+00:00,Cross-Chain Bridge,https://blockchain.watch/exploit/exploit-eth-bridge-hist3
