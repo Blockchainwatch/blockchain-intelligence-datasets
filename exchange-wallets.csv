@@ -1,8 +1,37 @@
-wallet,exchange,chain,wallet_type,date_observed,description,source
-1KFHE7w8BhaENAswwryaoccDb6qcT6DbYY,Binance,Bitcoin,Exchange Hot Wallet,2026-03-16,Known Binance BTC hot wallet used for exchange transfers,https://blockchain.watch
-3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5,Binance,Bitcoin,Exchange Cold Wallet,2026-03-16,Binance cold storage wallet holding large BTC reserves,https://blockchain.watch
-0x564286362092D8e7936f0549571a803B203aAceD,Coinbase,Ethereum,Exchange Hot Wallet,2026-03-15,Coinbase ETH wallet used for exchange deposits and withdrawals,https://blockchain.watch
-0x503828976D22510aad0201ac7EC88293211D23Da,Coinbase,Ethereum,Exchange Cold Wallet,2026-03-15,Coinbase cold storage wallet for ETH reserves,https://blockchain.watch
-0x28C6c06298d514Db089934071355E5743bf21d60,Binance,Ethereum,Exchange Hot Wallet,2026-03-14,Binance ETH wallet frequently used for user withdrawals,https://blockchain.watch
-bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh,Kraken,Bitcoin,Exchange Hot Wallet,2026-03-13,Kraken BTC wallet used for exchange liquidity,https://blockchain.watch
-0x267be1C1D684F78cb4F6a176C4911b741E4Ffdc0,Bitfinex,Ethereum,Exchange Hot Wallet,2026-03-12,Bitfinex ETH wallet used for trading liquidity,https://blockchain.watch
+address,chain,entity,label,risk_score,source
+1Hz96kJKF2HLPGY15JWLB5Cg2HUv5LBFLi,bitcoin,US Government,US Gov seized BTC 3,0,https://blockchain.watch/entities/us-government
+bc1q4j7fcl8zx5yl56j00nkqm9lf49devp6xt9a0qv,bitcoin,Coinbase,Coinbase cold wallet 2,0,https://blockchain.watch/entities/coinbase
+bc1q4c8n5t00jmj8temxdgcc3t32nkg2wjwz24lywv,bitcoin,Coinbase,Coinbase cold wallet 3,0,https://blockchain.watch/entities/coinbase
+3Cbq7aT1tY8kMxWLbitaG7yT6bPbKChq64,bitcoin,Coinbase,Coinbase cold wallet 4,0,https://blockchain.watch/entities/coinbase
+0x71660c4005BA85c37ccec55d0C4493E66Fe775d3,ethereum,Coinbase,Coinbase Commerce ETH,0,https://blockchain.watch/entities/coinbase
+0xddfAbCdc4D8FfC6d5beaf154f18B778f892A0740,ethereum,Coinbase,Coinbase hot wallet ETH,0,https://blockchain.watch/entities/coinbase
+bc1qr4dl5wa7kl8yu792dceg9z5knl2gkn220lk7a9,bitcoin,Kraken,Kraken cold wallet 2,0,https://blockchain.watch/entities/kraken
+bc1qx2x5cqhymfcnjtg902ky8m5caj4ksz7w3vha3e,bitcoin,Kraken,Kraken cold wallet 3,0,https://blockchain.watch/entities/kraken
+0x2910543Af39abA0Cd09dBb2D50200b3E800A63D2,ethereum,Kraken,Kraken hot wallet ETH,0,https://blockchain.watch/entities/kraken
+0x267be1C1D684F78cb4F6a176C4911b741E4Ffdc0,ethereum,Kraken,Kraken cold wallet ETH,0,https://blockchain.watch/entities/kraken
+1NTMakcgVwQpMdGxRQnFKCaxDwQ8pvuYzR,bitcoin,Tether,Tether BTC treasury,0,https://blockchain.watch/entities/tether
+0xA7A93fd0a276fc1C0197a5B5623eD117786eeD06,ethereum,Tether,Tether USDT deployer,0,https://blockchain.watch/entities/tether
+TVGDBGmXVVPqxJKBPqhbZwLpRFArjb4CZE,tron,Tether,Tether TRC20 treasury,0,https://blockchain.watch/entities/tether
+bc1q0srm9h4klrs6cxfh7xp5e8cplpwj9twlv0r66e,bitcoin,US Government,US Gov Bitfinex seizure,0,https://blockchain.watch/entities/us-government
+bc1qe3l5wnmmr4uxcah79lg0pef3gqy7sfk7fcgq2t,bitcoin,US Government,US Gov Silk Road seizure 2,0,https://blockchain.watch/entities/us-government
+bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h,bitcoin,Binance,Binance cold wallet 2,0,https://blockchain.watch/entities/binance
+1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s,bitcoin,Binance,Binance hot wallet,0,https://blockchain.watch/entities/binance
+bc1qnkfkj5grv4pjafq94yxjy7al3rasu7avkz0s79,bitcoin,Binance,Binance cold wallet 3,0,https://blockchain.watch/entities/binance
+3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6,bitcoin,Binance,Binance BTC reserve,0,https://blockchain.watch/entities/binance
+bc1qazcm763858nkj2dz7g0s6cyljzr4r9mefjwfvg,bitcoin,Binance,Binance cold wallet 4,0,https://blockchain.watch/entities/binance
+0xBE0eB53F46cd790Cd13851d5EFf43D12404d33E8,ethereum,Binance,Binance cold wallet ETH,0,https://blockchain.watch/entities/binance
+0xF977814e90dA44bFA03b6295A0616a897441aceC,ethereum,Binance,Binance hot wallet ETH 2,0,https://blockchain.watch/entities/binance
+0x28C6c06298d514Db089934071355E5743bf21d60,ethereum,Binance,Binance hot wallet,0,https://blockchain.watch/entities/binance
+0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43,ethereum,Coinbase,Coinbase hot wallet,0,https://blockchain.watch/entities/coinbase
+3LQUu4v9z6KNch71j7kbj8GPeAGUo1FW6a,bitcoin,Coinbase,Coinbase cold wallet,0,https://blockchain.watch/entities/coinbase
+bc1q5shngauwhy03rdt4mpfuncv7gm5p40em7ufqfe,bitcoin,Kraken,Kraken cold wallet,0,https://blockchain.watch/entities/kraken
+0x5754284f345afc66a98fbB0a0Afe71e0F007B949,ethereum,Tether,Tether treasury,0,https://blockchain.watch/entities/tether
+bc1qa5wkgaew2dkv56kc6hp24cc2nfdc9hquehyyxg,bitcoin,US Government,US Gov seized BTC wallet,0,https://blockchain.watch/entities/us-government
+34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo,bitcoin,Binance,Binance cold wallet,0,https://blockchain.watch/entities/binance
+0x098b716b8aaf21512996dc57eb0615e2383e2f96,ethereum,Lazarus Group,Ronin exploit wallet,95,https://blockchain.watch/entities/lazarus-group
+bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh,bitcoin,Lazarus Group,Hydra escrow wallet,88,https://blockchain.watch/entities/lazarus-group
+0x4f47bc496de6d5e5a19249c05b4fbb43de72f87b,ethereum,Lazarus Group,Harmony exploit wallet,92,https://blockchain.watch/entities/lazarus-group
+0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b,ethereum,Tornado Cash,Tornado Cash Router,85,https://blockchain.watch/entities/tornado-cash
+0x722122dF12D4e14e13Ac3b6895a86e84145b6967,ethereum,Tornado Cash,Tornado Cash Proxy,83,https://blockchain.watch/entities/tornado-cash
+0x905b63Fff465B9fFBF41DeA908CEb12df9d1c960,ethereum,Tornado Cash,TORN Token Contract,70,https://blockchain.watch/entities/tornado-cash
+0xe592427a0aece92de3edee1f18e0157c05861564,ethereum,Lazarus Group,Lazarus staging wallet,90,https://blockchain.watch/entities/lazarus-group
