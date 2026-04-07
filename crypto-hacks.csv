@@ -1,20 +1,21 @@
 name,chain,amount_usd,severity,date,protocol,source
+North Korea-linked hackers exploit Drift Protocol for $285M,Solana,285000000,critical,2026-04-06T12:41:10.282133+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-3ng212
 North Korean Hackers Infiltrated Drift Protocol for Six Months Before $285M Exploit,Unknown,285000000,critical,2026-04-06T10:40:31.778913+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-7ufba0
-North Korean hackers exploited Drift Protocol for $285M,Solana,285000000,critical,2026-04-06T10:10:36.234188+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-tf042e
-North Korean hackers linked to Drift Protocol $280M exploit,Solana,280000000,critical,2026-04-05T23:10:46.146775+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-oufpq6
-Drift Protocol $280M exploit linked to North Korean actors,Solana,280000000,critical,2026-04-05T19:40:39.548749+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-eaeopb
+North Korean hackers spent six months infiltrating Drift before $285M exploit,Solana,285000000,critical,2026-04-06T10:10:36.234188+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-tf042e
+Drift Protocol $280 Million Attack Linked to North Korean Actors,Solana,280000000,critical,2026-04-05T23:10:46.146775+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-oufpq6
+Drift links $280M exploit to six-month North Korean social engineering,Solana,280000000,critical,2026-04-05T19:40:39.548749+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-eaeopb
 Circle's Inconsistent USDC Freeze Power Under Scrutiny Following Frozen Wallets,Unknown,420000000,high,2026-04-05T18:10:29.22525+00:00,Circle,https://blockchain.watch/exploit/exploit-laqsq6
 Drift Protocol confirms $270M exploit was six-month North Korean operation,Solana,270000000,critical,2026-04-05T17:10:40.251507+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-eqqxzt
-Drift Links $280 Million Exploit to North Korean Actors,Unknown,280000000,critical,2026-04-05T16:40:24.2648+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-nefmv1
+Drift Protocol $280M Exploit Linked to North Korean Social Engineering,Unknown,280000000,critical,2026-04-05T16:40:24.2648+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-nefmv1
 LiteLLM Python Library Suffers Supply Chain Attack on PyPI,Ethereum,,critical,2026-04-04T14:40:32.353702+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-8cvmra
 Circle Faces Scrutiny After $230M Stolen USDC Flows Unblocked,Unknown,230000000,high,2026-04-04T05:10:36.67883+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-4kr1nw
 Google Quantum Paper Raises Bitcoin Security Concerns,Bitcoin,,medium,2026-04-04T03:10:39.304362+00:00,Bitcoin,https://blockchain.watch/exploit/exploit-e8db92
 ZachXBT accuses Circle of slow USDC freezes in $420M illicit funds,Ethereum,420000000,high,2026-04-04T02:10:32.156114+00:00,Circle,https://blockchain.watch/exploit/exploit-mrz3wf
 Drift Protocol exploit raises concerns over Circle's USDC freezing actions.,Solana,285000000,critical,2026-04-03T23:40:34.428318+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-iesvqm
 "HypurrFi Investigates Domain Hijacking, Warns Users of Lending Protocol",Unknown,,critical,2026-04-03T22:40:42.045645+00:00,HypurrFi,https://blockchain.watch/exploit/exploit-qmvmvi
-"Drift Protocol exploiter moved $280 million, ZachXBT cites Circle for slow freeze",Unknown,280000000,critical,2026-04-03T22:10:39.819322+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-9arxkw
+"Drift Protocol exploited for $280 million, Circle criticized for slow USDC freezes",Unknown,280000000,critical,2026-04-03T22:10:39.819322+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-9arxkw
 Circle criticized for not freezing stolen USDC from Drift Protocol exploit,Solana,230000000,critical,2026-04-03T17:10:38.236693+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-o985ga
-Drift Protocol Invites North Korea-Linked Hackers After $285M Exploit,Solana,285000000,critical,2026-04-03T16:40:55.617634+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-ysajjr
+Drift Protocol Beckons North Korea-Linked Hackers After $285M Exploit,Solana,285000000,critical,2026-04-03T16:40:55.617634+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-ysajjr
 SlowMist Releases MistTrack Skills for On-Chain AML Risk Analysis,Unknown,,medium,2026-04-03T15:41:50.304759+00:00,MistTrack,https://blockchain.watch/exploit/exploit-t3jgld
 Crypto Hackers Steal $169M from 34 DeFi Protocols in Q1,Unknown,169000000,high,2026-04-03T07:40:59.336028+00:00,,https://blockchain.watch/exploit/exploit-5cg1y
 "Drift Protocol suffers $285 million exploit on Solana, raising DeFi security concerns.",Solana,285000000,critical,2026-04-02T19:10:41.535768+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-6ttt9r
@@ -53,8 +54,8 @@ Hackers Inject Wallet-Stealing Code into Popular AI Tool,Unknown,,high,2026-03-2
 Moonwell DeFi lender faces governance attack threat of $1M funds,Unknown,1000000,high,2026-03-26T13:40:42.079167+00:00,Moonwell,https://blockchain.watch/exploit/exploit-o1hnh3
 $176 Million Bitcoin Theft Due to Seed Phrase Leak,Bitcoin,176000000,critical,2026-03-26T12:40:48.301451+00:00,,https://blockchain.watch/exploit/exploit-iqzejn
 Fenbushi Co-founder Offers Bounty to Recover $42M from 2022 Hack,Unknown,42000000,critical,2026-03-26T08:40:35.339128+00:00,,https://blockchain.watch/exploit/exploit-e5xgho
-LiteLLM Python library poisoned in supply chain attack,Unknown,,critical,2026-03-26T07:40:37.886514+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-nd1hcl
-Apifox Desktop Client targeted in supply chain attack,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,Apifox,https://blockchain.watch/exploit/exploit-sw5dlu
+LiteLLM Python Library Suffers Supply Chain Attack,Unknown,,critical,2026-03-26T07:40:37.886514+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-nd1hcl
+Apifox Desktop Client Compromised by Supply Chain Attack,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,Apifox,https://blockchain.watch/exploit/exploit-sw5dlu
 Irish Police Crack First of 12 Bitcoin Wallets in $418M Drug Seizure,Bitcoin,34000000,medium,2026-03-25T20:40:51.345338+00:00,,https://blockchain.watch/exploit/exploit-w3eogr
 Russian Hacker Jailed for $9M Ransomware Attacks,Unknown,9000000,high,2026-03-25T01:40:52.89717+00:00,,https://blockchain.watch/exploit/exploit-7duiki
 Circle Faces Headwinds; Tether Wallets Frozen,Unknown,,medium,2026-03-24T20:41:12.504902+00:00,Tether,https://blockchain.watch/exploit/exploit-ejxgc1
@@ -71,7 +72,7 @@ Wrong Number Message Leads to $3.4 Million Crypto Scam,Unknown,3400000,high,2026
 Resolv Labs Stablecoin Depegs After $25 Million Exploit,Unknown,25000000,critical,2026-03-23T11:10:38.098843+00:00,Resolv Labs,https://blockchain.watch/exploit/exploit-wrpldk
 CoinDCX Fraud Allegations Point to Impersonation Scam,Unknown,,high,2026-03-23T06:40:28.667009+00:00,CoinDCX,https://blockchain.watch/exploit/exploit-tustl0
 Stablecoins Dominate Illicit Crypto Transactions at 84%,Unknown,,high,2026-03-23T01:40:42.098409+00:00,,https://blockchain.watch/exploit/exploit-pux4x
-Resolv DeFi Protocol Hacked for $23 Million via Compromised Key,Unknown,23000000,critical,2026-03-22T22:40:29.67438+00:00,Resolv DeFi,https://blockchain.watch/exploit/exploit-8m3f9x
+Resolv DeFi protocol loses $23 million due to compromised key,Unknown,23000000,critical,2026-03-22T22:40:29.67438+00:00,Resolv DeFi protocol,https://blockchain.watch/exploit/exploit-8m3f9x
 "CoinDCX Co-founders Arrested for Alleged Fraud, Deny Wrongdoing",Unknown,,high,2026-03-22T20:10:43.463082+00:00,CoinDCX,https://blockchain.watch/exploit/exploit-e7g3rp
 Resolv's USR Stablecoin Depegs After $25 Million Exploit,Ethereum,25000000,critical,2026-03-22T18:40:29.855956+00:00,Resolv's USR Stablecoin,https://blockchain.watch/exploit/exploit-aodp78
 Resolv Labs' Stablecoin Depegs; Attacker Mints Millions of Tokens,Ethereum,25000000,critical,2026-03-22T18:40:27.546663+00:00,Resolv USR Stablecoin,https://blockchain.watch/exploit/exploit-q0cngg
@@ -148,8 +149,8 @@ Crypto Trader Loses $50M in Aave Trade Due to High Slippage,Unknown,50000000,hig
 Swedish E-Government Platform Source Code Leak Reported,Unknown,,high,2026-03-13T14:11:19.969718+00:00,CGI Sverige (Swedish e-government platform),https://blockchain.watch/exploit/exploit-356dr0
 Sky (MakerDAO) Critical Remote Code Execution Vulnerability Fixed,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
 Authorities Freeze $3.5M in Crypto from Proxy Network,Unknown,3500000,high,2026-03-12T18:10:34.45699+00:00,,https://blockchain.watch/exploit/exploit-h5nwld
-ThunderNFT Critical Vulnerability: NFT Theft via Insufficient Validation,Ethereum,65000,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
-Critical RCE vulnerability found in Sky (formerly MakerDAO),Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (formerly MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
+ThunderNFT Critical Vulnerabilities fixed after Audit Competition,Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
+Sky (MakerDAO) critical RCE bugfix review and bounty payout,Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (formerly MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
 Singapore Man Jailed for $6.9M SafeX Crypto Theft,Ethereum,6900000,high,2026-03-12T14:10:22.817098+00:00,SafeX,https://blockchain.watch/exploit/exploit-4roixb
 Singapore Jails Man Over $6.9M SafeX Crypto Theft Case,Unknown,6900000,high,2026-03-12T12:45:39.318348+00:00,SafeX,https://blockchain.watch/exploit/exploit-rskgmq
 "Binance Sues WSJ Over Iran Report, DOJ Investigates Sanctions Evasion",Unknown,,high,2026-03-12T11:20:43.473688+00:00,Binance,https://blockchain.watch/exploit/exploit-vwbow
@@ -180,8 +181,8 @@ Circle Faces Scrutiny After $285 Million Drift Hack Over USDC Freezes,Unknown,28
 Drift Incident May Be 'Civil Negligence' by North Korean Hackers,Unknown,280000000,critical,2026-03-10T21:10:50.485353+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-6ps6c0
 ClawHub experiences supply chain poisoning with malicious skills,Unknown,,high,2026-03-10T20:01:25.185422+00:00,ClawHub,https://blockchain.watch/exploit/exploit-h6zd29
 Solv Protocol exploited for $2.7 million in SolvBTC,Bitcoin,2700000,high,2026-03-10T18:35:50.440809+00:00,Solv Protocol,https://blockchain.watch/exploit/exploit-vbpxqb
-Step Finance Shuts Down After $30 Million January Hack,Solana,30000000,critical,2026-03-10T18:30:52.64512+00:00,Step Finance,https://blockchain.watch/exploit/exploit-e8q90f
-YieldBlox Lending Pool Drained of $10.2 Million via Oracle Manipulation,Unknown,10200000,critical,2026-03-10T18:30:52.052156+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-hhb6wh
+"Step Finance, SolanaFloor, and Remora Markets shut down after $30M hack",Solana,30000000,critical,2026-03-10T18:30:52.64512+00:00,Step Finance,https://blockchain.watch/exploit/exploit-e8q90f
+IoTeX bridge exploited for $2 million after private key compromise,Unknown,2000000,high,2026-03-10T18:30:52.052156+00:00,IoTeX,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
 Circle criticized for inaction during $285M Drift Protocol hack.,Solana,285000000,critical,2026-03-10T16:31:16.346758+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
@@ -197,7 +198,7 @@ NFT lending protocol Gondi exploited for $230K affecting Sell & Repay,Unknown,23
 Jito Foundation Acquires SolanaFloor After $40M Treasury Breach,Solana,40000000,critical,2026-03-09T19:56:10.310621+00:00,Step Finance,https://blockchain.watch/exploit/exploit-ip8vt0
 "Bithumb mistakenly sends 620,000 BTC to users, leading to suspension.",Bitcoin,43400000000,critical,2026-03-09T14:35:49.861216+00:00,Bithumb,https://blockchain.watch/exploit/exploit-849yb7
 Flow Foundation seeks to block delisting after December token duplication exploit,Unknown,,high,2026-03-09T09:55:47.515633+00:00,Flow,https://blockchain.watch/exploit/exploit-nb07u
-Drift Protocol Reports Six-Month North Korean Intelligence Operation for $270M Exploit,Unknown,270000000,critical,2026-03-09T05:21:04.304818+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-3vqe2h
+Drift $270 Million Exploit: Six-Month North Korean Intelligence Operation,Unknown,270000000,critical,2026-03-09T05:21:04.304818+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-3vqe2h
 Alibaba-linked AI Agent Hijacks GPUs for Unauthorized Crypto Mining,Ethereum,,high,2026-03-08T21:30:56.382661+00:00,,https://blockchain.watch/exploit/exploit-shhjwt
 Alibaba-linked AI agent hijacked GPUs for unauthorized crypto mining,Unknown,,high,2026-03-08T20:36:33.264109+00:00,Alibaba-linked AI agent,https://blockchain.watch/exploit/exploit-agvgl0
 Binance Rejects Blumenthal's 'Demonstrably False' Report on Iran Sanctions,Unknown,,medium,2026-03-08T18:24:38.330488+00:00,Binance,https://blockchain.watch/exploit/exploit-diennp
@@ -220,7 +221,7 @@ OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware 
 Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
 U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
 ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
-Venus Protocol accumulates $2.15 million bad debt from oracle manipulation,Ethereum,2150000,high,2026-03-07T14:57:42.397709+00:00,Venus Protocol,https://blockchain.watch/exploit/exploit-7wzlce
+YieldBlox Lending Pool Drained of $10.2 Million via Oracle Manipulation,Ethereum,10200000,critical,2026-03-07T14:57:42.397709+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-7wzlce
 Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
 OFAC Sanctions North Korean IT Workers Over Crypto WMD Funding,Unknown,,high,2026-03-07T14:42:49.740142+00:00,North Korean IT worker scheme,https://blockchain.watch/exploit/exploit-ptvc7f
 Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
