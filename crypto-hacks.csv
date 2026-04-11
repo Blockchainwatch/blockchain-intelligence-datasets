@@ -1,7 +1,8 @@
 name,chain,amount_usd,severity,date,protocol,source
-"Aethir Halts Bridge Exploit, Limits Losses to $90K",Ethereum,90000,high,2026-04-10T11:10:31.547338+00:00,Aethir,https://blockchain.watch/exploit/exploit-6vmi38
+Dolomite users at risk due to WLFI token collateral lending model,Unknown,,high,2026-04-10T20:40:41.949257+00:00,Dolomite,https://blockchain.watch/exploit/exploit-gkkw2s
+"Aethir Halted Bridge Exploit, Limited Losses to $90K",Ethereum,90000,high,2026-04-10T11:10:31.547338+00:00,Aethir,https://blockchain.watch/exploit/exploit-6vmi38
 Bitcoin Depot suffers $3.7M BTC theft in cybersecurity breach.,Bitcoin,3700000,high,2026-04-09T14:41:11.434416+00:00,,https://blockchain.watch/exploit/exploit-f76acz
-Drift Protocol Hacked for $285 Million on Solana,Solana,285000000,critical,2026-04-09T14:41:10.182868+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-l7g4nt
+Drift Protocol on Solana hacked for $285 million.,Solana,285000000,critical,2026-04-09T14:41:10.182868+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-l7g4nt
 "Drift Protocol Faces Critical Exploit, Raising Concerns for Developer-Initiated Attacks",Unknown,285000000,critical,2026-04-09T14:11:11.315913+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-6x89fk
 "Bithumb mistakenly credits $40 billion in Bitcoin, seeks asset seizure",Bitcoin,40000000000,critical,2026-04-09T13:10:37.734462+00:00,Bithumb,https://blockchain.watch/exploit/exploit-vlqo5i
 Bithumb Pursues Legal Action After 'Fat Finger' Bitcoin Error,Bitcoin,,medium,2026-04-09T10:10:34.305766+00:00,Bithumb,https://blockchain.watch/exploit/exploit-wbrg8p
@@ -59,14 +60,14 @@ Bitcoin Longs Liquidated: $300 Million Lost as Price Drops,Bitcoin,300000000,hig
 $42 Million in Stolen Bitcoin: Venture Firm Founder Offers Bounty,Bitcoin,42000000,high,2026-03-27T02:40:36.467329+00:00,,https://blockchain.watch/exploit/exploit-e2xfbj
 Fenbushi Capital Founder Offers Bounty for $42 Million Stolen Crypto,Unknown,42000000,critical,2026-03-27T00:40:44.094858+00:00,,https://blockchain.watch/exploit/exploit-iy23r1
 Hackers Sneak Crypto Wallet-Stealing Code into Popular AI Tool,Solana,,high,2026-03-27T00:40:43.229928+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-f8f2kh
-UK Sanctions Xinbi: Major Chinese-Language Crypto Scam Infrastructure Targeted,Unknown,19900000000,critical,2026-03-26T23:10:42.923414+00:00,Xinbi,https://blockchain.watch/exploit/exploit-e6t60n
+UK Sanctions Xinbi for Facilitating $19.9 Billion in Crypto Fraud and Money Laundering,Unknown,19900000000,critical,2026-03-26T23:10:42.923414+00:00,Xinbi,https://blockchain.watch/exploit/exploit-e6t60n
 "Ripple Deploys AI to Boost XRP Ledger Security, Uncovers Bugs",Unknown,,medium,2026-03-26T21:10:36.423721+00:00,XRP Ledger,https://blockchain.watch/exploit/exploit-cddmvq
 Hackers Inject Wallet-Stealing Code into Popular AI Tool,Unknown,,high,2026-03-26T17:10:48.694161+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-yww6cv
 Moonwell DeFi lender faces governance attack threat of $1M funds,Unknown,1000000,high,2026-03-26T13:40:42.079167+00:00,Moonwell,https://blockchain.watch/exploit/exploit-o1hnh3
 $176 Million Bitcoin Theft Due to Seed Phrase Leak,Bitcoin,176000000,critical,2026-03-26T12:40:48.301451+00:00,,https://blockchain.watch/exploit/exploit-iqzejn
 Fenbushi Co-founder Offers Bounty to Recover $42M from 2022 Hack,Unknown,42000000,critical,2026-03-26T08:40:35.339128+00:00,,https://blockchain.watch/exploit/exploit-e5xgho
-LiteLLM Python Library Suffers Supply Chain Attack,Unknown,,high,2026-03-26T07:40:37.886514+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-nd1hcl
-Apifox Desktop Client Supply Chain Attack via Compromised CDN Script,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,Apifox,https://blockchain.watch/exploit/exploit-sw5dlu
+LiteLLM Python Library Suffers Supply Chain Attack,Unknown,,critical,2026-03-26T07:40:37.886514+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-nd1hcl
+Apifox Desktop Client Hit by Supply Chain Attack,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,Apifox,https://blockchain.watch/exploit/exploit-sw5dlu
 Irish Police Crack First of 12 Bitcoin Wallets in $418M Drug Seizure,Bitcoin,34000000,medium,2026-03-25T20:40:51.345338+00:00,,https://blockchain.watch/exploit/exploit-w3eogr
 Russian Hacker Jailed for $9M Ransomware Attacks,Unknown,9000000,high,2026-03-25T01:40:52.89717+00:00,,https://blockchain.watch/exploit/exploit-7duiki
 Circle Faces Headwinds; Tether Wallets Frozen,Unknown,,medium,2026-03-24T20:41:12.504902+00:00,Tether,https://blockchain.watch/exploit/exploit-ejxgc1
@@ -132,7 +133,7 @@ Bitrefill employee laptop hack linked to Lazarus Group.,Bitcoin,,high,2026-03-18
 Bitrefill Employee Laptop Hacked by Lazarus Group,Unknown,,high,2026-03-18T01:40:27.664563+00:00,Bitrefill,https://blockchain.watch/exploit/exploit-og1dlq
 Crypto Gift Card Platform Bitrefill Discloses Hack,Unknown,,high,2026-03-18T00:10:40.121262+00:00,Bitrefill,https://blockchain.watch/exploit/exploit-8s6ih7
 "Bitrefill Cyberattack Exposes Customer Data, Lazarus Group Suspected",Bitcoin,,high,2026-03-17T22:10:30.055734+00:00,,https://blockchain.watch/exploit/exploit-vpo681
-Bitcoin Depot Reports $3.7 Million Stolen in Wallet Security Breach,Bitcoin,3700000,high,2026-03-17T22:10:29.663479+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-1rg2fd
+Bitcoin Depot Hacked: $3.7 Million in Bitcoin Stolen,Bitcoin,3700000,high,2026-03-17T22:10:29.663479+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-1rg2fd
 Bitrefill Cyberattack by North Korea's Lazarus Group,Unknown,,high,2026-03-17T20:40:30.344343+00:00,Bitrefill,https://blockchain.watch/exploit/exploit-uky987
 "Crypto E-commerce Firm Bitrefill Discloses Cyberattack, Blames Lazarus Group.",Unknown,,high,2026-03-17T17:10:34.936532+00:00,Bitrefill,https://blockchain.watch/exploit/exploit-io4pm7
 "South Korea Fines Bithumb $24M, Imposes Suspension for AML Violations",Unknown,24600000,high,2026-03-17T14:06:19.726554+00:00,Bithumb,https://blockchain.watch/exploit/exploit-zgwvr7
@@ -191,9 +192,9 @@ Aave experiences $27 million liquidations due to price glitch,Ethereum,27000000,
 Circle Faces Scrutiny After $285 Million Drift Hack Over USDC Freezes,Unknown,285000000,high,2026-03-10T22:25:40.881322+00:00,Circle/Drift,https://blockchain.watch/exploit/exploit-muxqr8
 Drift Incident May Be 'Civil Negligence' by North Korean Hackers,Unknown,280000000,critical,2026-03-10T21:10:50.485353+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-6ps6c0
 ClawHub experiences supply chain poisoning with malicious skills,Unknown,,high,2026-03-10T20:01:25.185422+00:00,ClawHub,https://blockchain.watch/exploit/exploit-h6zd29
-Solv Protocol Exploited for $2.7 Million in SolvBTC from Lending Platform,Bitcoin,2700000,high,2026-03-10T18:35:50.440809+00:00,Solv Protocol,https://blockchain.watch/exploit/exploit-vbpxqb
-Drift Protocol on Solana Exploited for $285 Million in Admin Takeover,Solana,285000000,critical,2026-03-10T18:30:52.64512+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-e8q90f
-YieldBlox Lending Pool Drained of $10.2 Million via Oracle Manipulation,Unknown,10200000,critical,2026-03-10T18:30:52.052156+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-hhb6wh
+Solv Protocol Exploited for $2.7 Million in SolvBTC,Bitcoin,2700000,critical,2026-03-10T18:35:50.440809+00:00,Solv Protocol,https://blockchain.watch/exploit/exploit-vbpxqb
+Step Finance Shuts Down After $30 Million Hack,Solana,30000000,critical,2026-03-10T18:30:52.64512+00:00,Step Finance,https://blockchain.watch/exploit/exploit-e8q90f
+YieldBlox Lending Pool Drained for $10.2 Million,Unknown,10200000,critical,2026-03-10T18:30:52.052156+00:00,YieldBlox,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
 Circle criticized for inaction during $285M Drift Protocol hack.,Solana,285000000,critical,2026-03-10T16:31:16.346758+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
@@ -232,7 +233,7 @@ OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware 
 Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
 U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
 ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
-Aave users liquidated for $26.9 million due to Chaos Labs oracle bug,Ethereum,26900000,high,2026-03-07T14:57:42.397709+00:00,Aave,https://blockchain.watch/exploit/exploit-7wzlce
+Venus Protocol Suffers $2.15 Million Bad Debt Post-Exploit,Ethereum,2150000,high,2026-03-07T14:57:42.397709+00:00,Venus Protocol,https://blockchain.watch/exploit/exploit-7wzlce
 Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
 OFAC Sanctions North Korean IT Workers Over Crypto WMD Funding,Unknown,,high,2026-03-07T14:42:49.740142+00:00,North Korean IT worker scheme,https://blockchain.watch/exploit/exploit-ptvc7f
 Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
