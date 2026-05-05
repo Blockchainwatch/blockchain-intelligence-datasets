@@ -7,7 +7,7 @@ US Law Firm Seeks Frozen ETH from Kelp Exploit for Clients,Ethereum,,high,2026-0
 "North Korea Denies $6 Billion Crypto Theft Allegations, Blames Media",Unknown,6000000000,high,2026-05-04T09:10:38.295353+00:00,,https://blockchain.watch/exploit/exploit-eez90k
 North Korea Terrorism Creditors Move to Seize Kelp DAO ETH,Ethereum,,high,2026-05-03T22:10:50.389136+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-o0dava
 Kelp DAO ETH Seized by North Korea Terrorism Creditors,Unknown,,high,2026-05-03T20:40:48.136966+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-exzpmj
-New Crypto Scam Wave: Fake HSBC Bank Stablecoins Detected,Unknown,,high,2026-05-03T19:11:02.757542+00:00,HSBC (impersonated),https://blockchain.watch/exploit/exploit-oloekd
+Fake HSBC Bank Stablecoins Scam Wave Hits Market,Unknown,,high,2026-05-03T19:11:02.757542+00:00,,https://blockchain.watch/exploit/exploit-oloekd
 Kraken Investigates Customer Data Breach Reports on Dark Web,Unknown,,high,2026-05-03T02:41:04.937011+00:00,Kraken,https://blockchain.watch/exploit/exploit-l4jzpo
 US CISA adds 'insane' Linux Copy Fail flaw to watch list,Unknown,,critical,2026-05-03T02:40:58.37176+00:00,Linux,https://blockchain.watch/exploit/exploit-xiv1ka
 Sanctioned Russian Exchange Grinex Suspends Operations After Cyberattack,Bitcoin,13700000,high,2026-05-02T08:40:29.255489+00:00,Grinex,https://blockchain.watch/exploit/exploit-u3bv6h
@@ -392,7 +392,7 @@ Swedish E-Government Platform Source Code Leak Reported,Unknown,,high,2026-03-13
 Sky (MakerDAO) Critical Remote Code Execution Vulnerability Fixed,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
 Authorities Freeze $3.5M in Crypto from Proxy Network,Unknown,3500000,high,2026-03-12T18:10:34.45699+00:00,,https://blockchain.watch/exploit/exploit-h5nwld
 ThunderNFT Vulnerabilities Lead to NFT Theft on Fuel L2 (Ethereum),Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
-Sky (MakerDAO) Critical Remote Code Execution Vulnerability Disclosed,Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
+Sky (MakerDAO) Remote Code Execution Vulnerability Fixed,Unknown,,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
 Singapore Man Jailed for $6.9M SafeX Crypto Theft,Ethereum,6900000,high,2026-03-12T14:10:22.817098+00:00,SafeX,https://blockchain.watch/exploit/exploit-4roixb
 Singapore Jails Man Over $6.9M SafeX Crypto Theft Case,Unknown,6900000,high,2026-03-12T12:45:39.318348+00:00,SafeX,https://blockchain.watch/exploit/exploit-rskgmq
 "Binance Sues WSJ Over Iran Report, DOJ Investigates Sanctions Evasion",Unknown,,high,2026-03-12T11:20:43.473688+00:00,Binance,https://blockchain.watch/exploit/exploit-vwbow
@@ -422,9 +422,9 @@ Aave raises nearly 80% of $200M to cover Kelp DAO exploit bad debt,Ethereum,2000
 Kraken Alleges $25 Million Crypto Custody Fraud in Lawsuit,Unknown,25000000,high,2026-03-10T22:25:40.881322+00:00,Kraken,https://blockchain.watch/exploit/exploit-muxqr8
 Fake Police Raid Forces $1 Million Bitcoin Transfer,Unknown,1000000,critical,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
 ClawHub experiences supply chain poisoning with malicious skills,Unknown,,high,2026-03-10T20:01:25.185422+00:00,ClawHub,https://blockchain.watch/exploit/exploit-h6zd29
-Bitcoin Depot Hacked for $3.67 Million in BTC from Company Wallets,Bitcoin,3670000,high,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
-Drift Protocol on Solana exploited for $285 million in 'novel attack',Solana,285000000,critical,2026-03-10T18:30:52.64512+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-e8q90f
-Balancer Labs Shuts Down After $110 Million Hack in November 2025,Unknown,110000000,critical,2026-03-10T18:30:52.052156+00:00,Balancer Labs,https://blockchain.watch/exploit/exploit-hhb6wh
+Bitcoin Depot Hacked: $3.67 Million Stolen from Company Wallets,Bitcoin,3670000,critical,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
+Drift Protocol Exploited for $285 Million on Solana,Solana,285000000,critical,2026-03-10T18:30:52.64512+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-e8q90f
+Balancer Labs Shuts Down After $110 Million Hack,Unknown,110000000,critical,2026-03-10T18:30:52.052156+00:00,Balancer Labs,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
 North Korean hackers drain $285 million from Drift protocol.,Solana,285000000,critical,2026-03-10T16:31:16.346758+00:00,Drift,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
@@ -440,7 +440,7 @@ NFT lending protocol Gondi exploited for $230K affecting Sell & Repay,Unknown,23
 Jito Foundation Acquires SolanaFloor After $40M Treasury Breach,Solana,40000000,critical,2026-03-09T19:56:10.310621+00:00,Step Finance,https://blockchain.watch/exploit/exploit-ip8vt0
 "Bithumb mistakenly sends 620,000 BTC to users, leading to suspension.",Bitcoin,43400000000,critical,2026-03-09T14:35:49.861216+00:00,Bithumb,https://blockchain.watch/exploit/exploit-849yb7
 Flow Foundation seeks to block delisting after December token duplication exploit,Unknown,,high,2026-03-09T09:55:47.515633+00:00,Flow,https://blockchain.watch/exploit/exploit-nb07u
-North Korean terrorist victims seek frozen ETH from rsETH exploit,Unknown,,high,2026-03-09T05:21:04.304818+00:00,rsETH,https://blockchain.watch/exploit/exploit-3vqe2h
+Lawyer Seeks to Seize Frozen ETH from rsETH Exploit for North Korean Victims,Unknown,73836000,high,2026-03-09T05:21:04.304818+00:00,rsETH,https://blockchain.watch/exploit/exploit-3vqe2h
 Alibaba-linked AI Agent Hijacks GPUs for Unauthorized Crypto Mining,Ethereum,,high,2026-03-08T21:30:56.382661+00:00,,https://blockchain.watch/exploit/exploit-shhjwt
 Alibaba-linked AI agent hijacked GPUs for unauthorized crypto mining,Unknown,,high,2026-03-08T20:36:33.264109+00:00,Alibaba-linked AI agent,https://blockchain.watch/exploit/exploit-agvgl0
 Binance Rejects Blumenthal's 'Demonstrably False' Report on Iran Sanctions,Unknown,,medium,2026-03-08T18:24:38.330488+00:00,Binance,https://blockchain.watch/exploit/exploit-diennp
