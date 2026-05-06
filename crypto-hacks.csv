@@ -1,4 +1,8 @@
 name,chain,amount_usd,severity,date,protocol,source
+Kelp DAO Dumps LayerZero for Chainlink After $292M Exploit,Unknown,292000000,critical,2026-05-05T22:41:05.815262+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-p1j6i4
+Kelp accuses LayerZero of approving setup causing $292M bridge hack,Unknown,292000000,critical,2026-05-05T22:41:05.085179+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-pkqsmu
+"Grok's crypto wallet exploited by morse code tweet, no private key compromise",Unknown,,high,2026-05-05T22:41:04.687529+00:00,Grok,https://blockchain.watch/exploit/exploit-9avrgd
+Aave Struggles to Recover Stolen ETH as Creditors Intervene,Ethereum,71000000,high,2026-05-05T22:41:04.2481+00:00,Aave,https://blockchain.watch/exploit/exploit-jsbijv
 Aave fights court order to freeze $73 million ETH from Kelp DAO exploit,Unknown,73000000,high,2026-05-04T22:41:01.051858+00:00,Aave,https://blockchain.watch/exploit/exploit-r9ovry
 Aave fights court order to freeze $73M ETH from Kelp DAO exploit,Ethereum,73000000,high,2026-05-04T18:41:01.998934+00:00,Aave,https://blockchain.watch/exploit/exploit-4t25pd
 Kraken alleges Etana misappropriated $25 million in 'Ponzi-like enterprise',Unknown,25000000,critical,2026-05-04T15:11:11.98987+00:00,Etana,https://blockchain.watch/exploit/exploit-1k0uo5
@@ -419,14 +423,14 @@ Fingerprint Browser Security Risks Exposed by SlowMist,Unknown,,high,2026-03-11T
 Chainalysis Hexagate Offers Real-Time Threat Detection for MegaETH,Unknown,,high,2026-03-11T00:20:48.879378+00:00,MegaETH,https://blockchain.watch/exploit/exploit-bd2hxk
 Armed Attackers Force $1 Million Bitcoin Transfer in Home Invasion,Unknown,1000000,medium,2026-03-10T22:41:16.334583+00:00,,https://blockchain.watch/exploit/exploit-llra9e
 Aave raises nearly 80% of $200M to cover Kelp DAO exploit bad debt,Ethereum,200000000,high,2026-03-10T22:31:11.673706+00:00,Aave,https://blockchain.watch/exploit/exploit-7urw5x
-Kraken Alleges $25 Million Crypto Custody Fraud in Lawsuit,Unknown,25000000,high,2026-03-10T22:25:40.881322+00:00,Kraken,https://blockchain.watch/exploit/exploit-muxqr8
+Drift outlines recovery plan for users after $295 million DPRK-linked exploit,Unknown,295000000,critical,2026-03-10T22:25:40.881322+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-muxqr8
 Fake Police Raid Forces $1 Million Bitcoin Transfer,Unknown,1000000,critical,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
 ClawHub experiences supply chain poisoning with malicious skills,Unknown,,high,2026-03-10T20:01:25.185422+00:00,ClawHub,https://blockchain.watch/exploit/exploit-h6zd29
-Bitcoin Depot Hacked: $3.67 Million Stolen from Company Wallets,Bitcoin,3670000,critical,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
-Drift Protocol Exploited for $285 Million on Solana,Solana,285000000,critical,2026-03-10T18:30:52.64512+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-e8q90f
-Balancer Labs Shuts Down After $110 Million Hack,Unknown,110000000,critical,2026-03-10T18:30:52.052156+00:00,Balancer Labs,https://blockchain.watch/exploit/exploit-hhb6wh
+Bitcoin Depot Hacked for $3.67 Million in BTC,Bitcoin,3670000,high,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
+"Volo Protocol on Sui Exploited for $3.5 Million, Most Funds Recovered",Solana,3500000,high,2026-03-10T18:30:52.64512+00:00,Volo Protocol,https://blockchain.watch/exploit/exploit-e8q90f
+"Zondacrypto Exchange Halts Withdrawals, Faces Insolvency Concerns",Unknown,96000000,critical,2026-03-10T18:30:52.052156+00:00,,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
-North Korean hackers drain $285 million from Drift protocol.,Solana,285000000,critical,2026-03-10T16:31:16.346758+00:00,Drift,https://blockchain.watch/exploit/exploit-48geoy
+Drift Outlines Recovery Plan After $295 Million DPRK-Linked Exploit,Solana,295000000,critical,2026-03-10T16:31:16.346758+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
 $1M Bitcoin Robbery in France by Fake Police Officers,Bitcoin,1000000,critical,2026-03-10T14:45:39.898212+00:00,,https://blockchain.watch/exploit/exploit-j0qhot
 SlowMist Launches MistTrack Skills for On-Chain AML Risk Analysis,Unknown,,high,2026-03-10T13:31:46.338045+00:00,,https://blockchain.watch/exploit/exploit-cbcdvs
@@ -995,7 +999,3 @@ Saga Blockchain Halted After $7 Million Theft of Saga Dollar,Unknown,7000000,cri
 Aperture Finance Users Lose $3.4M Due to Smart Contract Bug,Unknown,3400000,critical,2026-03-06T18:01:09.360082+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekf1
 "South Korean prosecutors lose $22M seized crypto to phishing tool, then recover it.",Unknown,22000000,critical,2026-03-06T18:01:08.503093+00:00,,https://blockchain.watch/exploit/exploit-3p962c
 "Step Finance Treasury Wallets Hacked, $29 Million SOL Stolen",Solana,28700000,critical,2026-03-06T18:01:07.54937+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgul
-South Korean Prosecutors Lose $22 Million in Seized Crypto Due to Phishing,Bitcoin,22000000,high,2026-03-06T17:54:32.778781+00:00,,https://blockchain.watch/exploit/exploit-fptkjs
-"Step Finance Treasury Wallets Hacked, $29 Million Stolen",Solana,28700000,critical,2026-03-06T17:27:43.856618+00:00,,https://blockchain.watch/exploit/exploit-iod059
-Saga blockchain halted after $7 million token mint exploit,Unknown,7000000,critical,2026-03-06T17:24:45.96279+00:00,,https://blockchain.watch/exploit/exploit-cbsz5u
-South Korean Prosecutors Lose $22 Million in Seized Crypto to Phishing,Bitcoin,22000000,high,2026-03-06T17:24:44.70358+00:00,,https://blockchain.watch/exploit/exploit-x0uppm
