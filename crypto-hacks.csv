@@ -1,14 +1,23 @@
 name,chain,amount_usd,severity,date,protocol,source
+Aave liquidates attacker's rsETH positions after governance manipulation,Ethereum,,high,2026-05-06T22:11:09.335563+00:00,Aave,https://blockchain.watch/exploit/exploit-huqx8l
+US Marshals Service asset exploit highlights federal crypto security needs,Bitcoin,,high,2026-05-06T22:11:09.054857+00:00,,https://blockchain.watch/exploit/exploit-n6drny
+Aave Liquidates Attacker's Remaining Kelp DAO rsETH Positions,Unknown,,high,2026-05-06T20:41:04.790546+00:00,Aave,https://blockchain.watch/exploit/exploit-e8048q
+DeFi incidents lead to $482M stolen in Q1 2026,Unknown,482000000,high,2026-05-06T20:11:09.611022+00:00,,https://blockchain.watch/exploit/exploit-89urvt
+Bitcoin Core Patches High-Severity Memory Bug,Bitcoin,,high,2026-05-06T18:41:43.179216+00:00,Bitcoin Core,https://blockchain.watch/exploit/exploit-et0htd
+Quantum Computing Threat to Bitcoin by 2030,Bitcoin,,high,2026-05-06T18:41:42.816274+00:00,,https://blockchain.watch/exploit/exploit-vlv8gq
+Ekubo Protocol Suffers $1.4M Wrapped Bitcoin Exploit,Ethereum,1400000,medium,2026-05-06T15:41:13.975767+00:00,Ekubo Protocol,https://blockchain.watch/exploit/exploit-3afvx3
+Iggy Azalea faces class action lawsuit over MOTHER memecoin allegations,Unknown,,medium,2026-05-06T13:41:20.296047+00:00,Mother Iggy,https://blockchain.watch/exploit/exploit-gbsd77
+Ekubo Protocol Drains $1.4M in Wrapped Bitcoin via Approval Exploit,Unknown,1400000,critical,2026-05-06T13:41:11.630991+00:00,Ekubo Protocol,https://blockchain.watch/exploit/exploit-ssb5k8
 "US Seizes $344 Million Tether, OFAC Updates Iran Sanctions",Ethereum,344000000,high,2026-05-06T11:41:10.191356+00:00,Tether,https://blockchain.watch/exploit/exploit-6t5j4r
-Law Enforcement Freezes $41M Connected to $150M Crypto Ponzi,Unknown,,medium,2026-05-06T10:11:13.778807+00:00,,https://blockchain.watch/exploit/exploit-7atp0z
-Aave Warns $71M Exploit Recovery at Risk of Seizure,Unknown,71000000,high,2026-05-06T09:11:08.161126+00:00,Aave,https://blockchain.watch/exploit/exploit-lrcsvg
+Law enforcement freezes $41 million from crypto Ponzi scheme,Unknown,41000000,high,2026-05-06T10:11:13.778807+00:00,,https://blockchain.watch/exploit/exploit-7atp0z
+Aave Warns $71M Exploit Recovery Could Be Seized Before Victims Repaid,Unknown,71000000,high,2026-05-06T09:11:08.161126+00:00,Aave,https://blockchain.watch/exploit/exploit-lrcsvg
 North Korea terror victims seek $71M from Aave hack as fraud,Ethereum,71000000,critical,2026-05-06T05:10:36.250257+00:00,Aave,https://blockchain.watch/exploit/exploit-kl0bn
-Crypto Whale Sues Coinbase Over Refusal to Return Stolen DAI,Unknown,,high,2026-05-06T04:40:36.630096+00:00,,https://blockchain.watch/exploit/exploit-c015q8
+Crypto Whale Sues Coinbase for Refusing to Return Stolen DAI,Unknown,,high,2026-05-06T04:40:36.630096+00:00,Coinbase,https://blockchain.watch/exploit/exploit-c015q8
 "Grok's crypto wallet exploited via Morse code tweet, no private key compromise",Ethereum,3000000000,high,2026-05-06T04:10:59.768964+00:00,Grok,https://blockchain.watch/exploit/exploit-7buh4s
 Crypto whale sues Coinbase over $55 million stolen funds,Unknown,55000000,high,2026-05-06T02:11:24.66632+00:00,Coinbase,https://blockchain.watch/exploit/exploit-k2b46d
 Solana's Drift Protocol plans repayment after $295 million hack,Solana,295000000,critical,2026-05-06T01:11:07.965046+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-yfraho
-"Kelp blames LayerZero after $292 million hack, plans Chainlink move",Unknown,292000000,critical,2026-05-06T01:11:07.560701+00:00,"Kelp DAO, LayerZero",https://blockchain.watch/exploit/exploit-p3mjf2
-Kelp DAO Abandons LayerZero for Chainlink After $292 Million Exploit,Unknown,292000000,critical,2026-05-05T22:41:05.815262+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-p1j6i4
+"Kelp blames LayerZero for $292 million hack, plans Chainlink switch",Unknown,292000000,critical,2026-05-06T01:11:07.560701+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-p3mjf2
+Kelp DAO Ditches LayerZero After $292 Million Exploit,Unknown,292000000,critical,2026-05-05T22:41:05.815262+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-p1j6i4
 "Kelp Blames LayerZero for $292 Million Bridge Hack, Migrates to Chainlink",Unknown,292000000,critical,2026-05-05T22:41:05.085179+00:00,Kelp DAO / LayerZero,https://blockchain.watch/exploit/exploit-pkqsmu
 "Grok's Crypto Wallet Exploited via Morse Code Tweet, No Private Key Compromise",Unknown,,high,2026-05-05T22:41:04.687529+00:00,Grok (Bankrbot),https://blockchain.watch/exploit/exploit-9avrgd
 Aave fights to retain $71M exploit recovery for victims,Ethereum,71000000,critical,2026-05-05T22:41:04.2481+00:00,Aave,https://blockchain.watch/exploit/exploit-jsbijv
@@ -90,7 +99,7 @@ US Soldier Charged in $400K Polymarket Insider Trading Scheme,Unknown,400000,hig
 KelpDAO bridge exploit: $292M rsETH released due to non-existent burn,Ethereum,292000000,critical,2026-04-24T05:40:28.495608+00:00,KelpDAO,https://blockchain.watch/exploit/exploit-jn5mxd
 US Soldier Charged in Polymarket Bet on Maduro's Capture,Unknown,400000,high,2026-04-24T04:11:06.919328+00:00,Polymarket,https://blockchain.watch/exploit/exploit-1pwtkc
 US Treasury Sanctions Cambodian Politician for Crypto Scam Network,Unknown,,high,2026-04-24T00:10:56.044695+00:00,,https://blockchain.watch/exploit/exploit-ekhobm
-KelpDAO bridge exploit results in $292M rsETH loss,Unknown,292000000,critical,2026-04-23T23:10:36.710382+00:00,"KelpDAO, LayerZero",https://blockchain.watch/exploit/exploit-rqrde8
+KelpDAO Bridge Exploit: ~$292 Million in rsETH Stolen,Unknown,292000000,critical,2026-04-23T23:10:36.710382+00:00,KelpDAO Bridge,https://blockchain.watch/exploit/exploit-rqrde8
 Lido Proposes $5.8 Million Staked ETH for Kelp Exploit Shortfall,Ethereum,5800000,critical,2026-04-23T21:10:59.774987+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-kn64zz
 Aave USDC Liquidity Crisis and Potential Liquidations,Unknown,,medium,2026-04-23T20:40:45.210804+00:00,Aave,https://blockchain.watch/exploit/exploit-8rxdam
 Tether Freezes $344M USDt Stablecoins at US Law Enforcement Request,Ethereum,344000000,high,2026-04-23T20:10:37.109262+00:00,Tether,https://blockchain.watch/exploit/exploit-ujcadf
@@ -127,7 +136,7 @@ Oil Tanker Attacked After Falling for Crypto Scam,Unknown,,high,2026-04-21T14:40
 Kelp DAO Exploit Aftermath: $292M Funds Moved Cross-Chain,Unknown,292000000,critical,2026-04-21T14:10:32.582468+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-f9jt6x
 Kelp DAO Attacker Moves $175 Million in Stolen Ether,Ethereum,175000000,critical,2026-04-21T14:10:30.056284+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-dvf3yi
 Arbitrum Freezes $71.5M ETH from KelpDAO Exploit,Ethereum,71500000,high,2026-04-21T10:11:05.981483+00:00,KelpDAO,https://blockchain.watch/exploit/exploit-ru34n0
-Kelp DAO and LayerZero suffer $292M systemic exploit,Unknown,292000000,critical,2026-04-21T10:11:04.172239+00:00,"Kelp DAO, LayerZero",https://blockchain.watch/exploit/exploit-5ebm6c
+Kelp DAO rsETH × LayerZero Systemic Risk Event,Unknown,,critical,2026-04-21T10:11:04.172239+00:00,"Kelp DAO, LayerZero, Aave",https://blockchain.watch/exploit/exploit-5ebm6c
 Fake Police Raid Leads to $1 Million Bitcoin Transfer,Bitcoin,1000000,high,2026-04-21T09:10:54.540715+00:00,,https://blockchain.watch/exploit/exploit-lzujtu
 Aave risk manager models bad debt scenarios from Kelp DAO exploit,Unknown,,high,2026-04-21T06:40:57.73531+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-f30hra
 Aave asks Arbitrum to send 30K ETH from Kelp exploiter to ‘DeFi United’,Ethereum,68100000,high,2026-04-21T06:40:57.237651+00:00,Kelp DAO,https://blockchain.watch/exploit/exploit-x5aorj
@@ -194,7 +203,7 @@ Tether Announces $150M Recovery Program for Drift Protocol,Unknown,150000000,cri
 Crypto Ransom Kidnapping: French Police Rescue Mother and Child,Unknown,400000,critical,2026-04-16T19:41:12.437175+00:00,,https://blockchain.watch/exploit/exploit-qvoppm
 "Drift Protocol Recovers $148 Million with Tether, Dumps USDC",Solana,148000000,high,2026-04-16T19:41:11.600102+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-7gadf8
 Polkadot-based Hyperbridge Revises Exploit Losses to $2.5 Million,Ethereum,2500000,critical,2026-04-16T18:40:37.921892+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-cc4rq1
-FBI 2025 Internet Crime Report Reveals $20.8 Billion Losses,Unknown,20877000000,critical,2026-04-16T18:40:35.612013+00:00,,https://blockchain.watch/exploit/exploit-c9bvem
+FBI reports over $20.8 billion lost to internet crime in 2025,Unknown,20800000000,critical,2026-04-16T18:40:35.612013+00:00,,https://blockchain.watch/exploit/exploit-c9bvem
 Drift Protocol recovers $150M after April exploit,Solana,280000000,critical,2026-04-16T16:11:10.715374+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-sfa34
 "Polkadot-Ethereum Bridge Hack Losses 10x Worse, Reaching $2.5M",Ethereum,2500000,high,2026-04-16T16:11:10.047861+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-3uljs4
 Polkadot-based Hyperbridge revises exploit losses to $2.5 million,Unknown,2500000,high,2026-04-16T15:40:50.105235+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-qm88rs
@@ -291,7 +300,7 @@ Magic Eden Wallet Solana Holders Warned to Move Funds,Solana,,critical,2026-03-3
 "Google warns of quantum attacks on Ethereum, $100 billion at risk",Ethereum,100000000000,high,2026-03-31T16:11:20.211982+00:00,,https://blockchain.watch/exploit/exploit-x1ryqh
 Crypto dispute over Resupply exploit lands in Singapore court,Unknown,,medium,2026-03-31T14:10:49.377721+00:00,Resupply,https://blockchain.watch/exploit/exploit-945pnw
 Supply Chain Attack Hits Axios npm Releases; Rotate Keys Urged,Unknown,,high,2026-03-31T13:10:43.37617+00:00,Axios (npm),https://blockchain.watch/exploit/exploit-uugwrs
-Aave $71 Million Hack Reframed as Fraud by North Korea Terror Victims,Unknown,71000000,high,2026-03-31T05:40:39.101689+00:00,Aave,https://blockchain.watch/exploit/exploit-efku9o
+North Korea Terror Victims Fight to Seize $71 Million from Aave Hack,Unknown,71000000,high,2026-03-31T05:40:39.101689+00:00,Aave,https://blockchain.watch/exploit/exploit-efku9o
 US charges hacker in $53 million Uranium Finance exploit,Unknown,53000000,critical,2026-03-31T05:40:37.761552+00:00,Uranium Finance,https://blockchain.watch/exploit/exploit-ed6hxn
 "$54M Uranium Finance Hacker Charged, Faces 30 Years",Unknown,54000000,critical,2026-03-31T03:10:30.541946+00:00,Uranium Finance,https://blockchain.watch/exploit/exploit-qh5arf
 Maryland Man Charged in $54M Uranium Finance Hacks,Unknown,54000000,critical,2026-03-30T20:41:01.477603+00:00,Uranium Finance,https://blockchain.watch/exploit/exploit-cgjdmb
@@ -309,8 +318,8 @@ Hackers Inject Wallet-Stealing Code into Popular AI Tool,Unknown,,high,2026-03-2
 Moonwell DeFi lender faces governance attack threat of $1M funds,Unknown,1000000,high,2026-03-26T13:40:42.079167+00:00,Moonwell,https://blockchain.watch/exploit/exploit-o1hnh3
 $176 Million Bitcoin Theft Due to Seed Phrase Leak,Bitcoin,176000000,critical,2026-03-26T12:40:48.301451+00:00,,https://blockchain.watch/exploit/exploit-iqzejn
 Fenbushi Co-founder Offers Bounty to Recover $42M from 2022 Hack,Unknown,42000000,critical,2026-03-26T08:40:35.339128+00:00,,https://blockchain.watch/exploit/exploit-e5xgho
-LiteLLM Python library suffers supply chain attack,Unknown,,high,2026-03-26T07:40:37.886514+00:00,LiteLLM,https://blockchain.watch/exploit/exploit-nd1hcl
-Apifox Desktop Client supply chain attack via compromised CDN,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,Apifox,https://blockchain.watch/exploit/exploit-sw5dlu
+LiteLLM Supply Chain Attack Poisons Python Library,Unknown,,medium,2026-03-26T07:40:37.886514+00:00,,https://blockchain.watch/exploit/exploit-nd1hcl
+Apifox Desktop Client Supply Chain Attack via CDN Script,Unknown,,critical,2026-03-26T02:40:40.533125+00:00,,https://blockchain.watch/exploit/exploit-sw5dlu
 Irish Police Crack First of 12 Bitcoin Wallets in $418M Drug Seizure,Bitcoin,34000000,medium,2026-03-25T20:40:51.345338+00:00,,https://blockchain.watch/exploit/exploit-w3eogr
 Russian Hacker Jailed for $9M Ransomware Attacks,Unknown,9000000,high,2026-03-25T01:40:52.89717+00:00,,https://blockchain.watch/exploit/exploit-7duiki
 Circle Faces Headwinds; Tether Wallets Frozen,Unknown,,medium,2026-03-24T20:41:12.504902+00:00,Tether,https://blockchain.watch/exploit/exploit-ejxgc1
@@ -353,7 +362,7 @@ FBI warns of fake tokens impersonating agency on Tron network,Ethereum,,high,202
 Coinbase Commerce Wallet Migration Poses phishing Risk,Unknown,,medium,2026-03-20T03:40:35.629812+00:00,Coinbase Commerce,https://blockchain.watch/exploit/exploit-fpdge9
 Fake FBI crypto tokens used to threaten Tron users.,Ethereum,,high,2026-03-20T00:40:33.066317+00:00,,https://blockchain.watch/exploit/exploit-b6ttdl
 Scammers Use Gmail Dot Alias to Spoof Robinhood in Phishing,Unknown,,medium,2026-03-19T19:40:37.666087+00:00,Robinhood,https://blockchain.watch/exploit/exploit-6656be
-CoinDCX Founders Questioned in Widespread Impersonation Fraud,Unknown,,high,2026-03-19T18:40:35.327315+00:00,CoinDCX,https://blockchain.watch/exploit/exploit-jy7zeb
+Coinbase Faces Lawsuit Over Frozen Funds From $55M Crypto Theft,Unknown,55000000,high,2026-03-19T18:40:35.327315+00:00,Coinbase,https://blockchain.watch/exploit/exploit-jy7zeb
 "Crypto hacks average $25M, major exploits skews total losses",Unknown,25000000,medium,2026-03-19T14:10:30.376425+00:00,,https://blockchain.watch/exploit/exploit-sme9ho
 OpenClaw Developers Targeted by Phishing Scam Promising Free Tokens,Ethereum,,high,2026-03-19T12:40:27.003623+00:00,OpenClaw,https://blockchain.watch/exploit/exploit-z2j5no
 Arbitrum DAO Funds Targeted for North Korean Terror Victims,Ethereum,55800000,high,2026-03-19T12:10:36.995232+00:00,Arbitrum DAO,https://blockchain.watch/exploit/exploit-b4fgiu
@@ -397,15 +406,15 @@ US Treasury Sanctions North Korean IT Worker Fraud Operation,Unknown,800000000,c
 Malware Found in Steam PC Games Prompts FBI Investigation,Bitcoin,,high,2026-03-14T05:11:02.700448+00:00,,https://blockchain.watch/exploit/exploit-s9s0ru
 French couple robbed of €900k in Bitcoin at knifepoint,Bitcoin,900000,critical,2026-03-14T01:40:59.945515+00:00,,https://blockchain.watch/exploit/exploit-kb4ex8
 Trader loses $50 million in Aave swap due to high slippage,Ethereum,50430000,critical,2026-03-14T01:40:59.591797+00:00,Aave,https://blockchain.watch/exploit/exploit-7rqll0
-Critical bug found in ThunderNFT during invite-only program,Unknown,,critical,2026-03-13T20:40:29.111629+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-uqz2ba
+"ThunderNFT critical bug led to NFT theft, now fixed",Unknown,,critical,2026-03-13T20:40:29.111629+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-uqz2ba
 Crypto Whale Loses Nearly $50M in DeFi Swap,Ethereum,50000000,high,2026-03-13T17:40:39.381037+00:00,,https://blockchain.watch/exploit/exploit-ix5cj7
 Crypto Trader Loses $50M in Aave Trade Due to High Slippage,Unknown,50000000,high,2026-03-13T15:40:36.187973+00:00,Aave,https://blockchain.watch/exploit/exploit-guhv7v
 "Law Enforcement Dismantles SocksEscort Network, Freezes Millions",Unknown,3500000,critical,2026-03-13T14:11:21.897736+00:00,,https://blockchain.watch/exploit/exploit-l4o4jz
 Swedish E-Government Platform Source Code Leak Reported,Unknown,,high,2026-03-13T14:11:19.969718+00:00,CGI Sverige (Swedish e-government platform),https://blockchain.watch/exploit/exploit-356dr0
-Sky (MakerDAO) Critical Remote Code Execution Vulnerability Fixed,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
+Sky (MakerDAO) critical RCE bugfix review,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
 Authorities Freeze $3.5M in Crypto from Proxy Network,Unknown,3500000,high,2026-03-12T18:10:34.45699+00:00,,https://blockchain.watch/exploit/exploit-h5nwld
-ThunderNFT Vulnerabilities Lead to NFT Theft on Fuel L2 (Ethereum),Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
-Sky (MakerDAO) critical remote code execution bugfix,Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
+ThunderNFT Critical Bug: Insufficient Validation in Order Modification,Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
+Critical RCE Vulnerability in Sky (formerly MakerDAO) Fixed,Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
 Singapore Man Jailed for $6.9M SafeX Crypto Theft,Ethereum,6900000,high,2026-03-12T14:10:22.817098+00:00,SafeX,https://blockchain.watch/exploit/exploit-4roixb
 Singapore Jails Man Over $6.9M SafeX Crypto Theft Case,Unknown,6900000,high,2026-03-12T12:45:39.318348+00:00,SafeX,https://blockchain.watch/exploit/exploit-rskgmq
 "Binance Sues WSJ Over Iran Report, DOJ Investigates Sanctions Evasion",Unknown,,high,2026-03-12T11:20:43.473688+00:00,Binance,https://blockchain.watch/exploit/exploit-vwbow
@@ -435,9 +444,9 @@ Aave raises nearly 80% of $200M to cover Kelp DAO exploit bad debt,Ethereum,2000
 Drift outlines recovery plan for users after $295 million DPRK-linked exploit,Unknown,295000000,critical,2026-03-10T22:25:40.881322+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-muxqr8
 Fake Police Raid Forces $1 Million Bitcoin Transfer,Unknown,1000000,critical,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
 ClawHub experiences supply chain poisoning with malicious skills,Unknown,,high,2026-03-10T20:01:25.185422+00:00,ClawHub,https://blockchain.watch/exploit/exploit-h6zd29
-Bitcoin Depot Hacked for $3.67 Million in Bitcoin,Bitcoin,3670000,high,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
-"Volo Protocol Exploited for $3.5 Million, Most Funds Recovered",Solana,3500000,high,2026-03-10T18:30:52.64512+00:00,Volo Protocol,https://blockchain.watch/exploit/exploit-e8q90f
-Hyperbridge Exploited for $2.5 Million After April Fools' Joke,Unknown,2500000,critical,2026-03-10T18:30:52.052156+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-hhb6wh
+Bitcoin Depot hacked for $3.67 million in company wallets,Bitcoin,3670000,critical,2026-03-10T18:35:50.440809+00:00,Bitcoin Depot,https://blockchain.watch/exploit/exploit-vbpxqb
+Solana-based Drift DEX exploited for $285 million through 'durable nonces',Solana,285000000,critical,2026-03-10T18:30:52.64512+00:00,Drift,https://blockchain.watch/exploit/exploit-e8q90f
+Moonwell lending protocol faces $1 million governance attack,Unknown,1000000,high,2026-03-10T18:30:52.052156+00:00,Moonwell,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
 Drift Outlines Recovery Plan After $295 Million DPRK-Linked Exploit,Solana,295000000,critical,2026-03-10T16:31:16.346758+00:00,Drift Protocol,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
@@ -476,7 +485,7 @@ OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware 
 Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
 U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
 ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
-Hyperbridge Exploited for $2.5 Million After April Fools' Hack Joke,Ethereum,2500000,high,2026-03-07T14:57:42.397709+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-7wzlce
+Hyperbridge exploited for $2.5 million after admin key forge,Ethereum,2500000,critical,2026-03-07T14:57:42.397709+00:00,Hyperbridge,https://blockchain.watch/exploit/exploit-7wzlce
 Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
 OFAC Sanctions North Korean IT Workers Over Crypto WMD Funding,Unknown,,high,2026-03-07T14:42:49.740142+00:00,North Korean IT worker scheme,https://blockchain.watch/exploit/exploit-ptvc7f
 Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
@@ -990,12 +999,3 @@ South Korean prosecutors lose $22 million in Bitcoin to phishing attack,Unknown,
 Token Vesting Phishing Campaign Targeting macOS Users,Unknown,,high,2026-03-06T19:03:34.114388+00:00,,https://blockchain.watch/exploit/exploit-vwyf0h
 Saga blockchain halted after $7 million exploit; Saga Dollar loses peg,Unknown,7000000,critical,2026-03-06T19:01:32.336649+00:00,Saga,https://blockchain.watch/exploit/exploit-8zhknw
 Aperture Finance users lose at least $3.4 million via smart contract bug,Unknown,3400000,critical,2026-03-06T19:01:31.544812+00:00,Aperture Finance,https://blockchain.watch/exploit/exploit-kqekf0
-Moonwell lending protocol loses $1.78 million due to oracle misconfiguration,Unknown,1780000,high,2026-03-06T19:01:30.541168+00:00,Moonwell,https://blockchain.watch/exploit/exploit-e2617h
-South Korean Prosecutors Lose then Recover $22M Seized Bitcoin after Phishing Attack,Bitcoin,22000000,critical,2026-03-06T19:01:30.087455+00:00,,https://blockchain.watch/exploit/exploit-wk7xx0
-Step Finance treasury wallets suffer $28.7 million theft of SOL,Solana,28700000,critical,2026-03-06T19:01:28.225491+00:00,Step Finance,https://blockchain.watch/exploit/exploit-kpvgum
-U.S. Federal Contractor's Son Arrested in $46M Crypto Theft,Unknown,46000000,critical,2026-03-06T18:57:45.810048+00:00,,https://blockchain.watch/exploit/exploit-obme8u
-Saga Halts Blockchain After $7 Million Saga Dollar Theft,Ethereum,7000000,critical,2026-03-06T18:57:45.289371+00:00,Saga,https://blockchain.watch/exploit/exploit-thdhr6
-"ClawHub Suffers Malicious Skills Poisoning, Posing Supply Chain Risks",Unknown,,high,2026-03-06T18:48:30.928136+00:00,ClawHub,https://blockchain.watch/exploit/exploit-cidftf
-BlockFills Halts Withdrawals Citing Market Conditions and Liquidity Issues,Unknown,,high,2026-03-06T18:27:38.577891+00:00,BlockFills,https://blockchain.watch/exploit/exploit-fg4edk
-Son of Government Contractor Allegedly Stole $40 Million in Crypto,Unknown,40000000,critical,2026-03-06T18:27:38.193152+00:00,,https://blockchain.watch/exploit/exploit-as6n2h
-Bithumb Accidentally Distributes $44 Billion to Customers in Promotion Error,Unknown,44000000000,critical,2026-03-06T18:27:37.436429+00:00,Bithumb,https://blockchain.watch/exploit/exploit-7ddlcu
