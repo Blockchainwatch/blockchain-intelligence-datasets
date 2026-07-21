@@ -1,4 +1,8 @@
 name,chain,amount_usd,severity,date,protocol,source
+Upbit parent Dunamu faces sanctions after $30 million hack,Unknown,30000000,critical,2026-07-20T18:10:29.682783+00:00,Upbit,https://blockchain.watch/exploit/exploit-yrfsnm
+Allbridge Core Pauses After $1.65 Million Flash Loan Exploit,Solana,1650000,high,2026-07-20T18:10:29.388338+00:00,Allbridge Core,https://blockchain.watch/exploit/exploit-nm90yc
+MetaMask code exposed to North Korea-linked contractor,Ethereum,,high,2026-07-20T18:10:28.20879+00:00,MetaMask,https://blockchain.watch/exploit/exploit-yqwuil
+Zilliqa asks exchanges to pause ZIL transfers after cold wallet theft suspected,Unknown,,high,2026-07-20T17:40:26.868174+00:00,Zilliqa,https://blockchain.watch/exploit/exploit-vwk398
 Most Prolific Ransomware Operator 'Stern' Sanctioned by EU,Unknown,,high,2026-07-18T17:10:28.09954+00:00,,https://blockchain.watch/exploit/exploit-z76df9
 xAI Grok Build 0-Day Discovered: Trust Boundary Bypass Leads to Arbitrary Code Execution,Unknown,,critical,2026-07-18T16:40:34.178808+00:00,,https://blockchain.watch/exploit/exploit-lddvi5
 UK Gang Jailed for $5.4 Million Crypto Scam Impersonating Police,Unknown,5400000,high,2026-07-17T19:10:24.133213+00:00,,https://blockchain.watch/exploit/exploit-bwr3op
@@ -36,7 +40,7 @@ Chinese Billionaire Sentenced for $1 Billion Crypto Fraud Conspiracy,Unknown,100
 Hollywood Director Carl Rinsch Diverts $11 Million in TV Production Funds for Crypto,Unknown,11000000,critical,2026-06-30T14:40:54.260194+00:00,,https://blockchain.watch/exploit/exploit-r5mgko
 Director Sentenced for Spending Netflix's $11M on Dogecoin,Unknown,11000000,high,2026-06-30T12:40:35.361388+00:00,Netflix (funds misused by an individual),https://blockchain.watch/exploit/exploit-g0tg7t
 Ukraine Seizes $8.3 Million in USDT from Hacking Ring,Unknown,8300000,medium,2026-06-30T09:10:28.998063+00:00,,https://blockchain.watch/exploit/exploit-qxxhu3
-$7.5 Million Heist Against JaredfromSubway.eth MEV Bot Explained,Ethereum,7500000,critical,2026-06-30T07:40:27.664355+00:00,JaredfromSubway.eth,https://blockchain.watch/exploit/exploit-w5bd9z
+JaredfromSubway.eth MEV Bot Drained of $7.5 Million,Ethereum,7500000,high,2026-06-30T07:40:27.664355+00:00,JaredfromSubway.eth,https://blockchain.watch/exploit/exploit-w5bd9z
 Private key vulnerabilities caused 40% of crypto's $16 billion hack losses.,Unknown,16000000000,critical,2026-06-30T07:40:26.585849+00:00,,https://blockchain.watch/exploit/exploit-d58qhg
 Abracadabra Takes Emergency Action as MIM Stablecoin Depeg Worsens,Unknown,,medium,2026-06-25T03:40:27.068742+00:00,Abracadabra,https://blockchain.watch/exploit/exploit-bg26p7
 Multimillion-dollar wallet exploit impacts Cardano's user confidence,Solana,,high,2026-06-25T03:10:23.701117+00:00,,https://blockchain.watch/exploit/exploit-t4nzjx
@@ -538,7 +542,7 @@ Swedish E-Government Platform Source Code Leak Reported,Unknown,,high,2026-03-13
 Critical RCE Vulnerability in Sky (formerly MakerDAO) Protocol Fixed,Ethereum,50000,critical,2026-03-12T20:10:28.078188+00:00,Sky (formerly MakerDAO),https://blockchain.watch/exploit/exploit-ck8tlk
 Authorities Freeze $3.5M in Crypto from Proxy Network,Unknown,3500000,high,2026-03-12T18:10:34.45699+00:00,,https://blockchain.watch/exploit/exploit-h5nwld
 Critical Bug in ThunderNFT Protocol Led to NFT Theft,Ethereum,,critical,2026-03-12T14:10:24.950754+00:00,ThunderNFT,https://blockchain.watch/exploit/exploit-wn7urt
-"Sky (MakerDAO) Critical Remote Code Execution Vulnerability Disclosed, $50,000 Bounty Paid",Unknown,50000,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
+Sky (MakerDAO) Remote Code Execution Bugfix Review,Unknown,,critical,2026-03-12T14:10:24.657931+00:00,Sky (MakerDAO),https://blockchain.watch/exploit/exploit-4xbopj
 Singapore Man Jailed for $6.9M SafeX Crypto Theft,Ethereum,6900000,high,2026-03-12T14:10:22.817098+00:00,SafeX,https://blockchain.watch/exploit/exploit-4roixb
 Singapore Jails Man Over $6.9M SafeX Crypto Theft Case,Unknown,6900000,high,2026-03-12T12:45:39.318348+00:00,SafeX,https://blockchain.watch/exploit/exploit-rskgmq
 "Binance Sues WSJ Over Iran Report, DOJ Investigates Sanctions Evasion",Unknown,,high,2026-03-12T11:20:43.473688+00:00,Binance,https://blockchain.watch/exploit/exploit-vwbow
@@ -568,11 +572,11 @@ SecondFi loses $2.4 million in Cardano wallet exploit,Ethereum,2400000,high,2026
 Ostium Suffers $18 Million Exploit Due to Oracle Attack,Unknown,18000000,critical,2026-03-10T22:25:40.881322+00:00,Ostium,https://blockchain.watch/exploit/exploit-muxqr8
 Crypto kidnappers rob Minnesota family of $8M in cryptocurrency,Unknown,8000000,critical,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
 "Injective SDK Compromised, Crypto Wallet Private Keys Stolen",Unknown,,critical,2026-03-10T20:01:25.185422+00:00,Injective SDK,https://blockchain.watch/exploit/exploit-h6zd29
-SecondFi Cardano Wallet Users Lose $2.4 Million in Attacks,Bitcoin,2400000,high,2026-03-10T18:35:50.440809+00:00,SecondFi (formerly Yoroi),https://blockchain.watch/exploit/exploit-vbpxqb
-Raydium Users Lose $1.34 Million Due to Legacy Smart Contract Exploit,Solana,1340000,high,2026-03-10T18:30:52.64512+00:00,Raydium,https://blockchain.watch/exploit/exploit-e8q90f
-"Thief Steals Remaining 7,200 Unsold The Kiss NFTs in Digital Museum Heist",Unknown,15300000,high,2026-03-10T18:30:52.052156+00:00,,https://blockchain.watch/exploit/exploit-hhb6wh
+SecondFi Cardano Wallet Users Lose $2.4 Million in Series of Hacks,Bitcoin,2400000,high,2026-03-10T18:35:50.440809+00:00,SecondFi (Cardano Wallet),https://blockchain.watch/exploit/exploit-vbpxqb
+Raydium Users Lose $1.34 Million From Legacy Smart Contract Exploit,Solana,1340000,high,2026-03-10T18:30:52.64512+00:00,Raydium,https://blockchain.watch/exploit/exploit-e8q90f
+Humanity Protocol Loses $36 Million Due to Employee Laptop Compromise,Unknown,36000000,critical,2026-03-10T18:30:52.052156+00:00,Humanity Protocol,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
-SecondFi Loses $2.4 Million in Cardano Wallet Exploit,Solana,2400000,high,2026-03-10T16:31:16.346758+00:00,SecondFi,https://blockchain.watch/exploit/exploit-48geoy
+Cross-chain protocol Allbridge halts after $1.65 million flash loan exploit,Solana,1650000,critical,2026-03-10T16:31:16.346758+00:00,Allbridge,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
 $1M Bitcoin Robbery in France by Fake Police Officers,Bitcoin,1000000,critical,2026-03-10T14:45:39.898212+00:00,,https://blockchain.watch/exploit/exploit-j0qhot
 SlowMist Launches MistTrack Skills for On-Chain AML Risk Analysis,Unknown,,high,2026-03-10T13:31:46.338045+00:00,,https://blockchain.watch/exploit/exploit-cbcdvs
@@ -609,7 +613,7 @@ OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware 
 Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
 U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
 ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
-Gravity Bridge Drained of $5.4 Million Likely Due to Compromised Keys,Ethereum,5400000,critical,2026-03-07T14:57:42.397709+00:00,Gravity Bridge,https://blockchain.watch/exploit/exploit-7wzlce
+JaredfromSubway.eth MEV Bot Drained for $7.7 Million,Ethereum,7700000,critical,2026-03-07T14:57:42.397709+00:00,jaredfromsubway.eth (MEV bot),https://blockchain.watch/exploit/exploit-7wzlce
 Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
 OFAC Sanctions North Korean IT Workers Over Crypto WMD Funding,Unknown,,high,2026-03-07T14:42:49.740142+00:00,North Korean IT worker scheme,https://blockchain.watch/exploit/exploit-ptvc7f
 Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
@@ -995,7 +999,3 @@ Chainalysis Hexagate Offers Real-Time Threat Detection for MegaETH Ecosystem,Unk
 $40 million stolen from US government crypto wallets by contractor's son,Unknown,40000000,critical,2026-03-06T23:18:35.511622+00:00,,https://blockchain.watch/exploit/exploit-1rwkbw
 "Korean authorities expose crypto wallet seed phrase, losing $4.9 million PRTG",Unknown,4900000,high,2026-03-06T23:18:34.129215+00:00,,https://blockchain.watch/exploit/exploit-cd27dn
 OFAC Sanctions Iranian Bitcoin Addresses for Ransomware Scheme,Bitcoin,,high,2026-03-06T23:15:51.292812+00:00,,https://blockchain.watch/exploit/exploit-fze29w
-US Government Crypto Contractor's Son Allegedly Steals $40 Million,Unknown,40000000,critical,2026-03-06T23:15:50.797308+00:00,,https://blockchain.watch/exploit/exploit-uhbdu3
-Korean Authorities Lost $4.9M After Posting Wallet Seed Phrase,Unknown,4900000,critical,2026-03-06T23:12:26.051507+00:00,,https://blockchain.watch/exploit/exploit-tt1met
-Token Vesting Phishing Poisoning Campaign Targets macOS Users,Unknown,,high,2026-03-06T23:12:25.548974+00:00,,https://blockchain.watch/exploit/exploit-ck9d4p
-Government crypto contractor's son alleged to be $40 million crypto thief.,Unknown,40000000,critical,2026-03-06T23:06:36.782683+00:00,,https://blockchain.watch/exploit/exploit-59nooa
