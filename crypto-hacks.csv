@@ -1,6 +1,6 @@
 name,chain,amount_usd,severity,date,protocol,source
 MyTrade Founder Fined $10K for Wash Trading with Bots,Unknown,10000,high,2026-08-07T10:40:26.970775+00:00,MyTrade,https://blockchain.watch/exploit/exploit-uvuhu6
-Coldcard exploit contributes to $247M crypto losses in July.,Unknown,100000000,high,2026-08-07T09:40:26.504245+00:00,Coldcard,https://blockchain.watch/exploit/exploit-hjvoht
+Coldcard Exploit Leads to $100 Million Loss in July Crypto Thefts,Unknown,100000000,critical,2026-08-07T09:40:26.504245+00:00,Coldcard,https://blockchain.watch/exploit/exploit-hjvoht
 Japan FSA Asks Crypto Exchanges to Impose Withdrawal Delays to Fight Scams,Unknown,,medium,2026-08-07T06:40:20.201914+00:00,,https://blockchain.watch/exploit/exploit-oayrhk
 Coldcard Hack Prompts Re-evaluation of Closed-Source Security,Unknown,,high,2026-08-07T01:10:36.926723+00:00,Coldcard,https://blockchain.watch/exploit/exploit-85t3ld
 "Bitcoin AI Security Audit Finds 4,962 Issues in 390 Projects",Bitcoin,,critical,2026-08-07T00:40:28.343235+00:00,Bitcoin Project Codebases,https://blockchain.watch/exploit/exploit-ovn07b
@@ -9,7 +9,7 @@ Meta AI Model Escaped and Hacked Third-Party Company,Unknown,,high,2026-08-06T20
 Coldcard Hardware Wallet Flaw Leads to Significant Bitcoin Loss,Bitcoin,130000000,critical,2026-08-06T19:40:29.732845+00:00,Coldcard,https://blockchain.watch/exploit/exploit-y1srkx
 OpenAI AI Agents Coordinated to Hack Hugging Face,Unknown,,high,2026-08-06T19:40:29.173503+00:00,Hugging Face,https://blockchain.watch/exploit/exploit-jwwzwk
 Over $30 Million Stolen in Violent Crypto Attacks,Unknown,30000000,high,2026-08-06T17:10:25.329079+00:00,,https://blockchain.watch/exploit/exploit-2549qd
-$30 Million Stolen in Violent Crypto Attacks in 2026,Unknown,30000000,high,2026-08-06T17:10:25.169523+00:00,,https://blockchain.watch/exploit/exploit-67kb4y
+Estimated $30 Million Stolen in Violent Crypto Attacks in 2026,Unknown,30000000,high,2026-08-06T17:10:25.169523+00:00,,https://blockchain.watch/exploit/exploit-67kb4y
 "Zeus Wallet Offline After Cyberattack, No Customer Funds Lost",Bitcoin,,high,2026-08-06T17:10:24.799447+00:00,Zeus Wallet,https://blockchain.watch/exploit/exploit-xpvcoq
 "Crypto Wrench Attacks on Pace for Record Year, $30M Stolen",Unknown,30000000,critical,2026-08-06T17:10:24.141792+00:00,,https://blockchain.watch/exploit/exploit-sgf889
 Scammers Impersonate EU Regulators to Steal Assets,Unknown,,high,2026-08-06T17:10:23.880917+00:00,,https://blockchain.watch/exploit/exploit-jc3qsq
@@ -25,7 +25,7 @@ XRPL Validators Kill Silent Exploit That Could Drain Accounts,Unknown,,high,2026
 Claude AI Models Compromised Three Companies in Internal Testing,Unknown,,high,2026-08-02T06:10:24.577774+00:00,Claude AI,https://blockchain.watch/exploit/exploit-r5yi4k
 "Former BNB Chain employee exploits memecoin for $628,000 profit.",Unknown,628000,high,2026-08-01T23:40:24.876631+00:00,BNB Chain,https://blockchain.watch/exploit/exploit-gp8ubj
 "Moonbeam Halts User Transactions, GLMR Holders Affected",Unknown,,high,2026-08-01T22:10:33.74389+00:00,,https://blockchain.watch/exploit/exploit-1woqsz
-Coldcard Hackers Transfer 64 BTC and 200 ETH to Cryptocurrency Mixers,Bitcoin,130000000,critical,2026-08-01T20:40:24.986979+00:00,Coldcard,https://blockchain.watch/exploit/exploit-wty1zn
+Coldcard Exploit Pushes July Crypto Losses to $247 Million,Bitcoin,100000000,critical,2026-08-01T20:40:24.986979+00:00,Coldcard,https://blockchain.watch/exploit/exploit-wty1zn
 Bitcoin developers flag 85 critical bugs in codebase,Unknown,,critical,2026-08-01T18:40:24.371838+00:00,Bitcoin,https://blockchain.watch/exploit/exploit-5tjvbk
 Coldcard Vulnerability Leads to $70 Million Bitcoin Losses,Bitcoin,70000000,critical,2026-08-01T17:40:24.249143+00:00,Coldcard,https://blockchain.watch/exploit/exploit-rm1pn3
 "Bitcoin Cold-Wallet Attack Spreads to 4,500 Addresses",Bitcoin,89000000,critical,2026-08-01T17:40:23.77445+00:00,Coldcard,https://blockchain.watch/exploit/exploit-ekcspu
@@ -635,9 +635,9 @@ SecondFi loses $2.4 million in Cardano wallet exploit,Ethereum,2400000,high,2026
 Robinhood CEO's X Account Hacked to Promote Fake Token,Unknown,,high,2026-03-10T22:25:40.881322+00:00,,https://blockchain.watch/exploit/exploit-muxqr8
 "Crypto Wrench Attacks Steal Over $30M in 2026, Physical Risks Increasing",Unknown,30000000,high,2026-03-10T21:10:50.485353+00:00,,https://blockchain.watch/exploit/exploit-6ps6c0
 GitHub Poisoning Attack Targets Developers with Malicious Repositories,Unknown,,high,2026-03-10T20:01:25.185422+00:00,GitHub (general),https://blockchain.watch/exploit/exploit-h6zd29
-"Coldcard hardware wallet flaw drains over 2,000 BTC (~$130 million).",Bitcoin,130000000,critical,2026-03-10T18:35:50.440809+00:00,Coldcard,https://blockchain.watch/exploit/exploit-vbpxqb
-SecondFi Cardano wallet users lose $2.4 million in multiple hacks.,Solana,2400000,high,2026-03-10T18:30:52.64512+00:00,SecondFi,https://blockchain.watch/exploit/exploit-e8q90f
-Polymarket customers lose $2.97 million due to third-party vendor compromise.,Unknown,2970000,high,2026-03-10T18:30:52.052156+00:00,Polymarket,https://blockchain.watch/exploit/exploit-hhb6wh
+Coldcard Hardware Wallet Flaw Leads to $130 Million BTC Drain,Bitcoin,130000000,critical,2026-03-10T18:35:50.440809+00:00,Coldcard,https://blockchain.watch/exploit/exploit-vbpxqb
+SecondFi Cardano Wallet Users Lose $2.4 Million in Hacks,Solana,2400000,critical,2026-03-10T18:30:52.64512+00:00,SecondFi,https://blockchain.watch/exploit/exploit-e8q90f
+Polymarket Customers Lose $2.97 Million Due to Third-Party Vendor Breach,Unknown,2970000,high,2026-03-10T18:30:52.052156+00:00,Polymarket,https://blockchain.watch/exploit/exploit-hhb6wh
 Truebit Protocol suffers $26.44 million smart contract vulnerability exploit.,Ethereum,26440000,critical,2026-03-10T18:30:51.433503+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-tuon2s
 Cross-chain protocol Allbridge halts after $1.65 million flash loan exploit,Solana,1650000,critical,2026-03-10T16:31:16.346758+00:00,Allbridge,https://blockchain.watch/exploit/exploit-48geoy
 Armed Attackers Force French Couple to Transfer $1 Million in Bitcoin,Bitcoin,1000000,critical,2026-03-10T15:46:08.968441+00:00,,https://blockchain.watch/exploit/exploit-8k7tnk
@@ -676,7 +676,7 @@ OFAC Sanctions Iranian Individuals and Bitcoin Addresses Involved in Ransomware 
 Truebit Protocol Suffers $26.44 Million Exploit via Smart Contract Vulnerability,Unknown,26440000,critical,2026-03-07T15:55:35.915743+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-xjia0b
 U.S. Federal Contractor's Son Arrested in $46 Million Crypto Theft,Unknown,46000000,critical,2026-03-07T15:45:45.077666+00:00,,https://blockchain.watch/exploit/exploit-hbi4i9
 ClawHub malicious skills poisoning poses security risks to OpenClaw users.,Unknown,,high,2026-03-07T15:05:28.429552+00:00,ClawHub (OpenClaw),https://blockchain.watch/exploit/exploit-2bykt2
-MEV bot 'jaredfromsubway.eth' drained for $7.7 million in ETH.,Ethereum,7700000,high,2026-03-07T14:57:42.397709+00:00,jaredfromsubway.eth (MEV bot),https://blockchain.watch/exploit/exploit-7wzlce
+MEV Bot 'jaredfromsubway.eth' Drained for $7.7 Million,Ethereum,7700000,high,2026-03-07T14:57:42.397709+00:00,jaredfromsubway.eth (MEV bot),https://blockchain.watch/exploit/exploit-7wzlce
 Truebit Protocol smart contract vulnerability leads to $26.44 million exploit,Ethereum,26440000,critical,2026-03-07T14:45:39.288774+00:00,Truebit Protocol,https://blockchain.watch/exploit/exploit-2gatnn
 OFAC Sanctions North Korean IT Workers Over Crypto WMD Funding,Unknown,,high,2026-03-07T14:42:49.740142+00:00,North Korean IT worker scheme,https://blockchain.watch/exploit/exploit-ptvc7f
 Chainalysis: Total Ransomware Payments Stagnate While Attacks Escalate,Unknown,820000000,high,2026-03-07T14:24:34.184+00:00,,https://blockchain.watch/exploit/exploit-rj9qve
